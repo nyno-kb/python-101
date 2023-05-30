@@ -5,7 +5,7 @@ exercises: 0
 questions:
 - "Hvorfor er denne ikke slettet endnu?"
 objectives:
-- "Learning objective (FIXME)"
+- "Ingen - det skal slettes"
 keypoints:
 - "FIXME"
 math: yes

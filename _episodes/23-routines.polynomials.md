@@ -3,9 +3,9 @@ title: "Polynomials"
 teaching: 0
 exercises: 0
 questions:
-- "FIXME"
+- "Hvorfor er denne ikke slettet endnu?"
 objectives:
-- "Learning objective (FIXME)"
+- "Ingen - det skal slettes"
 keypoints:
 - " og ændre det her - slet det her tak"
 

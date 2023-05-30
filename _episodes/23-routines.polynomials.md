@@ -7,7 +7,7 @@ questions:
 objectives:
 - "Learning objective (FIXME)"
 keypoints:
-- "FIXME"
+- "slet det her tak"
 math: yes
 ---
 

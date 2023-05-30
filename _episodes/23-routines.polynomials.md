@@ -3,7 +3,7 @@ title: "Polynomials"
 teaching: 0
 exercises: 0
 questions:
-- "FIXME"
+- "Hvorfor er denne ikke slettet endnu?"
 objectives:
 - "Learning objective (FIXME)"
 keypoints:

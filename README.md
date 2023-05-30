@@ -1,5 +1,6 @@
 # FIXME Lesson title
-
+Siden er her: 
+https://kubdatalab.github.io/python-101/
 This repository generates the corresponding lesson website from [The Carpentries](https://carpentries.org/) repertoire of lessons. 
 
 ## Contributing

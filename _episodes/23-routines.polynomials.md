@@ -6,7 +6,9 @@ questions:
 - "FIXME"
 objectives:
 - "Learning objective (FIXME)"
-keypoints:- "FIXME"
+keypoints:
+- " og ændre det her - slet det her tak"
+
 math: yes
 ---
 

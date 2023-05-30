@@ -6,8 +6,7 @@ questions:
 - "FIXME"
 objectives:
 - "Learning objective (FIXME)"
-keypoints:
-- "FIXME"
+keypoints:- "FIXME"
 math: yes
 ---
 

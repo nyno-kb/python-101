@@ -7,8 +7,7 @@ questions:
 objectives:
 - "Ingen - det skal slettes"
 keypoints:
-- " og ændre det her - slet det her tak"
-
+- " test de ther igen"
 math: yes
 ---
 

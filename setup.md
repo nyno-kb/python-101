@@ -98,5 +98,48 @@ Congratulations—you now have the latest version of Python 3 on your macOS comp
 Since you will be working in Google Colab, we recommend that you read this introduction before taking this course:  
 [https://colab.research.google.com/](https://colab.research.google.com/)
 
+## How to Install Python on Windows
+As mentioned above there are several ways of installing Python on your Windows computer. The following guide works by downloading the latest version of Python from [Python.org](link). But before we you do that it is a good idea to check whether a version on Python is already on your computer.
+
+### How to Check Your Python Version on Windows
+To check if you have any version of Python and which Python you have on Windows, first open a command-line application, such as [Windows PowerShell](https://realpython.com/courses/using-terminal-windows/).
+
+> ## Tip
+>
+> Here’s how you open Windows PowerShell:
+>
+>   1. Press the **`⊞ Win`** key.
+>   2. Type `PowerShell`.
+>   3. Press **`Enter ↩`**.
+>
+> Alternatively, you can right click the start button and select PowerShell.
+{: .callout}
+
+
+Check the Python version by typing the following into the PowerShell
+
+~~~
+python --version
+~~~
+{: .python}
+
+If you have Python installed then this command should respond with a version number:
+
+~~~
+Python 3.11.4
+~~~
+{:  .output}
+
+> ## Notice
+>If you don't have a version of Python on your computer the above command will >launch Microsoft Store where you can find a Python application. 
+{: .callout}
+
+You’ll want to get the latest version of Python if any of these conditions is true:
+* The command above does not return a version number.
+* You have a version of Python 3 that isn’t the latest available, which was version 3.9.12 as of this writing.
+
+## How to install Python from
+
+ 
 
 {% include links.md %}

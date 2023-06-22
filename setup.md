@@ -57,7 +57,7 @@ Since you will be working in Google Colab, we recommend that you read this intro
 [https://colab.research.google.com/](https://colab.research.google.com/)
 
 ## How to Install Python on Windows
-As mentioned above there are several ways of installing Python on your Windows computer. The following guide works by downloading the latest version of Python from [Python.org](link)
+As mentioned above there are several ways of installing Python on your Windows computer. The following guide works by downloading the latest version of Python from [Python.org](link). But before we you do that it is a good idea to check whether a version on Python is already on your computer.
 
 ### How to Check Your Python Version on Windows
 To check which Python version you have on Windows, first open a command-line application, such as [Windows PowerShell](https://realpython.com/courses/using-terminal-windows/).
@@ -66,7 +66,7 @@ To check which Python version you have on Windows, first open a command-line app
 >
 > Here’s how you open Windows PowerShell:
 >
->   1. Press the **`Win`** key.
+>   1. Press the **`⊞ Win`** key.
 >   2. Type `PowerShell`.
 >   3. Press **`Enter ↩`**.
 >
@@ -74,23 +74,23 @@ To check which Python version you have on Windows, first open a command-line app
 {: .callout}
 
 ~~~
-# Check the system Python version
-C:\> python --version
+# Check the system Python version by typing the following into the PowerShell
+python --version
 ~~~
-{: .shell}
+{: .python}
 
 If you have Python installed then this command should respond with a version number:
 ~~~
-C:\> python3 --version
+python --version
 Python 3.11.4
 ~~~
-{: .shell}
+{: .python}
 
 > ## Notice
-You’ll want to get the latest version of Python if any of these conditions is true:
-* The command above does not return a version number.
-* You have a version of Python 3 that isn’t the latest available, which was version 3.9.12 as of this writing.
-
+>You’ll want to get the latest version of Python if any of these conditions is true:
+>* The command above does not return a version number.
+>* You have a version of Python 3 that isn’t the latest available, which was version 3.9.12 as of this writing.
+{: .callout}
 
 
 {% include links.md %}

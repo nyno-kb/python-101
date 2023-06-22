@@ -52,16 +52,14 @@ You’ll want to get the latest version of Python if any of these conditions is 
 * You have a version of Python 3 that isn’t the latest available, which was version 3.11.4 as of this writing.
 
 ### How to Install From the Official Installer
-
 Installing Python from the official installer is the most reliable installation method on macOS. It includes all the system dependencies needed for developing applications with Python.
 
 You can install from the official installer in two steps.
 
 #### Step 1: Download the Official Installer
-
 Follow these steps to download the full installer:
 
-1. Open a browser window and navigate to the Python.org Downloads page for macOS.
+1. Open a browser window and navigate to the Python.org [Downloads page for macOS](https://www.python.org/downloads/mac-osx/).
 2. Under the “Python Releases for Mac OS X” heading, click the link for the Latest Python 3 Release - Python 3.x.x. As of this writing, the latest version was Python 3.11.4.
 3. Scroll to the bottom and click macOS 64-bit installer to start the download.
 

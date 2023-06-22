@@ -26,11 +26,13 @@ $ python --version
 ~~~
 {: .shell}
 
+
 Check the Python 2 version:
 ~~~
 $ python2 --version
 ~~~
 {: .shell}
+
 
 Check the Python 3 version:
 ~~~

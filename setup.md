@@ -7,9 +7,9 @@ Python 2 comes preinstalled on older versions of macOS. This is no longer the ca
 ### How to Check Your Python Version on a Mac
 To check which Python version you have on your Mac, first open a command-line application, such as [Terminal](https://realpython.com/courses/using-terminal-macos/).
 
-> ## Notice
+> ## Tip
 >
-> **Tip:** Here’s how you open Terminal:
+> Here’s how you open Terminal:
 >
 >   1. Press the **`⌘ Cmd`** + **`Space`** keys.
 >   2. Type `Terminal`.
@@ -40,6 +40,8 @@ Python 3.11.4
 ~~~
 {: .shell}
 
+> ## Notice
+>
 > When typing `python3 --version` the Terminal may give you a notice saying `no developer tools were found...` and give you a pop-up screen with the choice to install these develper tools.  
 > **We recommend that you skip this installation as it is slow and tedious and should be solved by the Python installation process described below.**
 {: .callout}

@@ -25,9 +25,9 @@ Check the system Python version:
 python --version
 ~~~
 {: .python}
-  
-  
-Check the Python 2 version:
+<br>
+<br>
+Check the Python 2. version:
 ~~~
 python2 --version
 ~~~

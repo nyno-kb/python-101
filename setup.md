@@ -19,15 +19,21 @@ To check which Python version you have on your Mac, first open a command-line ap
 > Alternatively, you can open Finder and navigate to *Applications → Utilities → Terminal*.
 {: .callout}
 
+´# Check the system Python version
 ~~~
-# Check the system Python version
-**$ python --version**
+$ python --version
+~~~
+{: .shell}
 
-# Check the Python 2 version
-**$ python2 --version**
+´# Check the Python 2 version
+~~~
+$ python2 --version
+~~~
+{: .shell}
 
+~~~
 # Check the Python 3 version
-**$ python3 --version**
+$ python3 --version
 ~~~
 {: .shell}
 
@@ -36,7 +42,7 @@ If you have Python on your system, then one or more of these commands should res
 For example, if Python 3.11.4 were already set up on your computer, then the python3 command would display that version number:
 
 ~~~
-**$ python3 --version**
+$ python3 --version
 Python 3.11.4
 ~~~
 {: .shell}

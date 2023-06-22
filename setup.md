@@ -85,9 +85,13 @@ If you have Python installed then this command should respond with a version num
 
 ~~~
 python --version
-Python 3.11.4
 ~~~
 {: .python}
+
+~~~
+Python 3.11.4
+~~~
+{:  .output}
 
 > ## Notice
 >You’ll want to get the latest version of Python if any of these conditions is true:

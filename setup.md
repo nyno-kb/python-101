@@ -73,8 +73,9 @@ To check which Python version you have on Windows, first open a command-line app
 > Alternatively, you can right click the start button and select PowerShell.
 {: .callout}
 
+
+Check the system Python version by typing the following into the PowerShell
 ~~~
-# Check the system Python version by typing the following into the PowerShell
 python --version
 ~~~
 {: .python}

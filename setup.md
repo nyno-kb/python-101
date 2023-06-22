@@ -28,7 +28,7 @@ $ python3 --version
 ~~~
 {: .shell}
 
-When typing `python3 --version` the Terminal may give you a notice saying **`no developer tools were found...`** and give you a pop-up screen with the choice to install these develper tools.  
+When typing `python3 --version` the Terminal may give you a notice saying `no developer tools were found...` and give you a pop-up screen with the choice to install these develper tools.  
 **We recommend that you skip this installation as it is slow and tedious and should be solved by the Python installation process described below.**
 
 ## Getting started with Google Colab

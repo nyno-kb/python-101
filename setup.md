@@ -40,7 +40,7 @@ Python 3.11.4
 ~~~
 {: .shell}
 
-> ### Notice
+> ## Notice
 >
 > When typing `python3 --version` the Terminal may give you a notice saying `no developer tools were found...` and give you a pop-up screen with the choice to install these develper tools.  
 > **We recommend that you skip this installation as it is slow and tedious and should be solved by the Python installation process described below.**
@@ -58,8 +58,14 @@ Installing Python from the official installer is the most reliable installation 
 You can install from the official installer in two steps.
 
 #### Step 1: Download the Official Installer
+
 Follow these steps to download the full installer:
 
+1. Open a browser window and navigate to the Python.org Downloads page for macOS.
+2. Under the “Python Releases for Mac OS X” heading, click the link for the Latest Python 3 Release - Python 3.x.x. As of this writing, the latest version was Python 3.11.4.
+3. Scroll to the bottom and click macOS 64-bit installer to start the download.
+
+When the installer is finished downloading, move on to the next step.
 
 
 

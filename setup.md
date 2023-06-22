@@ -24,21 +24,21 @@ Check the system Python version:
 ~~~
 $ python --version
 ~~~
-{: .code}
+{: .python}
 
 
 Check the Python 2 version:
 ~~~
 $ python2 --version
 ~~~
-{: .code}
+{: .python}
 
 
 Check the Python 3 version:
 ~~~
 $ python3 --version
 ~~~
-{: .code}
+{: .python}
 
 If you have Python on your system, then one or more of these commands should respond with a version number.
 
@@ -47,7 +47,7 @@ For example, if Python 3.11.4 were already set up on your computer, then the pyt
 ~~~
 $ python3 --version
 ~~~
-{: .code}
+{: .python}
 
 ~~~
 Python 3.11.4

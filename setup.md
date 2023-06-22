@@ -8,9 +8,9 @@ Python 2 comes preinstalled on older versions of macOS. This is no longer the ca
 To check which Python version you have on your Mac, first open a command-line application, such as [Terminal](https://realpython.com/courses/using-terminal-macos/).
 
 > **Tip:** Here’s how you open Terminal:
-> 1. Press the Cmd+Space keys.
+> 1. Press the `⌘ Cmd` + `Space` keys.
 > 2. Type `Terminal`.
-> 3. Press Enter.
+> 3. Press **Enter**.
 {: .callout}
 
 ## Getting started with Google Colab

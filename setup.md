@@ -2,8 +2,8 @@
 title: Setup
 ---
 ## How to Install Python on macOS
-Python 2 comes preinstalled on older versions of macOS. This is no longer the case for current versions of macOS, [starting with macOS Catalina](https://developer.apple.com/documentation/macos-release-notes/macos-catalina-10_15-release-notes#Scripting-Language-Runtimes).
-No mattter which macOS you are running, we would still like you to install Python3.
+Python 2 comes preinstalled on older versions of macOS. This is no longer the case for current versions of macOS, [starting with macOS Catalina](https://developer.apple.com/documentation/macos-release-notes/macos-catalina-10_15-release-notes#Scripting-Language-Runtimes).  
+No mattter which macOS you are running, we would still like you to install Python 3.
 
 ### How to Check Your Python Version on a Mac
 To check which Python version you have on your Mac, first open a command-line application, such as [Terminal](https://support.apple.com/guide/terminal/welcome/mac).

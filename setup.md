@@ -28,8 +28,24 @@ $ python3 --version
 ~~~
 {: .shell}
 
-When typing `python3 --version` the Terminal may give you a notice saying `no developer tools were found...` and give you a pop-up screen with the choice to install these develper tools.  
-**We recommend that you skip this installation as it is slow and tedious and should be solved by the Python installation process described below.**
+If you have Python on your system, then one or more of these commands should respond with a version number.
+
+For example, if Python 3.11.4 were already set up on your computer, then the python3 command would display that version number:
+
+~~~
+$ python3 --version
+Python 3.11.4
+~~~
+{: .shell}
+
+> When typing `python3 --version` the Terminal may give you a notice saying `no developer tools were found...` and give you a pop-up screen with the choice to install these develper tools.  
+> **We recommend that you skip this installation as it is slow and tedious and should be solved by the Python installation > process described below.**
+{: .callout}
+
+You’ll want to get the latest version of Python if any of these conditions is true:
+* None of the above commands returns a version number.
+* The only version you see displayed is in the Python 2.X series.
+* You have a version of Python 3 that isn’t the latest available, which was version 3.8.4 as of this writing.
 
 ## Getting started with Google Colab
 

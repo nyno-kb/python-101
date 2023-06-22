@@ -60,12 +60,21 @@ You can install from the official installer in two steps.
 Follow these steps to download the full installer:
 
 1. Open a browser window and navigate to the Python.org [Downloads page for macOS](https://www.python.org/downloads/mac-osx/).
-2. Under the “Python Releases for Mac OS X” heading, click the link for the Latest Python 3 Release - Python 3.x.x. As of this writing, the latest version was Python 3.11.4.
-3. Scroll to the bottom and click macOS 64-bit installer to start the download.
+2. Under the “Python Releases for Mac OS X” heading, click the link for the ***Latest Python 3 Release - Python 3.x.x***. As of this writing, the latest version was Python 3.11.4.
+3. Scroll to the bottom and click ***macOS 64-bit installer*** to start the download.
 
 When the installer is finished downloading, move on to the next step.
 
+### Step 2: Run the Installer
+Run the installer by double-clicking the downloaded file.
 
+Follow these steps to complete the installation:
+
+1. Press ***Continue*** a few times until you’re asked to agree to the software license agreement. Then click ***Agree***.
+2. You’ll be shown a window that tells you the install destination and how much space it will take. You most likely don’t want to change the default location, so go ahead and click ***Install*** to start the installation.
+3. When the installer is finished copying files, double-click the ***Install Certificates*** command in the finder window to make sure your SSL root certificates are updated.
+
+Congratulations—you now have the latest version of Python 3 on your macOS computer!
 
 
 

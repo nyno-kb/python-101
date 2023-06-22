@@ -16,7 +16,8 @@ To check which Python version you have on your Mac, first open a command-line ap
 > Alternatively, you can open Finder and navigate to *Applications → Utilities → Terminal*.
 {: .callout}
 
-When typing `python3 --version` the Terminal may give you a notice saying **''no developer tools were found...''** and give you a pop-up screen with the choice to install these develper tools. We recommend that you skip this installation as it is slow and tedious and will be solved by the installation process below.
+When typing `python3 --version` the Terminal may give you a notice saying **''no developer tools were found...''** and give you a pop-up screen with the choice to install these develper tools.  
+**We recommend that you skip this installation as it is slow and tedious and should be solved by the Python installation process described below.**
 
 ## Getting started with Google Colab
 

@@ -57,7 +57,7 @@ Installing Python from the official installer is the most reliable installation 
 
 You can install from the official installer in two steps.
 
-Step 1: Download the Official Installer
+#### Step 1: Download the Official Installer
 Follow these steps to download the full installer:
 
 

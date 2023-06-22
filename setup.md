@@ -25,21 +25,21 @@ Check the system Python version:
 python --version
 ~~~
 {: .python}
-<br>
+  
 
 Check the Python 2 version:
 ~~~
 python2 --version
 ~~~
 {: .python}
-
+  
 
 Check the Python 3 version:
 ~~~
 python3 --version
 ~~~
 {: .python}
-
+  
 
 If you have Python on your system, then one or more of these commands should respond with a version number.
 

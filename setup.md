@@ -94,7 +94,8 @@ Python 3.11.4
 {:  .output}
 
 > ## Notice
->If you don't have a version of Python on your computer the above command will launch Microsoft Store where you can find a Python application. 
+>If you don't have a version of Python on your computer the above command will >launch Microsoft Store where you can find a Python application. 
+>
 >You’ll want to get the latest version of Python if any of these conditions is true:
 >* The command above does not return a version number.
 >* You have a version of Python 3 that isn’t the latest available, which was version 3.9.12 as of this writing.

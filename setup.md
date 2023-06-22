@@ -56,5 +56,42 @@ You’ll want to get the latest version of Python if any of these conditions is 
 Since you will be working in Google Colab, we recommend that you read this introduction before taking this course:  
 [https://colab.research.google.com/](https://colab.research.google.com/)
 
+## How to Install Python on Windows
+As mentioned above there are several ways of installing Python on your Windows computer. The following guide works by downloading the latest version of Python from [Python.org](link)
+
+### How to Check Your Python Version on Windows
+To check which Python version you have on Windows, first open a command-line application, such as [Windows PowerShell](https://realpython.com/courses/using-terminal-windows/).
+
+> ## Tip
+>
+> Here’s how you open Windows PowerShell:
+>
+>   1. Press the **`Win`** key.
+>   2. Type `PowerShell`.
+>   3. Press **`Enter ↩`**.
+>
+> Alternatively, you can right click the start button and select PowerShell.
+
+{: .callout}
+
+~~~
+# Check the system Python version
+C:\> python --version
+~~~
+{: .shell}
+
+If you have Python installed then this command should respond with a version number:
+~~~
+C:\> python3 --version
+Python 3.11.4
+~~~
+{: .shell}
+
+> ## Notice
+You’ll want to get the latest version of Python if any of these conditions is true:
+* The command above does not return a version number.
+* You have a version of Python 3 that isn’t the latest available, which was version 3.9.12 as of this writing.
+
+
 
 {% include links.md %}

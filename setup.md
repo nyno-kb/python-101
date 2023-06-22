@@ -40,7 +40,7 @@ Python 3.11.4
 ~~~
 {: .shell}
 
-> ## Notice
+> ### Notice
 >
 > When typing `python3 --version` the Terminal may give you a notice saying `no developer tools were found...` and give you a pop-up screen with the choice to install these develper tools.  
 > **We recommend that you skip this installation as it is slow and tedious and should be solved by the Python installation process described below.**
@@ -49,7 +49,23 @@ Python 3.11.4
 You’ll want to get the latest version of Python if any of these conditions is true:
 * None of the above commands returns a version number.
 * The only version you see displayed is in the Python 2.X series.
-* You have a version of Python 3 that isn’t the latest available, which was version 3.8.4 as of this writing.
+* You have a version of Python 3 that isn’t the latest available, which was version 3.11.4 as of this writing.
+
+### How to Install From the Official Installer
+
+Installing Python from the official installer is the most reliable installation method on macOS. It includes all the system dependencies needed for developing applications with Python.
+
+You can install from the official installer in two steps.
+
+Step 1: Download the Official Installer
+Follow these steps to download the full installer:
+
+
+
+
+
+
+
 
 ## Getting started with Google Colab
 

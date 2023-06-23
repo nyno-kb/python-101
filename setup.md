@@ -1,6 +1,11 @@
 ---
 title: Setup
 ---
+
+[How to Install Python on macOS](#how-to-install-python-on-macos)
+
+[How to Install Python on Windows](https://pryn-kb.github.io/python-101/setup.html#how-to-install-python-on-windows)
+
 ## How to Install Python on macOS
 Python 2 comes preinstalled on older versions of macOS. This is no longer the case for current versions of macOS, [starting with macOS Catalina](https://developer.apple.com/documentation/macos-release-notes/macos-catalina-10_15-release-notes#Scripting-Language-Runtimes).  
 No mattter which version of macOS you have installed, we would still like you to install Python 3.

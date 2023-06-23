@@ -131,14 +131,50 @@ Python 3.11.4
 {:  .output}
 
 > ## Notice
->If you don't have a version of Python on your computer the above command will >launch Microsoft Store where you can find a Python application. 
+>If you don't have a version of Python on your computer the above command will launch Microsoft Store where you can find a Python application. ***Do not download this version of Python!*** Instead follow the steps below.  
 {: .callout}
 
 You’ll want to get the latest version of Python if any of these conditions is true:
 * The command above does not return a version number.
 * You have a version of Python 3 that isn’t the latest available, which was version 3.9.12 as of this writing.
 
-## How to install Python from
+### How to Install From the Official Installer
+Installing Python from the official installer is the most reliable installation method on Windows. It includes all the system dependencies needed for developing applications with Python. However, it can cause some trouble, so read the following guide carefully. 
+
+You can install from the official installer in two steps.
+
+#### Step 1: Download the Official Installer
+Follow these steps to download the full installer:
+
+1. Open a browser window and navigate to the Python.org [Downloads page for Windows](https://www.python.org/downloads/windows/).
+2. In the drop down menu called "Downloads" click the link for the ***Latest Python 3 Release - Python 3.x.x***. As of this writing, the latest version was Python 3.11.4.
+3. The download should start instantly.
+
+When the installer is finished downloading, move on to the next step.
+
+#### Step 2: Run the Installer
+Run the installer by double clicking on the downloaded .exe file.
+
+Follow these steps to complete the installation:
+
+1. Select ***"Install launcher for all users"*** this allows all users of the computer to use the Python launcher application.
+2. Select ***"Add Python 3.x to PATH"*** this enables you to launch Python from the command line.
+3. Press ***Continue*** a few times until you’re asked to agree to the software license agreement. Then click ***Agree***.
+4. You’ll be shown a window that tells you the install destination and how much space it will take. You most likely don’t want to change the default location, so go ahead and click ***Install*** to start the installation.
+5. Certificates?
+
+Congratulations—you now have the latest version of Python 3 on your computer!
+
+> ### Notice
+>If you did not click "Add Python to PATH" this can be fixed by following these steps:
+> 1.	Open the folder where you downloaded the Python install file
+> 2.	Double click on the Python install file
+> 3.	Click "Modify"
+> 4.	You will see "Optional features"
+> 5.	Click "next"
+> 6.	Select "Add python to environment variables"
+> 7.	Click "install"
+{: .callout}
 
  
 

@@ -356,7 +356,8 @@ You can do a large range of mathematical calculations and operations with intege
 ## Comparisons
 There are eight comparison operations in Python. They all have the same priority (which is higher than that of the Boolean operations). Comparisons can be chained arbitrarily; for example, `x < y <= z` is equivalent to `x < y and y <= z`, except that *y* is evaluated only once (but in both cases *z* is not evaluated at all when `x < y` is found to be false).
 
-This table summarizes the comparison operations:
+<details>
+  <summary>This table summarizes the comparison operations:</summary>
 
 <table class="colwidths-auto table" style="border:1px solid black">
 <thead>
@@ -400,6 +401,8 @@ This table summarizes the comparison operations:
 </tr>
 </tbody>
 </table>
+
+</details>
 
 ## Booleans
 

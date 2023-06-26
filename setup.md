@@ -194,7 +194,7 @@ Python 3.11.4
 {:  .output}
 
 ### Jupyter Notebook and PIP
-Before moving on, you need to check the PIP version - this should have been installed together with Python.
+Before moving on, you need to check the PIP version - this should have been installed together with Python. If this did not happen see the Tip box below.
 Type the following in the PowerShell: 
 ~~~
 pip --version
@@ -212,6 +212,17 @@ jupyter notebook
 ~~~
 {: .python}
 Now you are ready to learn how to code in Python!
+
+> ## Tip
+>If PIP was not installed together with Python follow these steps
+> 1.    Check if you have PIP installed	
+>~~~
+>pip --version
+>~~~
+>{: .python}
+>This returns the version of PIP you have installed if any
+>2.     
+{: .callout}
 
 
 

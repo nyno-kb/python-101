@@ -104,13 +104,12 @@ Since you will be working in Google Colab, we recommend that you read this intro
 [https://colab.research.google.com/](https://colab.research.google.com/)
 
 ## How to Install Python on Windows
-As mentioned above there are several ways of installing Python on your Windows computer. The following guide works by downloading the latest version of Python from [Python.org](link). But before we you do that it is a good idea to check whether a version on Python is already on your computer.
+As mentioned above there are several ways of installing Python on your Windows computer. The following guide works by downloading the latest version of Python from [Python.org](https://www.python.org/). But before we you do that it is a good idea to check whether a version on Python is already on your computer.
 
 ### How to Check Your Python Version on Windows
 To check if you have any version of Python and which Python you have on Windows, first open a command-line application, such as [Windows PowerShell](https://realpython.com/courses/using-terminal-windows/).
 
 > ## Tip
->
 > Here’s how you open Windows PowerShell:
 >
 >   1. Press the **`⊞ Win`** key.
@@ -122,14 +121,12 @@ To check if you have any version of Python and which Python you have on Windows,
 
 
 Check the Python version by typing the following into the PowerShell
-
 ~~~
 python --version
 ~~~
 {: .python}
 
 If you have Python installed then this command should respond with a version number:
-
 ~~~
 Python 3.11.4
 ~~~
@@ -164,8 +161,8 @@ Follow these steps to complete the installation:
 
 1. Select the box ***"Install launcher for all users"*** this allows all users of the computer to use the Python launcher application
 2. Select the box ***"Add Python 3.x to PATH"*** this enables you to launch Python from the command line
-3. Click Install Now
-4. Click the "Disable path length limit". This removes the limitation of the path lenghts and can smoothe over any issues in the future with the path length
+3. Click ***"Install Now"***
+4. Click the ***"Disable path length limit"***. This removes the limitation of the path lenghts and can smoothe over any issues in the future with the path length
 5. Press close to finish the installation
 
 Congratulations—you now have the latest version of Python 3 on your computer!
@@ -182,7 +179,7 @@ Congratulations—you now have the latest version of Python 3 on your computer!
 {: .callout}
 
 ### Check that Python was installed and set up Jupyter Notebook
-Now that you have installed Python it is a good idea to check if it was done succesfully before we move on to installing Jupyter Notebook. Jupyter Notebook is the application we will use for writing code during the course. 
+Now that you have installed Python, it is a good idea to check if it was done succesfully before we move on to installing Jupyter Notebook. Jupyter Notebook is the application we will use for writing code during the course. 
 
 Open the PowerShell and type in: 
 ~~~
@@ -196,8 +193,8 @@ Python 3.11.4
 ~~~
 {:  .output}
 
-#### Jupyter Notebook and PIP
-First you need to check the PIP version - this should have been installed together with Python.
+### Jupyter Notebook and PIP
+Before moving on, you need to check the PIP version - this should have been installed together with Python.
 Type the following in the PowerShell: 
 ~~~
 pip --version
@@ -209,11 +206,12 @@ Now you can simply type:
 pip install notebook
 ~~~
 {: .python}
-An installation will start in the PowerShell - when it finishes type and the notebook will launch 
+An installation will start in the PowerShell - when it finishes type the following and the notebook will launch 
 ~~~
 jupyter notebook
 ~~~
 {: .python}
+Now you are ready to learn how to code in Python!
 
 
 

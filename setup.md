@@ -104,16 +104,15 @@ Since you will be working in Google Colab, we recommend that you read this intro
 [https://colab.research.google.com/](https://colab.research.google.com/)
 
 ## How to Install Python on Windows
-As mentioned above there are several ways of installing Python on your Windows computer. The following guide works by downloading the latest version of Python from [Python.org](link). But before we you do that it is a good idea to check whether a version on Python is already on your computer.
+As mentioned above there are several ways of installing Python on your Windows computer. The following guide works by downloading the latest version of Python from [Python.org](https://www.python.org/). But before we you do that it is a good idea to check whether a version on Python is already on your computer.
 
 ### How to Check Your Python Version on Windows
 To check if you have any version of Python and which Python you have on Windows, first open a command-line application, such as [Windows PowerShell](https://realpython.com/courses/using-terminal-windows/).
 
 > ## Tip
->
 > Here’s how you open Windows PowerShell:
 >
->   1. Press the **`⊞ Win`** key.
+>   1. Press the `**⊞ Win**` key.
 >   2. Type `PowerShell`.
 >   3. Press **`Enter ↩`**.
 >
@@ -122,28 +121,111 @@ To check if you have any version of Python and which Python you have on Windows,
 
 
 Check the Python version by typing the following into the PowerShell
-
 ~~~
 python --version
 ~~~
 {: .python}
 
 If you have Python installed then this command should respond with a version number:
-
 ~~~
 Python 3.11.4
 ~~~
 {:  .output}
 
 > ## Notice
->If you don't have a version of Python on your computer the above command will >launch Microsoft Store where you can find a Python application. 
+>If you don't have a version of Python on your computer the above command will launch Microsoft Store where you can find a Python application. ***Do not download this version of Python!*** Instead follow the steps below.  
 {: .callout}
 
 You’ll want to get the latest version of Python if any of these conditions is true:
 * The command above does not return a version number.
 * You have a version of Python 3 that isn’t the latest available, which was version 3.9.12 as of this writing.
 
-## How to install Python from
+### How to Install From the Official Installer
+Installing Python from the official installer is the most reliable installation method on Windows. It includes all the system dependencies needed for developing applications with Python. However, it can cause some trouble, so read the following guide carefully. 
+
+You can install from the official installer in two steps.
+
+#### Step 1: Download the Official Installer
+Follow these steps to download the full installer:
+
+1. Open a browser window and navigate to [Python.org](https://www.python.org/).
+2. In the drop down menu called "Downloads" click the link for the ***Latest Python 3 Release - Python 3.x.x***. As of this writing, the latest version was Python 3.11.4.
+3. The download should start instantly.
+
+When the installer is finished downloading, move on to the next step.
+
+#### Step 2: Run the Installer
+Run the installer by double clicking on the downloaded .exe file.
+
+Follow these steps to complete the installation:
+
+1. Select the box **"Install launcher for all users"** this allows all users of the computer to use the Python launcher application
+2. Select the box **"Add Python 3.x to PATH"** this enables you to launch Python from the command line
+3. Click **"Install Now"**
+4. Click the **"Disable path length limit"**. This removes the limitation of the path lenghts and can smoothe over any issues in the future with the path length
+5. Press close to finish the installation
+
+Congratulations—you now have the latest version of Python 3 on your computer!
+
+> ## Tip
+>If you did not click **"Add Python to PATH"** this can be fixed by following these steps:
+> 1.	Open the folder where you downloaded the Python install file
+> 2.	Double click on the Python install file
+> 3.	Click "Modify"
+> 4.	You will see "Optional features"
+> 5.	Click "next"
+> 6.	Select "Add python to environment variables"
+> 7.	Click "Install"
+{: .callout}
+
+### Check that Python was installed and set up Jupyter Notebook
+Now that you have installed Python, it is a good idea to check if it was done succesfully before we move on to installing Jupyter Notebook. Jupyter Notebook is the application we will use for writing code during the course. 
+
+Open the PowerShell and type in: 
+~~~
+python --version
+~~~
+{: .python}
+
+Now this should return the version of Python you have just installed
+~~~
+Python 3.11.4
+~~~
+{:  .output}
+
+### Jupyter Notebook and PIP
+Before moving on, you need to check the PIP version - this should have been installed together with Python. If this did not happen see the Tip box below.
+Type the following in the PowerShell: 
+~~~
+pip --version
+~~~
+{: .python}
+If the command returns e.g. pip 21.2.4 you have it corrently installed 
+Now you can simply type: 
+~~~
+pip install notebook
+~~~
+{: .python}
+An installation will start in the PowerShell - when it finishes type the following and the notebook will launch 
+~~~
+jupyter notebook
+~~~
+{: .python}
+Now you are ready to learn how to code in Python!
+
+> ## Tip
+>If PIP was not installed together with Python follow these steps
+> 1.    Check if you have PIP installed	
+>~~~
+>pip --version
+>~~~
+>{: .python}
+>This returns the version of PIP you have installed if any, if the command does not return a pip version you need to do the following:
+>2.     
+{: .callout}
+
+
+
 
  
 

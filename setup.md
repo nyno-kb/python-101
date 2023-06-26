@@ -220,7 +220,7 @@ Now you are ready to learn how to code in Python!
 >pip --version
 >~~~
 >{: .python}
->This returns the version of PIP you have installed if any
+>This returns the version of PIP you have installed if any, if the command does not return a pip version you need to do the following:
 >2.     
 {: .callout}
 

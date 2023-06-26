@@ -162,11 +162,11 @@ Run the installer by double clicking on the downloaded .exe file.
 
 Follow these steps to complete the installation:
 
-1. Select the box ***"Install launcher for all users"*** this allows all users of the computer to use the Python launcher application.
-2. Select the box ***"Add Python 3.x to PATH"*** this enables you to launch Python from the command line.
-3. You’ll be shown a window that tells you the install destination and how much space it will take. You most likely don’t want to change the default location.
-4. Press ***Continue*** a few times until you’re asked to agree to the software license agreement. Then click ***Agree***.
-5. Certificates?
+1. Select the box ***"Install launcher for all users"*** this allows all users of the computer to use the Python launcher application
+2. Select the box ***"Add Python 3.x to PATH"*** this enables you to launch Python from the command line
+3. Click Install Now
+4. Click the "Disable path length limit". This removes the limitation of the path lenghts and can smoothe over any issues in the future with the path length
+5. Press close to finish the installation
 
 Congratulations—you now have the latest version of Python 3 on your computer!
 
@@ -180,6 +180,43 @@ Congratulations—you now have the latest version of Python 3 on your computer!
 > 6.	Select "Add python to environment variables"
 > 7.	Click "install"
 {: .callout}
+
+### Check that Python was installed and set up Jupyter Notebook
+Now that you have installed Python it is a good idea to check if it was done succesfully before we move on to installing Jupyter Notebook. Jupyter Notebook is the application we will use for writing code during the course. 
+
+Open the PowerShell and type in: 
+~~~
+python --version
+~~~
+{: .python}
+
+Now this should return the version of Python you have just installed
+~~~
+Python 3.11.4
+~~~
+{:  .output}
+
+#### Jupyter Notebook and PIP
+First you need to check the PIP version - this should have been installed together with Python.
+Type the following in the PowerShell: 
+~~~
+pip --version
+~~~
+{: .python}
+If the command returns e.g. pip 21.2.4 you have it corrently installed 
+Now you can simply type: 
+~~~
+pip install notebook
+~~~
+{: .python}
+An installation will start in the PowerShell - when it finishes type and the notebook will launch 
+~~~
+jupyter notebook
+~~~
+{: .python}
+
+
+
 
  
 

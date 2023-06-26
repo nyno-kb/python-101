@@ -112,7 +112,7 @@ To check if you have any version of Python and which Python you have on Windows,
 > ## Tip
 > Here’s how you open Windows PowerShell:
 >
->   1. Press the **`⊞ Win`** key.
+>   1. Press the `**⊞ Win**` key.
 >   2. Type `PowerShell`.
 >   3. Press **`Enter ↩`**.
 >
@@ -159,23 +159,23 @@ Run the installer by double clicking on the downloaded .exe file.
 
 Follow these steps to complete the installation:
 
-1. Select the box ***"Install launcher for all users"*** this allows all users of the computer to use the Python launcher application
-2. Select the box ***"Add Python 3.x to PATH"*** this enables you to launch Python from the command line
-3. Click ***"Install Now"***
-4. Click the ***"Disable path length limit"***. This removes the limitation of the path lenghts and can smoothe over any issues in the future with the path length
+1. Select the box **"Install launcher for all users"** this allows all users of the computer to use the Python launcher application
+2. Select the box **"Add Python 3.x to PATH"** this enables you to launch Python from the command line
+3. Click **"Install Now"**
+4. Click the **"Disable path length limit"**. This removes the limitation of the path lenghts and can smoothe over any issues in the future with the path length
 5. Press close to finish the installation
 
 Congratulations—you now have the latest version of Python 3 on your computer!
 
 > ## Tip
->If you did not click "Add Python to PATH" this can be fixed by following these steps:
+>If you did not click **"Add Python to PATH"** this can be fixed by following these steps:
 > 1.	Open the folder where you downloaded the Python install file
 > 2.	Double click on the Python install file
 > 3.	Click "Modify"
 > 4.	You will see "Optional features"
 > 5.	Click "next"
 > 6.	Select "Add python to environment variables"
-> 7.	Click "install"
+> 7.	Click "Install"
 {: .callout}
 
 ### Check that Python was installed and set up Jupyter Notebook

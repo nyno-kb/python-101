@@ -114,7 +114,7 @@ To check if you have any version of Python and which Python you have on Windows,
 >
 >   1. Press the `**⊞ Win**` key.
 >   2. Type `PowerShell`.
->   3. Press **`Enter ↩`**.
+>   3. Press `Enter ↩`.
 >
 > Alternatively, you can right click the start button and select PowerShell.
 {: .callout}
@@ -178,8 +178,8 @@ Congratulations—you now have the latest version of Python 3 on your computer!
 > 7.	Click "Install"
 {: .callout}
 
-### Check that Python was installed and set up Jupyter Notebook
-Now that you have installed Python, it is a good idea to check if it was done succesfully before we move on to installing Jupyter Notebook. Jupyter Notebook is the application we will use for writing code during the course. 
+### Check your version of Python
+Now that you have installed Python, it is a good idea to check if it was done succesfully before we move on to installing Jupyter Lab. Jupyter Lab is the IDE we will use for writing code during the course. 
 
 Open the PowerShell and type in: 
 ~~~
@@ -193,22 +193,22 @@ Python 3.11.4
 ~~~
 {:  .output}
 
-### Jupyter Notebook and PIP
+### Jupyter Lab and PIP
 Before moving on, you need to check the PIP version - this should have been installed together with Python. If this did not happen see the Tip box below.
 Type the following in the PowerShell: 
 ~~~
 pip --version
 ~~~
 {: .python}
-If the command returns e.g. pip 21.2.4 you have it corrently installed 
+If the command returns e.g. pip 21.2.4 you have it corrently installed - otherwise move to the Tip box below before you continue
 Now you can simply type: 
 ~~~
-pip install notebook
+pip install jupyterlab
 ~~~
 {: .python}
 An installation will start in the PowerShell - when it finishes type the following and the notebook will launch 
 ~~~
-jupyter notebook
+jupyter lab
 ~~~
 {: .python}
 Now you are ready to learn how to code in Python!

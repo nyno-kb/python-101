@@ -10,11 +10,11 @@ objectives:
 - "Explain the differences between integers and floats"
 - "Explain what a string is, and what you can do with it"  
 keypoints:
-- "There are 4 data types in Python: Integers, floats, strings and booleans"
+- "There are 4 data types in Python: Integers, floats, strings, and booleans"
 - "You can use the built-in function `type()` to find the type of a value"
 - "Integers are whole numbers. You can use mathemethical operations on them"
 - "Floats are decimal numbers. You can use mathemathical opreations on them" 
-- "Strings are text, they can be added to one another, you can slice them to get a substring, and use the index to acess the individual charachters"
+- "Strings are text, they can be added to one another, you can slice them to get a substring, and use the index to acess the individual character"
 - "Booleans are either True or False "
 ---
 ## Data Types

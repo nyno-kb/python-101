@@ -113,7 +113,7 @@ this is not a string
 
 It doesn’t matter whether you use single or double quotation marks with strings, as long as you use the same kind on either side of the string.
 
-## Bonus: Escape characters
+## Bonus: Escape characters2
 
 If you need to include a single or double quotation mark _inside_ of a string, then you need to either:
 

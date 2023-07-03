@@ -205,6 +205,16 @@ The `+` operator concatenates strings. It returns a string consisting of the ope
 ~~~
 {: .output}
 
+Notice that we have added a space in the beginning of the second string, otherwise there would be no space between ‘string’ and ‘and’. You can also add a space like this: 
+~~~
+'I am a string' + ' ' + 'and so am I' 
+~~~
+{: .python}
+~~~
+'I am a string and so am I'
+~~~
+{: .output}
+
 ### Make uppercase
 
 The method `upper()` returns a copy of the string with all alphabetic characters converted to uppercase:

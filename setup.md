@@ -8,7 +8,6 @@ title: Setup
 
 # Running Python
 
-
 Before you can run, you must first walk (or slither).  
 In order to get Python to run on your machine, you need to either download it directly or run it through an intermediary.  There are many different ways to do this.  We will highlight three possibilities, but for those that prefer another method, RealPython has compiled a broader list.  Be aware that one has a limited number of ‘reads’ before the RealPython website requests you make an account with them.  You can get around this issue by opening a ‘private browsing’ tab and reading it there. The abovementioned guide can be found [here](https://realpython.com/installing-python/). For the purposes of this course any of these options will work just fine.  If you are looking for the simplest solution so that you can get your feet wet in the world of python programing, we would reccomend you check out methods 2 and 3.
 
@@ -20,7 +19,6 @@ but once running it is far less finicky than the other options with respect to u
 ### Method 2: Google Colab
 
 Google Colab, along with ERDA, is perhaps the easiest of these three options to get up and  running, as all it requires is a Google account (i.e. a Gmail login).    After you login, you simply create a new notebook and start coding. You can connect your Google Drive to upload files that you want to work with them. If you only upload your files directly to Colab, you can work on them, but they will be erased when you close your session or if your session times out, at which point you will need to re-upload your files.  You can read more about Google Colab [here](https://colab.research.google.com/?utm_source=scs-index).  We would also advise that Google is a corporate third party, who mostly want to sell your data so that other people can sell you stuff that Google predicts you will want (Hello age of surveillance capitalism).  While this might not mean much for this course (you might get an ad in your inbox for DataCamp or something), we would urge caution if you are uploading datasets with sensitive data into Google Colab.
-
 
 ### Method 3: KUs ERDA
 

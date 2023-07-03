@@ -113,6 +113,8 @@ this is not a string
 
 It doesn’t matter whether you use single or double quotation marks with strings, as long as you use the same kind on either side of the string.
 
+<div>
+
 <details>
 <summary style="display:list-item"><b>Escape characters:</b><br><br></summary>
 
@@ -134,6 +136,8 @@ A backslash character `\` tells Python to treat the next character like a normal
 {: .python}
 
 </details>
+
+</div>
 
 ## String Methods
 

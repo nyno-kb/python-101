@@ -180,7 +180,7 @@ The individual characters can be accessed by index:
 ### Slice
 
 Python  allows a form of indexing syntax that extracts substrings from a string, known as string slicing.\
-If `s` is a string, an expression of the form `s[m:n]` returns the portion of `s` starting with position `m`, and up to but not including position `n`:
+If `s` is a string, an expression of the form `s[start:stop]` returns the portion of `s` starting with position `start`, and up to but not including position `stop`:
 
 ~~~
 'I am a string'[0:8]

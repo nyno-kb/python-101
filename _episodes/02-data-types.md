@@ -132,8 +132,6 @@ A backslash character `\` tells Python to treat the next character like a normal
 ~~~
 {: .python}
 
-</details>
-
 ## String Methods
 
 Each data type has different properties and capabilities. So there are special things that only strings can do, and there are special ways of interacting with strings.

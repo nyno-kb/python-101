@@ -359,7 +359,7 @@ There are eight comparison operations in Python. They all have the same priority
 #### This table summarizes the comparison operations:
 
 <details>
-<summary style="display:list-item"><b>Click here to open table</b><br><br></summary>
+<summary style="display:list-item"><b>Click here to open/close table</b><br><br></summary>
 
 <table class="colwidths-auto table" style="border:1px solid black">
 <thead>

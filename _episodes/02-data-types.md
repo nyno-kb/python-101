@@ -111,7 +111,7 @@ this is not a string
 ~~~
 {: .python}
 
-It doesn’t matter whether you use single or double quotation marks with strings, as long as you use the same kind on either side of the string.
+2It doesn’t matter whether you use single or double quotation marks with strings, as long as you use the same kind on either side of the string.
 
 ## Bonus: Escape characters
 

@@ -42,7 +42,8 @@ What differences do you notice?
 You might be wondering…
 
 Why is 'Here is some text' surrounded by quotation marks while 42 is not?\
-Because these are two different “types” of Python data. We will look closer at the different types below.
+Because these are two different “types” of Python data. We will look closer at the different types below.\
+Note, that many Python editors and environments (such as Juptyter Lab etc.) will colour the output based on data type. E.g. in Jupyter Lab strings will be in red and integers in green.
 
 
 <table class="colwidths-auto table" style="border:1px solid black">
@@ -91,11 +92,11 @@ str
 {: .output}
 
 ~~~
-type(False)
+type(42)
 ~~~
 {: .python}
 ~~~
-bool
+int
 ~~~
 {: .output}
 
@@ -119,16 +120,16 @@ this is not a string
 {: .python}
 
 It doesn’t matter whether you use single or double quotation marks with strings, as long as you use the same kind on either side of the string.
+<br><br>
+
+#### Bonus: Escape characters
 
 If you need to include a single or double quotation mark _inside_ of a string, then you need to either:
 
 *   use the opposite kind of quotation mark inside the string
 *   or “escape” the quotation mark by using a backslash `\` before it
-    
 
-**Escape characters**
-
-A backslash character `\` tells Python to treat the next character like a normal character and to ignore any special meaning
+A backslash character `\` tells Python to treat the next character like a normal character and to ignore any special meaning.
 
 ~~~
 "She exclaimed, 'This is a quotation inside a string!''"
@@ -363,9 +364,12 @@ You can do a large range of mathematical calculations and operations with intege
 
 ## Comparisons
 There are eight comparison operations in Python. They all have the same priority (which is higher than that of the Boolean operations). Comparisons can be chained arbitrarily; for example, `x < y <= z` is equivalent to `x < y and y <= z`, except that *y* is evaluated only once (but in both cases *z* is not evaluated at all when `x < y` is found to be false).
+<br><br>
+
+#### This table summarizes the comparison operations:
 
 <details>
-<summary style="display:list-item"><b>This table summarizes the comparison operations:</b><br><br></summary>
+<summary style="display:list-item"><i>Click here to open/close table</i><br><br></summary>
 
 <table class="colwidths-auto table" style="border:1px solid black">
 <thead>

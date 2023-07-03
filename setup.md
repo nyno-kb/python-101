@@ -1,7 +1,7 @@
 ---
 title: Setup
 ---
-
+ 
 [How to Install Python on macOS](#how-to-install-python-on-macos)
 
 [How to Install Python on Windows](https://pryn-kb.github.io/python-101/setup.html#how-to-install-python-on-windows)
@@ -171,15 +171,15 @@ Congratulations—you now have the latest version of Python 3 on your computer!
 >If you did not click **"Add Python to PATH"** this can be fixed by following these steps:
 > 1.	Open the folder where you downloaded the Python install file
 > 2.	Double click on the Python install file
-> 3.	Click "Modify"
-> 4.	You will see "Optional features"
-> 5.	Click "next"
-> 6.	Select "Add python to environment variables"
+> 3.	Click **"Modify"**
+> 4.	You will see **"Optional features"**
+> 5.	Click "Next"
+> 6.	Select **"Add python to environment variables"**
 > 7.	Click "Install"
 {: .callout}
 
 ### Check your version of Python
-Now that you have installed Python, it is a good idea to check if it was done succesfully before we move on to installing Jupyter Lab. Jupyter Lab is the IDE we will use for writing code during the course. 
+Now that you have installed Python, it is a good idea to check if it was done succesfully, before we move on to installing Jupyter Lab. Jupyter Lab is the IDE we will use for writing code during the course. 
 
 Open the PowerShell and type in: 
 ~~~
@@ -193,8 +193,9 @@ Python 3.11.4
 ~~~
 {:  .output}
 
-### Jupyter Lab and PIP
-Before moving on, you need to check the PIP version - this should have been installed together with Python. If this did not happen see the Tip box below.
+### Jupyter Lab 
+Now you need to install Jupyter Lab, the Inetegrated development enviroment (IDE) we will be using in this course. We will install this from the PowerShell using PIP. PIP is a package manager which allows you to easily install and manage Python libraries and packages - don't worry if this doesnt make a lot of sense right now, we will get back to what that means in the course. 
+Before moving on, it is therefore a good idea to check the PIP version - this should have been installed together with Python. If this did not happen see the Tip box below.
 Type the following in the PowerShell: 
 ~~~
 pip --version
@@ -211,18 +212,10 @@ An installation will start in the PowerShell - when it finishes type the followi
 jupyter lab
 ~~~
 {: .python}
+This opens a browser window with a control panel. 
+
 Now you are ready to learn how to code in Python!
 
-> ## Tip
->If PIP was not installed together with Python follow these steps
-> 1.    Check if you have PIP installed	
->~~~
->pip --version
->~~~
->{: .python}
->This returns the version of PIP you have installed if any, if the command does not return a pip version you need to do the following:
->2.     
-{: .callout}
 
 
 

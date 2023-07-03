@@ -6,7 +6,7 @@ title: Setup
 
 [How to Install Python on Windows](https://pryn-kb.github.io/python-101/setup.html#how-to-install-python-on-windows)
 
-#Running Python
+# Running Python
 
 
 Before you can run, you must first walk (or slither).  
@@ -18,7 +18,7 @@ In order to get Python to run on your machine, you need to either download it di
  You can get around this issue by opening a ‘private browsing’ tab and reading it there. 
  The abovementioned guide can be found here : https://realpython.com/installing-python/
 
-###Method 1: Installing Python and Jupyter Notebooks
+### Method 1: Installing Python and Jupyter Notebooks
 
 The first of the three options we would like to highlight is installing 
 Python and Jupyter Notebooks.  This installs the software directly on to your computer.  
@@ -27,7 +27,7 @@ but once running it is far less finicky than the other options with respect to u
 or downloading files that you might use in your coding.  
 A detailed set of instructions for both Mac and PC users can be found further down this page.
 
-###Method 2: Google Colab
+### Method 2: Google Colab
 
 Google Colab, along with ERDA, is perhaps the easiest of these three options to get up and
  running, as all it requires is a Google account (i.e. a Gmail login).  
@@ -37,7 +37,7 @@ Google Colab, along with ERDA, is perhaps the easiest of these three options to 
 
 https://colab.research.google.com/?utm_source=scs-index
 
-###Method 3: CUs ERDA
+### Method 3: CUs ERDA
 
 Copenhagen University provides its students and staff with access to its 
 Electronic Research Data Archive (ERDA).  ERDA includes a built-in copy of Jupyter Notebooks,

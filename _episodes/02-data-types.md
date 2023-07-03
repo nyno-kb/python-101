@@ -153,7 +153,9 @@ Often in programming languages, individual items in an ordered set of data can b
 
 In Python, strings are ordered sequences of character data, and thus can be indexed in this way. Individual characters in a string can be accessed by specifying the string name followed by a number in square brackets `[]`. 
 
-String indexing in Python is zero-based: the first character in the string has index 0, the next has index 1, and so on. The index of the last character will be the length of the string minus one.
+String indexing in Python is zero-based: the first character in the string has index 0, the next has index 1, and so on. The index of the last character will be the length of the string minus one. It can be illustrated like this: 
+
+![image](C:\Users\nyno\Documents\Python\Git\python-101\assets\img\Index example.PNG)
 
 The individual characters can be accessed by index:
 

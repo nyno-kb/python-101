@@ -239,15 +239,9 @@ Python 3.11.4
 {:  .output}
 
 ### Jupyter Lab 
-Now you need to install Jupyter Lab, the Inetegrated development enviroment (IDE) we will be using in this course. We will install this from the PowerShell using PIP. PIP is a package manager which allows you to easily install and manage Python libraries and packages - don't worry if this doesnt make a lot of sense right now, we will get back to what that means in the course. 
-Before moving on, it is therefore a good idea to check the PIP version - this should have been installed together with Python. If this did not happen see the Tip box below.
+Now you need to install Jupyter Lab, the Integrated development enviroment (IDE) we will be using in this course. We will install this from the PowerShell using PIP. PIP is a package manager which allows you to easily install and manage Python libraries and packages - don't worry if this doesnt make a lot of sense right now, we will get back to what that means in the course. 
+
 Type the following in the PowerShell: 
-~~~
-pip --version
-~~~
-{: .python}
-If the command returns e.g. pip 21.2.4 you have it corrently installed - otherwise move to the Tip box below before you continue
-Now you can simply type: 
 ~~~
 pip install jupyterlab
 ~~~

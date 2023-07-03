@@ -114,7 +114,7 @@ this is not a string
 It doesn’t matter whether you use single or double quotation marks with strings, as long as you use the same kind on either side of the string.
 
 <details>
-<summary style="display:list-item"><h3>Escape characters:</h3><br><br></summary>
+<summary style="display:list-item"><b>Escape characters:</b><br><br></summary>
 
 If you need to include a single or double quotation mark _inside_ of a string, then you need to either:
 

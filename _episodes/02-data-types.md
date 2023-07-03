@@ -1,6 +1,6 @@
 ---
 title: "Data Types"
-teaching: 20
+teaching: 25
 exercises: 0
 questions:
 - "What kind of data types exists in Python?"
@@ -154,7 +154,9 @@ Often in programming languages, individual items in an ordered set of data can b
 
 In Python, strings are ordered sequences of character data, and thus can be indexed in this way. Individual characters in a string can be accessed by specifying the string name followed by a number in square brackets `[]`. 
 
-String indexing in Python is zero-based: the first character in the string has index 0, the next has index 1, and so on. The index of the last character will be the length of the string minus one.
+String indexing in Python is zero-based: the first character in the string has index 0, the next has index 1, and so on. The index of the last character will be the length of the string minus one. It can be illustrated like this: 
+
+![image](assets/img/Index-example.png)
 
 The individual characters can be accessed by index:
 
@@ -179,7 +181,7 @@ The individual characters can be accessed by index:
 ### Slice
 
 Python  allows a form of indexing syntax that extracts substrings from a string, known as string slicing.\
-If `s` is a string, an expression of the form `s[m:n]` returns the portion of `s` starting with position `m`, and up to but not including position `n`:
+If `s` is a string, an expression of the form `s[start:stop]` returns the portion of `s` starting with position `start`, and up to but not including position `stop`:
 
 ~~~
 'I am a string'[0:8]

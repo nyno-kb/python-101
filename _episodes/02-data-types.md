@@ -215,7 +215,7 @@ Notice that we have added a space in the beginning of the second string, otherwi
 ~~~
 {: .output}
 
-### Make uppercase
+<!--### Make uppercase
 
 The method `upper()` returns a copy of the string with all alphabetic characters converted to uppercase:
 
@@ -226,7 +226,7 @@ The method `upper()` returns a copy of the string with all alphabetic characters
 ~~~
 'I AM A STRING'
 ~~~
-{: .output}
+{: .output} -->
 
 <!-- ## f-Strings
 

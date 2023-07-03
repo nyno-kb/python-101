@@ -157,7 +157,7 @@ To check if you have any version of Python and which Python you have on Windows,
 > ## Tip
 > Here’s how you open Windows PowerShell:
 >
->   1. Press the `**⊞ Win**` key.
+>   1. Press the `⊞ Win` key.
 >   2. Type `PowerShell`.
 >   3. Press `Enter ↩`.
 >

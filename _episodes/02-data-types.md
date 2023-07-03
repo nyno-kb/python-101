@@ -1,19 +1,19 @@
 ---
 title: "Data Types"
-teaching: 0
+teaching: 20
 exercises: 0
 questions:
 - "What kind of data types exists in Python?"
 - "What are the key differences between the data types?"
 objectives:
-- "Understand the basic data types in Python"
+- "Understand the essential data types in Python"
 - "Explain the differences between integers and floats"
-- "Explain what a string is and what you can do with it"  
+- "Explain what a string is, and what you can do with it"  
 keypoints:
 - "There are 4 data types in Python: Integers, floats, strings and booleans"
-- "You can use the built-in function Type() to find the type of a value"
-- "Integers are whole numbers and you can use mathemethical operations on them"
-- "Floats are decimal numbers and you can use mathemathical opreations on them" 
+- "You can use the built-in function `type()` to find the type of a value"
+- "Integers are whole numbers. You can use mathemethical operations on them"
+- "Floats are decimal numbers. You can use mathemathical opreations on them" 
 - "Strings are text, they can be added to one another, you can slice them to get a substring, and use the index to acess the individual charachters"
 - "Booleans are either True or False "
 ---

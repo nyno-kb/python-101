@@ -3,10 +3,11 @@ title: "Polynomials"
 teaching: 0
 exercises: 0
 questions:
-- "FIXME"
+- "Hvorfor er denne ikke slettet endnu?"
 objectives:
-- "Learning objective (FIXME)"
-keypoints:- "FIXME"
+- "Ingen - det skal slettes"
+keypoints:
+- " test de ther igen"
 math: yes
 ---
 

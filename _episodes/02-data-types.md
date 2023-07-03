@@ -1,6 +1,6 @@
 ---
 title: "Data Types"
-teaching: 20
+teaching: 25
 exercises: 0
 questions:
 - "What kind of data types exists in Python?"

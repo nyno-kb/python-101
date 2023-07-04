@@ -157,7 +157,7 @@ In Python, strings are ordered sequences of character data, and thus can be inde
 
 String indexing in Python is zero-based: the first character in the string has index 0, the next has index 1, and so on. The index of the last character will be the length of the string minus one. It can be illustrated like this: 
 
-![image](assets/img/Index-example.png)
+![image](assets\img\Index-example.png)
 
 The individual characters can be accessed by index:
 
@@ -277,7 +277,7 @@ float
 You can do a large range of mathematical calculations and operations with integers and floats. Here are a few examples, for an extended overview you can fold out a table at the end of this section. 
 
 #### Multiplication
-You can multiply in Python using the * 
+You can multiply in Python using the * operator
 ~~~
 4 * 2
 ~~~

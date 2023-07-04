@@ -137,7 +137,9 @@ If you need to include a single or double quotation mark inside of a string, the
 </details>
 
 > ### Bonus
-> 
+>
+> How can you have quotationmarks inside a string?
+>
 > > ### Escape characters
 > > Escape characters and how to tell Python to igonre special meanings. This can be handy if you need to make quotationmarks inside a string. This can be done in two ways 
 > > *   use the opposite kind of quotation mark inside the string

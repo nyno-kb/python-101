@@ -311,7 +311,7 @@ However, it does not work as a percentage although it might look like one. Inste
 These are just a few of the mathmathical operations in Python - see the table below from Python’s documentation about [Built-in Types](https://docs.python.org/3/library/stdtypes.html).)
 
 <details>
-<summary style="display:list-item"><i>Mathmathical operators - click here to open/close table</i><br><br></summary>
+<summary style="display:list-item"><i>Click here to see more mathmathical operators</i><br><br></summary>
 
 <table class="colwidths-auto table" style="border:1px solid black">
 <thead>
@@ -377,10 +377,27 @@ These are just a few of the mathmathical operations in Python - see the table be
 </table>
 
 </details>
-
-
 ## Comparisons
-There are eight comparison operations in Python. They all have the same priority (which is higher than that of the Boolean operations). Comparisons can be chained arbitrarily; for example, `x < y <= z` is equivalent to `x < y and y <= z`, except that *y* is evaluated only once (but in both cases *z* is not evaluated at all when `x < y` is found to be false).
+You can compare values in Python using different comparison operations - the most essential are shown here in the box.
+
+},
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "| **Comparison Operator** | **Explanation**                                                                                   |\n",
+    "|:-------------:|:---------------------------------------------------------------------------------------------------:|\n",
+    "| `x == y `         | `True` if x is equal to y                                                                                |\n",
+    "| `x != y `         | `True` if x is not equal to y                                               |\n",
+    "| `x > y`       |  `True` if x is greater than y                                                        |\n",
+    "| `x < y`       |   `True` if x is less than y  \n",
+    "| `x >= y`       |   `True` if x is greater than or equal to y |\n",
+    "| `x <= y`      | `True` if x is less than or equal to y`                                                                             |\n",
+    "                                                                      \n",
+    "                                                           "
+   ]
+  },
+
 <br><br>
 
 #### This table summarizes the comparison operations:

@@ -136,7 +136,24 @@ If you need to include a single or double quotation mark inside of a string, the
 </html>
 </details>
 
-<!-->> <details>
+> ### Bonus
+> > ### Escape characters
+> > Escape characters and how to tell Python to igonre special meanings. This can be handy if you need to make quotationmarks inside a string. This can be done in two ways 
+> > *   use the opposite kind of quotation mark inside the string
+> > *   or “escape” the quotation mark by using a backslash `\` before it
+> > ~~~
+> > "She exclaimed, 'This is a quotation inside a string!'"
+> > ~~~
+> > {: .python}
+> > 
+> > ~~~
+> > "She exclaimed, \"This is also a quotation inside a string!\""
+> > ~~~
+> > {: .python}
+> {: .solution}
+{: .challenge}
+
+<!-- >> <details>
 > <summary style="display:list-item"><font size="+2">Bonus: Escape characters </font><br><br></summary>
 >
 > If you need to include a single or double quotation mark _inside_ of a string, then you need to either:

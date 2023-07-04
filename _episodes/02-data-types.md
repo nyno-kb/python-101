@@ -89,7 +89,7 @@ type('Here is some text')
 str
 ~~~
 {: .output}
-The output str is short for string
+The output `str` is short for string.
 ~~~
 type(42)
 ~~~
@@ -98,7 +98,7 @@ type(42)
 int
 ~~~
 {: .output}
-The output int is short for integer
+The output `int` is short for integer.
 ## Strings
 
 A _string_ is a Python data type that is treated like text, even if it contains a number. Strings are always enclosed by either single quotation marks `'this is a string'` or double quotation marks `"this is a string"`.
@@ -156,6 +156,8 @@ In Python, strings are ordered sequences of character data, and thus can be inde
 String indexing in Python is zero-based: the first character in the string has index 0, the next has index 1, and so on. The index of the last character will be the length of the string minus one. It can be illustrated like this: 
 
 ![image](assets\img\Index-example.png)
+
+![image](../fig/np_array.png)
 
 The individual characters can be accessed by index:
 

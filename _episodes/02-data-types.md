@@ -401,54 +401,40 @@ You can compare values in Python using different comparison operations - the mos
 <br><br>
 
 #### This table summarizes the comparison operations:
-
-<details>
-<summary style="display:list-item"><i>Click here to open/close table</i><br><br></summary>
-
 <table class="colwidths-auto table" style="border:1px solid black">
 <thead>
 <tr class="row-odd">
-<th class="head"><p>Operation</p></th>
-<th class="head"><p>Meaning</p></th>
+<th class="head"><p>Comparison operation</p></th>
+<th class="head"><p>Explanation</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="row-even">
-<td><p><code><</code></p></td>
-<td><p>strictly less than</p></td>
+<td><p><code>x < y</code></p></td>
+<td><p> `True` if x is less than y </p></td>
 </tr>
 <tr class="row-odd">
-<td><p><code><=</code></p></td>
-<td><p>less than or equal</p></td>
+<td><p><code>x <= y</code></p></td>
+<td><p>`True` if x is less than or equal to y</p></td>
 </tr>
 <tr class="row-even">
-<td><p><code>></code></p></td>
-<td><p>strictly greater than</p></td>
+<td><p><code>x > y</code></p></td>
+<td><p>`True` if x is greater than y</p></td>
 </tr>
 <tr class="row-odd">
-<td><p><code>>=</code></p></td>
-<td><p>greater than or equal</p></td>
+<td><p><code>x >= y</code></p></td>
+<td><p>`True` if x is greater than or equal to y</p></td>
 </tr>
 <tr class="row-even">
-<td><p><code>==</code></p></td>
-<td><p>equal</p></td>
+<td><p><code>x == y</code></p></td>
+<td><p>True if x is equal to y</p></td>
 </tr>
 <tr class="row-odd">
 <td><p><code>!=</code></p></td>
-<td><p>not equal</p></td>
-</tr>
-<tr class="row-even">
-<td><p><code>is</code></p></td>
-<td><p>object identity</p></td>
-</tr>
-<tr class="row-odd">
-<td><p><code>is not</code></p></td>
-<td><p>negated object identity</p></td>
+<td><p>True if x is not equal to y</p></td>
 </tr>
 </tbody>
 </table>
-
-</details>
 
 ## Booleans
 

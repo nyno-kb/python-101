@@ -136,7 +136,7 @@ If you need to include a single or double quotation mark inside of a string, the
 </html>
 </details>
 
-> ### Bonus
+> ## Bonus
 >
 > How can you have quotationmarks inside a string?
 >
@@ -153,6 +153,7 @@ If you need to include a single or double quotation mark inside of a string, the
 > > "She exclaimed, \"This is also a quotation inside a string!\""
 > > ~~~
 > > {: .python}
+> > 
 > {: .solution}
 {: .challenge}
 
@@ -197,6 +198,7 @@ In Python, strings are ordered sequences of character data, and thus can be inde
 
 String indexing in Python is zero-based: the first character in the string has index 0, the next has index 1, and so on. The index of the last character will be the length of the string minus one. It can be illustrated like this: 
 
+![Index1](../assets/img/indexcolors.png)
 ![Index](../assets/img/Index-example.png)
 
 The individual characters can be accessed by index:

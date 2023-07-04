@@ -275,7 +275,7 @@ float
 You can do a large range of mathematical calculations and operations with integers and floats. Here are a few examples, for an extended overview you can fold out a table at the end of this section. 
 
 #### Multiplication
-You can multiply in Python using the * operator
+You can multiply in Python using the `*` operator
 ~~~
 4 * 2
 ~~~
@@ -286,7 +286,7 @@ You can multiply in Python using the * operator
 {: .output}
 
 #### Exponents
-You can use ** as the exponent operator. An exponent is an expression of the number of times a number is muliplied by itself. 
+You can use `**` as the exponent operator. An exponent is an expression of the number of times a number is muliplied by itself. 
 ~~~
 4 ** 2
 ~~~
@@ -297,7 +297,7 @@ You can use ** as the exponent operator. An exponent is an expression of the num
 {: .output}
 
 #### Modulus
-The modulus or remainder operator looks like this: a % b. 
+The modulus or remainder operator looks like this: `a % b`. 
 However, it does not work as a percentage although it might look like one. Instead it divides a with b and the remainder is returned. 
 ~~~
 72 % 10
@@ -476,4 +476,3 @@ You can compare values in Python using different comparison operations. Comparis
 > *   A single equals sign `=` is used for variable assignment (We will learn more about this in the lesson about variables)
 {: .callout}
 
-&nbsp;  

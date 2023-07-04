@@ -273,9 +273,9 @@ float
 {: .output}
 
 ### Mathematical operations
-You can do a large range of mathematical calculations and operations with integers and floats.
+You can do a large range of mathematical calculations and operations with integers and floats. Here are a few examples
 
-### Multiplication
+#### Multiplication
 You can multiply in Python using the * 
 ~~~
 4 * 2
@@ -286,7 +286,7 @@ You can multiply in Python using the *
 ~~~
 {: .output}
 
-### Exponents
+#### Exponents
 You can use ** to find the exponent of a number - that is how many times 
 ~~~
 4 ** 2
@@ -297,7 +297,7 @@ You can use ** to find the exponent of a number - that is how many times
 ~~~
 {: .output}
 
-### Modulus
+#### Modulus
 The modulus or remainder operator looks like this: a % b. 
 However, it does not work as a percentage although it might look like one. Instead it divides a with b and the remainder is returned. 
 ~~~
@@ -308,9 +308,10 @@ However, it does not work as a percentage although it might look like one. Inste
 2
 ~~~
 {: .output}
-These are just a few of the mathmathical operations in Python - see the table below for more examples. 
+These are just a few of the mathmathical operations in Python - see the table below from Python’s documentation about [Built-in Types](https://docs.python.org/3/library/stdtypes.html).)
 
-(All the tables below are taken from Python’s documentation about [Built-in Types](https://docs.python.org/3/library/stdtypes.html).)
+<details>
+<summary style="display:list-item"><i>Mathmathical operators - click here to open/close table</i><br><br></summary>
 
 <table class="colwidths-auto table" style="border:1px solid black">
 <thead>
@@ -374,6 +375,9 @@ These are just a few of the mathmathical operations in Python - see the table be
 </tr>
 </tbody>
 </table>
+
+</details>
+
 
 ## Comparisons
 There are eight comparison operations in Python. They all have the same priority (which is higher than that of the Boolean operations). Comparisons can be chained arbitrarily; for example, `x < y <= z` is equivalent to `x < y and y <= z`, except that *y* is evaluated only once (but in both cases *z* is not evaluated at all when `x < y` is found to be false).

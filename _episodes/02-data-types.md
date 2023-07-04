@@ -377,6 +377,61 @@ These are just a few of the mathmathical operations in Python - see the table be
 </table>
 
 </details>
+## Booleans
+Booleans are “truth” values. They report on whether things in your Python universe are `True` or `False`. There are the only two options for a boolean: `True` or `False`. In the examples of the comparisions you might have noticed that the table stated true if .. these are examples of booleans. The boolean operators are **or**, **and**, and **not**. They are used to check if certain conditions are met before the program continues running. This is extremely helpful and even if it seems a bit confusing right now, it wil make sense later. Here are a few examples of using the boolean operators. 
+
+~~~
+13 < 17
+~~~
+{: .python}
+~~~
+True
+~~~
+{: .output}
+In this example we state that 13 is less than 17 - which returns True because 13 is less than 17.
+~~~
+"hello" == "hi"
+~~~
+{: .python}
+~~~
+False
+~~~
+{: .output}
+In the example we state that Hello is equal to hi, which in the computers understanding it is not. 
+~~~
+666 == 777
+~~~
+{: .python}
+~~~
+False
+~~~
+{: .output}
+In this example we state that 666 is equal to 777, which it is not. Therefore, we get False as the output. 
+
+These are the Boolean operations, ordered by ascending priority:
+<table class="colwidths-auto table" style="border:1px solid black">
+<thead>
+<tr class="row-odd">
+<th class="head"><p>Operation</p></th>
+<th class="head"><p>Result</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even">
+<td><p><code>x or y</code></p></td>
+<td><p>if <i>x</i> is true, then <i>x</i>, else <i>y</i></p></td>
+</tr>
+<tr class="row-odd">
+<td><p><code>x and y</code></p></td>
+<td><p>if <i>x</i> is false, then <i>x</i>, else <i>y</i></p></td>
+</tr>
+<tr class="row-even">
+<td><p><code>not x</code></p></td>
+<td><p>if <i>x</i> is false, then <code>True</code>, else <code>False</code></p></td>
+</tr>
+</tbody>
+</table>
+
 ## Comparisons
 You can compare values in Python using different comparison operations - the most essential are shown here in the box.
 ##### This table summarizes the comparison operations:
@@ -420,65 +475,5 @@ You can compare values in Python using different comparison operations - the mos
 > *   A double equals sign `==` is used as the equals operator
 > *   A single equals sign `=` is used for variable assignment (We will learn more about this in the lesson about variables)
 {: .callout}
-
-## Booleans
-
-Booleans are “truth” values. They report on whether things in your Python universe are `True` or `False`. There are the only two options for a boolean: `True` or `False`. In the examples of the comparisions you might have noticed that the table stated true if .. these are examples of booleans. The boolean operators are **or**, **and**, and **not**. They are used to check if certain conditions are met before the program continues running. This is extremely helpful and even if it seems a bit confusing right now, it wil make sense later. Here are a few examples of using the boolean operators. 
-
-~~~
-13 < 17
-~~~
-{: .python}
-~~~
-True
-~~~
-{: .output}
-In this example we state that 13 is less than 17 - which returns True because 13 is less than 17.
-~~~
-"hello" == "hi"
-~~~
-{: .python}
-~~~
-False
-~~~
-{: .output}
-In the example we state that Hello is equal to hi, which in the computers understanding it is not. 
-~~~
-666 == 777
-~~~
-{: .python}
-~~~
-False
-~~~
-{: .output}
-In this example we state that 666 is equal to 777, which it is not. Therefore, we get False as the output. 
-
-
-These are the Boolean operations, ordered by ascending priority:
-
-<table class="colwidths-auto table" style="border:1px solid black">
-<thead>
-<tr class="row-odd">
-<th class="head"><p>Operation</p></th>
-<th class="head"><p>Result</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even">
-<td><p><code>x or y</code></p></td>
-<td><p>if <i>x</i> is true, then <i>x</i>, else <i>y</i></p></td>
-</tr>
-<tr class="row-odd">
-<td><p><code>x and y</code></p></td>
-<td><p>if <i>x</i> is false, then <i>x</i>, else <i>y</i></p></td>
-</tr>
-<tr class="row-even">
-<td><p><code>not x</code></p></td>
-<td><p>if <i>x</i> is false, then <code>True</code>, else <code>False</code></p></td>
-</tr>
-</tbody>
-</table>
-
-
 
 &nbsp;  

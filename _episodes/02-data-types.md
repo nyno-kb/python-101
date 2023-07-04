@@ -10,6 +10,7 @@ objectives:
 - "Explain the differences between integers and floats"
 - "Explain what a string is, and what you can do with it"  
 keypoints:
+"Now you have been introduced to the four essential datatypes in Python, so let's sum up:" 
 - "There are 4 data types in Python: Integers, floats, strings, and booleans"
 - "You can use the built-in function `type()` to find the type of a value"
 - "Integers are whole numbers. You can use mathemethical operations on them"
@@ -44,7 +45,6 @@ You might be wondering…
 Why is 'Here is some text' surrounded by quotation marks while 42 is not?\
 Because these are two different “types” of Python data. We will look closer at the different types below.\
 Note, that many Python editors and environments (such as Juptyter Lab etc.) will colour the output based on data type. E.g. in Jupyter Lab strings will be in red and integers in green.
-
 
 <table class="colwidths-auto table" style="border:1px solid black">
 <thead>
@@ -90,7 +90,7 @@ type('Here is some text')
 str
 ~~~
 {: .output}
-
+The output str is short for string
 ~~~
 type(42)
 ~~~
@@ -99,7 +99,7 @@ type(42)
 int
 ~~~
 {: .output}
-
+The output int is short for integer
 ## Strings
 
 A _string_ is a Python data type that is treated like text, even if it contains a number. Strings are always enclosed by either single quotation marks `'this is a string'` or double quotation marks `"this is a string"`.
@@ -140,12 +140,13 @@ A backslash character `\` tells Python to treat the next character like a normal
 "She exclaimed, \"This is also a quotation inside a string!\""
 ~~~
 {: .python}
+<br><br>
 
 ## String Methods
 
 Each data type has different properties and capabilities. So there are special things that only strings can do, and there are special ways of interacting with strings.
 
-For example, you can **index** and **slice** strings, you can **add** strings together, and you can transform strings to uppercase or lowercase.\
+For example, you can **index** and **slice** strings, you can **add** strings together.\
 Here are a few examples:
 
 ### Index
@@ -181,7 +182,7 @@ The individual characters can be accessed by index:
 ### Slice
 
 Python  allows a form of indexing syntax that extracts substrings from a string, known as string slicing.\
-If `s` is a string, an expression of the form `s[start:stop]` returns the portion of `s` starting with position `start`, and up to but not including position `stop`:
+If `s` is a string, an expression of the form `s[start:stop]` returns the portion of `s` starting with position `start`, and up to ***but not including*** position `stop`:
 
 ~~~
 'I am a string'[0:8]
@@ -247,7 +248,7 @@ Beyonce burst out of the building and sang:
 
 ## Integers & Floats
 
-An **integer** and a **float** (short for **floating point number**) are two Python data types for representing numbers.
+An **integer** and a **float** are two Python data types for representing numbers.
 
 *   Integers represent whole numbers.
 *   Floats represent numbers with decimal points.
@@ -273,7 +274,7 @@ float
 {: .output}
 
 ### Mathematical operations
-You can do a large range of mathematical calculations and operations with integers and floats. Here are a few examples
+You can do a large range of mathematical calculations and operations with integers and floats. Here are a few examples, for an extended overview you can fold out a table at the end of this section. 
 
 #### Multiplication
 You can multiply in Python using the * 
@@ -287,7 +288,7 @@ You can multiply in Python using the *
 {: .output}
 
 #### Exponents
-You can use ** to find the exponent of a number - that is how many times 
+You can use ** as the exponent operator. An exponent is an expression of the number of times a number is muliplied by itself. 
 ~~~
 4 ** 2
 ~~~
@@ -377,8 +378,9 @@ These are just a few of the mathmathical operations in Python - see the table be
 </table>
 
 </details>
+
 ## Booleans
-Booleans are “truth” values. They report on whether things in your Python universe are `True` or `False`. There are the only two options for a boolean: `True` or `False`. In the examples of the comparisions you might have noticed that the table stated true if .. these are examples of booleans. The boolean operators are **or**, **and**, and **not**. They are used to check if certain conditions are met before the program continues running. This is extremely helpful and even if it seems a bit confusing right now, it wil make sense later. Here are a few examples of using the boolean operators. 
+Booleans are “truth” values. They report on whether things in your Python universe are `True` or `False`. There are the only two options for a boolean: `True` or `False`. The boolean operators are **or**, **and**, and **not**. They are used to check if certain conditions are met before the program continues running. This is extremely helpful and even if it seems a bit confusing right now, it wil make sense later. Here are a few examples of using boolean logic. 
 
 ~~~
 13 < 17
@@ -388,7 +390,7 @@ Booleans are “truth” values. They report on whether things in your Python un
 True
 ~~~
 {: .output}
-In this example we state that 13 is less than 17 - which returns True because 13 is less than 17.
+In this example above we state that 13 is less than 17 - which returns True because 13 is less than 17.
 ~~~
 "hello" == "hi"
 ~~~
@@ -397,7 +399,7 @@ In this example we state that 13 is less than 17 - which returns True because 13
 False
 ~~~
 {: .output}
-In the example we state that Hello is equal to hi, which in the computers understanding it is not. 
+In the example above we state that 'hello' is equal to 'hi', which in the computers understanding it is not. 
 ~~~
 666 == 777
 ~~~
@@ -406,7 +408,7 @@ In the example we state that Hello is equal to hi, which in the computers unders
 False
 ~~~
 {: .output}
-In this example we state that 666 is equal to 777, which it is not. Therefore, we get False as the output. 
+In this example above we state that 666 is equal to 777, which it is not. Therefore, we get False as the output. 
 
 These are the Boolean operations, ordered by ascending priority:
 <table class="colwidths-auto table" style="border:1px solid black">
@@ -433,7 +435,7 @@ These are the Boolean operations, ordered by ascending priority:
 </table>
 
 ## Comparisons
-You can compare values in Python using different comparison operations - the most essential are shown here in the box.
+You can compare values in Python using different comparison operations. Comparisons are used to compare different values and objects in Python. Which we will learn much more about later. For now take a look at the comparisions and their meaning in the table underneath. 
 ##### This table summarizes the comparison operations:
 <table class="colwidths-auto table" style="border:1px solid black">
 <thead>

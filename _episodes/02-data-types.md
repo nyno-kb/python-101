@@ -119,9 +119,9 @@ this is not a string
 {: .python}
 
 It doesn’t matter whether you use single or double quotation marks with strings, as long as you use the same kind on either side of the string.
-### Bonus: Escape characters
+
 <details>
-<summary style="display:list-item"><i>Click here to learn more</i><br><br></summary>
+<summary style="display:list-item"><i><font size="+3">Bonus: Escape characters </font></i><br><br></summary>
 
 > If you need to include a single or double quotation mark _inside_ of a string, then you need to either:
 >

@@ -120,7 +120,6 @@ this is not a string
 {: .python}
 
 It doesn’t matter whether you use single or double quotation marks with strings, as long as you use the same kind on either side of the string.
-<br><br>
 
 #### Bonus: Escape characters
 
@@ -140,7 +139,7 @@ A backslash character `\` tells Python to treat the next character like a normal
 "She exclaimed, \"This is also a quotation inside a string!\""
 ~~~
 {: .python}
-<br><br>
+
 
 ## String Methods
 

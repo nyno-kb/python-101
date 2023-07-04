@@ -120,17 +120,18 @@ this is not a string
 
 It doesn’t matter whether you use single or double quotation marks with strings, as long as you use the same kind on either side of the string.
 
-<details>
-<summary style="display:list-item"><i><font size="+3">Bonus: Escape characters </font></i><br><br></summary>
-
+> <details>
+> <summary style="display:list-item"><font size="+2">Bonus: Escape characters </font><br><br></summary>
+>
 > If you need to include a single or double quotation mark _inside_ of a string, then you need to either:
 >
 > *   use the opposite kind of quotation mark inside the string
 > *   or “escape” the quotation mark by using a backslash `\` before it
 >
 > A backslash character `\` tells Python to treat the next character like a normal character and to ignore any special meaning.
-{: .callout}
-</details>
+> {: .callout}
+>
+> </details>
 
 
 <!--~~~

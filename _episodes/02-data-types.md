@@ -122,15 +122,19 @@ It doesn’t matter whether you use single or double quotation marks with string
 
 <details>
 <summary style="display:list-item"><font size="+2">Bonus: Escape characters </font><br><br></summary>
-
-If you need to include a single or double quotation mark inside of a string, then you need to either:
-
-    *   use the opposite kind of quotation mark inside the string
-    *   or “escape” the quotation mark by using a backslash `\` before it
-
-A backslash character `\` tells Python to treat the next character like a normal character and to ignore any special meaning.
-
- </details>
+<html>
+<body>
+If you need to include a single or double quotation mark inside of a string, then you need to either:</body>
+</html>
+<ul>
+<li>use the opposite kind of quotation mark inside the string </li>
+<li>or “escape” the quotation mark by using a backslash `\` before it </li>
+</ul>
+<html>
+<body> A backslash character `\` tells Python to treat the next character like a normal character and to ignore any special meaning.
+</body>
+</html>
+</details>
 
 <!-->> <details>
 > <summary style="display:list-item"><font size="+2">Bonus: Escape characters </font><br><br></summary>

@@ -121,6 +121,8 @@ this is not a string
 It doesn’t matter whether you use single or double quotation marks with strings, as long as you use the same kind on either side of the string.
 
 #### Bonus: Escape characters
+<details>
+<summary style="display:list-item"><i>Click here to see some bonus info</i><br><br></summary>
 
 If you need to include a single or double quotation mark _inside_ of a string, then you need to either:
 
@@ -128,8 +130,9 @@ If you need to include a single or double quotation mark _inside_ of a string, t
 *   or “escape” the quotation mark by using a backslash `\` before it
 
 A backslash character `\` tells Python to treat the next character like a normal character and to ignore any special meaning.
+</details>
 
-~~~
+<!--~~~
 "She exclaimed, 'This is a quotation inside a string!''"
 ~~~
 {: .python}
@@ -137,7 +140,7 @@ A backslash character `\` tells Python to treat the next character like a normal
 ~~~
 "She exclaimed, \"This is also a quotation inside a string!\""
 ~~~
-{: .python}
+{: .python} -->
 
 
 ## String Methods
@@ -149,7 +152,7 @@ Here are a few examples:
 
 ### Index
 
-Often in programming languages, individual items in an ordered set of data can be accessed directly using a numeric index or key value. This process is referred to as indexing.
+Often in programming languages, individual items in an ordered set of data, can be accessed directly using a numeric index or key value. This process is referred to as indexing.
 
 In Python, strings are ordered sequences of character data, and thus can be indexed in this way. Individual characters in a string can be accessed by specifying the string name followed by a number in square brackets `[]`. 
 

@@ -217,9 +217,9 @@ print(len(element))
 ~~~
 {: .output}
 
-Note that the result is 6 and not 7. This is because it lengt of the value of the variable (i.e. 'helium') that is being counted and not the name of the variable (i.e. `element`)
+Note that the result is 6 and not 7. This is because it lengt of the value of the variable (i.e. `'helium'`) that is being counted and not the name of the variable (i.e. `element`)
 
-Also note that nested functions are evaluated from the inside out, just like in mathematics. Thus, Python first reads the len() function, then the print() function.
+Also note that nested functions are evaluated from the inside out, just like in mathematics. Thus, Python first reads the `len()` function, then the `print()` function.
 
 > ## Choosing a Name
 >

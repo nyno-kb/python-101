@@ -53,7 +53,8 @@ Variables:
 *   Underscores at the start like `__alistairs_real_age` have a special meaning
     so we won't do that until we understand the convention.
 *   The standard naming convention for variable names in Python is the so-called "snake case", 
-    where each word is separated by an underscore. For example `my_first_variable`.  
+    where each word is separated by an underscore.\
+    For example `my_first_variable`.  
     You can read more about naming conventions in Python here: [https://peps.python.org/pep-0008/#naming-conventions](https://peps.python.org/pep-0008/#naming-conventions)
 
 ### Use meaningful variable names

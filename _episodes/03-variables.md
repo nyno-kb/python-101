@@ -205,7 +205,7 @@ sod
 ~~~
 {: .output}
 
-## Use the built-in function `len` to find the length of a string
+## Use the built-in function `len()` to find the length of a string
 
 ~~~
 element = 'helium'

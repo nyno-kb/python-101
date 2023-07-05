@@ -421,7 +421,7 @@ These are just a few of the mathmathical operations in Python - see the table be
 </details>
 
 ## Booleans
-Booleans are “truth” values. They report on whether things in your Python universe are `True` or `False`. There are the only two options for a boolean: `True` or `False`. The boolean operators are **or**, **and**, and **not**. They are used to check if certain conditions are met before the program continues running. This is extremely helpful and even if it seems a bit confusing right now, it wil make sense later. Here are a few examples of using boolean logic. 
+Booleans are “truth” values. They report on whether things in your Python universe are `True` or `False`. There are the only two options for a boolean: `True` or `False`. The boolean operators are **or**, **and**, and **not**. They are used to check if certain conditions are met before the program continues running. This is extremely helpful and even if it seems a bit confusing right now, it will make sense later. Here are a few examples of using boolean logic. 
 
 ~~~
 13 < 17

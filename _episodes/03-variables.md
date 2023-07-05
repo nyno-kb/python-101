@@ -25,7 +25,7 @@ Variables are one of the fundamental building blocks of Python. A variable is li
 
 The variable name will point to a value that you “assign” it. You might think about variable assignment like putting a value “into” the variable, as if the variable is a little box 🎁
 
-(In fact, a variable is not a container as such but more like an adress label that *points* to a container with a given value. This difference will become relevant once we start talking about lists and *mutable* data types.)
+(In fact, a variable is not a container as such but more like an adress label that points to a container with a given value. This difference will become relevant once we start talking about *lists* and *mutable* data types.)
 
 You assign variables with an equals = sign. In Python, a single equals sign = is the “assignment operator.” (A double equals sign == is the “real” equals sign.)
 

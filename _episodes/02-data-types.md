@@ -489,27 +489,27 @@ You can compare values in Python using different comparison operations. Comparis
 <tbody>
 <tr class="row-even">
 <td><p><code>x < y</code></p></td>
-<td><p>`True` if x is less than y </p></td>
+<td><p><code>True</code> if x is less than y </p></td>
 </tr>
 <tr class="row-odd">
 <td><p><code>x <= y</code></p></td>
-<td><p>`True` if x is less than or equal to y</p></td>
+<td><p><code>True</code> if x is less than or equal to y</p></td>
 </tr>
 <tr class="row-even">
 <td><p><code>x > y</code></p></td>
-<td><p>`True` if x is greater than y</p></td>
+<td><p><code>True</code> if x is greater than y</p></td>
 </tr>
 <tr class="row-odd">
 <td><p><code>x >= y</code></p></td>
-<td><p>`True` if x is greater than or equal to y</p></td>
+<td><p><code>True</code> if x is greater than or equal to y</p></td>
 </tr>
 <tr class="row-even">
 <td><p><code>x == y</code></p></td>
-<td><p>`True` if x is equal to y</p></td>
+<td><p><code>True</code> if x is equal to y</p></td>
 </tr>
 <tr class="row-odd">
 <td><p><code>!=</code></p></td>
-<td><p>`True` if x is not equal to y</p></td>
+<td><p><code>True</code> if x is not equal to y</p></td>
 </tr>
 </tbody>
 </table>

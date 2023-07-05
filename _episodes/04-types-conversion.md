@@ -260,18 +260,16 @@ first is 2 and second is 5
 >
 > 1. Number of days since the start of the year.
 > 2. Time elapsed since the start of the year.
-> 3. Call number of a book.
-> 4. Standard book loan period.
-> 5. Number of reference queries in a year.
-> 6. Average library classes taught per semester.
+> 3. Standard book loan period.
+> 4. Number of reference queries in a year.
+> 5. Average library classes taught per semester.
 >
 > > ## Solution
 > > 1. Integer  
 > > 2. Float  
-> > 3. String
+> > 3. Integer  
 > > 4. Integer  
-> > 5. Integer  
-> > 6. Float  
+> > 5. Float  
 > {: .solution}
 {: .challenge}
 
@@ -279,8 +277,8 @@ first is 2 and second is 5
 > There are three different types of division:
 > 1. 'Normal' division (aka floating-point division) is what most people may be
 > familiar with: 5 / 2 = 2.5
-> 2. Floor division, which cuts out the part after the period: 5 / 2 = 2
-> 3. Modulo division, which only keeps the remained after division: 5 / 2 = 1
+> 2. Floor division, which cuts out the part after the period: 5 // 2 = 2
+> 3. Modulo division, which only keeps the remained after division: 5 % 2 = 1
 >
 > In Python 3,  the `/` operator performs floating-point division, the `//`
 > operator performs floor division, and the '%' (or *modulo*) operator
@@ -294,8 +292,8 @@ first is 2 and second is 5
 > {: .python}
 >
 > ~~~
-> 5 // 3: 1
 > 5 / 3: 1.6666666666666667
+> 5 // 3: 1
 > 5 % 3: 2
 > ~~~
 > {: .output}
@@ -331,8 +329,8 @@ first is 2 and second is 5
 
 > ## Strings to Numbers
 >
-> Where reasonable, `float()` will convert a string to a floating point number,
-> and `int()` will convert a floating point number to an integer:
+> Where reasonable, `float()` will convert at string or an integer to a floating point number,
+> and `int()` wil convert a string or a floating point number to an integer.
 >
 > ~~~
 > print("string to float:", float("3.4"))

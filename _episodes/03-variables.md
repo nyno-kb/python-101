@@ -25,6 +25,8 @@ Variables are one of the fundamental building blocks of Python. A variable is li
 
 The variable name will point to a value that you “assign” it. You might think about variable assignment like putting a value “into” the variable, as if the variable is a little box 🎁
 
+(In fact, a variable is not a container as such but more like an adress label that **points** to a container with a given value. This difference will become relevant once we start talking about lists and *mutable* data types.)
+
 You assign variables with an equals = sign. In Python, a single equals sign = is the “assignment operator.” (A double equals sign == is the “real” equals sign.)
 
 *   Variables are names for values.
@@ -50,6 +52,9 @@ Variables:
 *   *may* contain an underscore (typically used to separate words in long variable names)
 *   Underscores at the start like `__alistairs_real_age` have a special meaning
     so we won't do that until we understand the convention.
+*   The standard naming convention for variable names in Python is the so-called "snake case", 
+    where each word is separated by an underscore. For `example my_first_variable`.  
+    You can read more about naming conventions in Python here: (https://peps.python.org/pep-0008/#naming-conventions)[https://peps.python.org/pep-0008/#naming-conventions]
 
 ### Use meaningful variable names
 
@@ -102,7 +107,8 @@ You can run the `print()` function inside the Jupyter environment, too. This is 
 *   Call the function (i.e., tell Python to run it) by using its name.
 *   Provide values to the function (i.e., the things to print) in parentheses.
 *   To add a string to the printout, wrap the string in single or double quotations.
-*   The values passed to the function are called 'arguments'.
+*   The values passed to the function are called 'arguments' and are separated by commas.
+*   When using the `print()` function, we can also separate with a '+' sign. However, when using '+' we have to add spaces in between manually.
 
 ~~~
 print(first_name, 'is', age, 'years old')
@@ -118,9 +124,7 @@ Ahmed is 42 years old
 
 ## Variables must be created before they are used
 
-*   If a variable doesn't exist yet, or if the name has been mis-spelled,
-    Python reports an error.
-    *   Unlike some languages, which "guess" a default value.
+If a variable doesn't exist yet, or if the name has been mis-spelled, Python reports an error (unlike some languages, which "guess" a default value).
 
 ~~~
 print(eye_color)
@@ -221,7 +225,7 @@ Note that the result is 6 and not 7. This is because it lengt of the value of th
 
 Also note that nested functions are evaluated from the inside out, just like in mathematics. Thus, Python first reads the `len()` function, then the `print()` function.
 
-## Exercises:
+## Exercises
 
 > ## Choosing a Name
 >

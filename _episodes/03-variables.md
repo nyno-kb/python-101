@@ -54,7 +54,7 @@ Variables:
     so we won't do that until we understand the convention.
 *   The standard naming convention for variable names in Python is the so-called "snake case", 
     where each word is separated by an underscore. For example `my_first_variable`.  
-    You can read more about naming conventions in Python here: (https://peps.python.org/pep-0008/#naming-conventions)[https://peps.python.org/pep-0008/#naming-conventions]
+    You can read more about naming conventions in Python here: [https://peps.python.org/pep-0008/#naming-conventions](https://peps.python.org/pep-0008/#naming-conventions)
 
 ### Use meaningful variable names
 
@@ -104,7 +104,6 @@ Ahmed
 You can run the `print()` function inside the Jupyter environment, too. This is sometimes useful because Jupyter will only display the last variable in a cell, while `print()` can display multiple variables. Additionally, Jupyter will display text with `\n` characters (which means “new line”), while `print()` will display the text appropriately formatted with new lines.
 
 *   Python has a built-in function called `print()` that prints things as text.
-*   Call the function (i.e., tell Python to run it) by using its name.
 *   Provide values to the function (i.e., the things to print) in parentheses.
 *   To add a string to the printout, wrap the string in single or double quotations.
 *   The values passed to the function are called 'arguments' and are separated by commas.

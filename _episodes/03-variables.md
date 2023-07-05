@@ -81,9 +81,7 @@ print(ewr_422_yY, 'is', flabadab, 'years old')
 
 ### Off-Limits Names
 
-The only variable names that are off-limits are names that are reserved by, or built into, the Python programming language itself — such as `print`, `True`, and `list`.
-
-This is not something to worry too much about. You’ll know very quickly if a name is reserved by Python because it will show up in green and often give you an error message.
+The only variable names that are off-limits are names that are reserved by, or built into, the Python programming language itself — such as `print`, `True`, and `list`.  Some of these you can overwrite into variable names (not ideal!), but Jupyter Labs will catch this by colour coding your variable.  If your would-be variable is colour-coded green, rethink your name choice.  This is not something to worry too much about. You can get the object back by reseting your kernel.
 
 ## Use `print` to display values
 
@@ -138,7 +136,7 @@ NameError: name 'eye_color' is not defined
 ~~~
 {: .error}
 
-*   The last line of an error message is usually the most informative.
+*   The last line of an error message is usually the most informative. This message lets us know that there is no variable called eye_color in the script.
 <!-- *   We will look at error messages in detail [later]({{ page.root }}/05-error-messages/). -->
 
 > ## Variables Persist Between Cells
@@ -149,6 +147,7 @@ NameError: name 'eye_color' is not defined
 > * Notice the number in the square brackets `[ ]` to the left of the cell.
 > * These numbers indicate the order, in which the cells have been executed.
 > * Cells with lower numbers will affect cells with higher numbers as Python runs the cells chronologically.
+> * As a best practice, we recommend you keep your notebook in chronological order so that it is easier for the human eye to read and make sense of, as well as to avoid any errors if you close and reopen your project, and then rerun what you have done.
 >
 > Remember: Notebook cells are just a way to organize a program!\
 > As far as Python is concerned, all of the source code is one long set of instructions.
@@ -168,6 +167,8 @@ print('Age in three years:', age)
 Age in three years: 45
 ~~~
 {: .output}
+
+This code works in the following way.  We are reassigning the value of the variable `age`| by taking its previous value (42) and adding 3, thus getting our new value of 45.
 
 ## Use an index to get a single character from a string
 
@@ -192,18 +193,7 @@ h
 
 ## Use a slice to get a substring
 
-*   A part of a string is called a substring. A substring can be as short as a
-    single character.
-*   An item in a list is called an element. Whenever we treat a string as if it
-    were a list, the string's elements are its individual characters.
-*   A slice is a part of a string (or, more generally, any list-like thing).
-*   We take a slice by using `[start:stop]`, where `start` is replaced with the
-    index of the first element we want and `stop` is replaced with the index of
-    the element just after the last element we want.
-*   Mathematically, you might say that a slice selects `[start:stop]`.
-*   The difference between stop and start is the slice's length.
-*   Taking a slice does not change the contents of the original string. Instead,
-    the slice is a copy of part of the original string.
+A part of a string is called a substring. A substring can be as short as a single character. A slice is a part of a string (or, more generally, any list-like thing). We take a slice by using `[start:stop]`, where `start` is replaced with the index of the first element we want and `stop` is replaced with the index of the element just after the last element we want. Mathematically, you might say that a slice selects `[start:stop]`. The difference between stop and start is the slice's length. Taking a slice does not change the contents of the original string. Instead, the slice is a copy of part of the original string.
 
 ~~~
 element = 'sodium'
@@ -218,16 +208,36 @@ sod
 ## Use the built-in function `len` to find the length of a string
 
 ~~~
-print(len('helium'))
+element = 'helium'
+print(len(element))
 ~~~
 {: .python}
 ~~~
 6
 ~~~
 {: .output}
+Why is the length 6 letters and not 7?
 
 *   Nested functions are evaluated from the inside out,
     just like in mathematics.
+## Choosing a Name
+>
+> Which is a better variable name, `m`, `min`, or `minutes`?
+> Why?
+> Hint: think about which code you would rather inherit
+> from someone who is leaving the library:
+>
+> 1. `ts = m * 60 + s`
+> 2. `tot_sec = min * 60 + sec`
+> 3. `total_seconds = minutes * 60 + seconds`
+>
+> > ## Solution
+> >
+> > `minutes` is better because `min` might mean something like "minimum"
+> > (and actually does in Python, but we haven't seen that yet).
+> {: .solution}
+{: .challenge}
+
 
 > ## Swapping Values
 >
@@ -302,24 +312,6 @@ print(len('helium'))
 > > TypeError: 'int' object is not subscriptable
 > > ~~~
 > > {: .error}
-> {: .solution}
-{: .challenge}
-
-> ## Choosing a Name
->
-> Which is a better variable name, `m`, `min`, or `minutes`?
-> Why?
-> Hint: think about which code you would rather inherit
-> from someone who is leaving the library:
->
-> 1. `ts = m * 60 + s`
-> 2. `tot_sec = min * 60 + sec`
-> 3. `total_seconds = minutes * 60 + seconds`
->
-> > ## Solution
-> >
-> > `minutes` is better because `min` might mean something like "minimum"
-> > (and actually does in Python, but we haven't seen that yet).
 > {: .solution}
 {: .challenge}
 

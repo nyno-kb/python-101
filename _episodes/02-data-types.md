@@ -463,15 +463,15 @@ In this example above we state that 666 is equal to 777, which it is not. Theref
 <tbody>
 <tr class="row-even">
 <td><p><code>x or y</code></p></td>
-<td><p>if either <i>x</i> or <i>y</i> is true, then <code>True</code>, else <code>False</code></p></td>
+<td><p>if either x or y is true, then <code>True</code>, else <code>False</code></p></td>
 </tr>
 <tr class="row-odd">
 <td><p><code>x and y</code></p></td>
-<td><p>if both <i>x</i> and <i>y</i> is true, then <code>True</code>, else <code>False</code></p>></td>
+<td><p>if both x and y is true, then <code>True</code>, else <code>False</code></p></td>
 </tr>
 <tr class="row-even">
 <td><p><code>not x</code></p></td>
-<td><p>if <i>x</i> is false, then <code>True</code>, else <code>False</code></p></td>
+<td><p>if x is false, then <code>True</code>, else <code>False</code></p></td>
 </tr>
 </tbody>
 </table>

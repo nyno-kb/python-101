@@ -216,12 +216,12 @@ print(len(element))
 6
 ~~~
 {: .output}
-Why is the length 6 letters and not 7?
 
-*   Nested functions are evaluated from the inside out,
-    just like in mathematics.
+Note that the result is 6 and not 7. This is because it lengt of the value of the variable (i.e. 'helium') that is being counted and not the name of the variable (i.e. `element`)
 
-## Choosing a Name
+Also note that nested functions are evaluated from the inside out, just like in mathematics. Thus, Python first reads the len() function, then the print() function.
+
+> ## Choosing a Name
 >
 > Which is a better variable name, `m`, `min`, or `minutes`?
 > Why?

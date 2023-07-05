@@ -220,6 +220,7 @@ Why is the length 6 letters and not 7?
 
 *   Nested functions are evaluated from the inside out,
     just like in mathematics.
+
 ## Choosing a Name
 >
 > Which is a better variable name, `m`, `min`, or `minutes`?

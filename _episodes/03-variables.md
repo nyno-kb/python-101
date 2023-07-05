@@ -9,7 +9,7 @@ objectives:
 - "Correctly trace value changes in programs that use assignment."
 keypoints:
 - "Use variables to store values."
-- "Use `print` to display values."
+- "Use `print()` to display values."
 - "Variables persist between cells."
 - "Variables must be created before they are used."
 - "Variables can be used in calculations."
@@ -83,9 +83,9 @@ print(ewr_422_yY, 'is', flabadab, 'years old')
 
 The only variable names that are off-limits are names that are reserved by, or built into, the Python programming language itself — such as `print`, `True`, and `list`.  Some of these you can overwrite into variable names (not ideal!), but Jupyter Labs will catch this by colour coding your variable.  If your would-be variable is colour-coded green, rethink your name choice.  This is not something to worry too much about. You can get the object back by reseting your kernel.
 
-## Use `print` to display values
+## Use `print()` to display values
 
-We can check to see what’s “inside” variables by running a cell with the variable’s name. This is one of the handiest features of a Jupyter notebook. Outside the Jupyter environment, you would need to use the `print` function to display the variable.
+We can check to see what’s “inside” variables by running a cell with the variable’s name. This is one of the handiest features of a Jupyter notebook. Outside the Jupyter environment, you would need to use the `print()` function to display the variable.
 
 ~~~
 first_name
@@ -96,9 +96,9 @@ Ahmed
 ~~~
 {: .output}
 
-You can run the `print` function inside the Jupyter environment, too. This is sometimes useful because Jupyter will only display the last variable in a cell, while `print` can display multiple variables. Additionally, Jupyter will display text with `\n` characters (which means “new line”), while `print` will display the text appropriately formatted with new lines.
+You can run the `print()` function inside the Jupyter environment, too. This is sometimes useful because Jupyter will only display the last variable in a cell, while `print()` can display multiple variables. Additionally, Jupyter will display text with `\n` characters (which means “new line”), while `print()` will display the text appropriately formatted with new lines.
 
-*   Python has a built-in function called `print` that prints things as text.
+*   Python has a built-in function called `print()` that prints things as text.
 *   Call the function (i.e., tell Python to run it) by using its name.
 *   Provide values to the function (i.e., the things to print) in parentheses.
 *   To add a string to the printout, wrap the string in single or double quotations.
@@ -113,7 +113,7 @@ Ahmed is 42 years old
 ~~~
 {: .output}
 
-*   `print` automatically puts a single space between items to separate them.
+*   `print()` automatically puts a single space between items to separate them.
 *   And wraps around to a new line at the end.
 
 ## Variables must be created before they are used

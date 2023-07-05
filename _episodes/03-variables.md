@@ -221,6 +221,8 @@ Note that the result is 6 and not 7. This is because it lengt of the value of th
 
 Also note that nested functions are evaluated from the inside out, just like in mathematics. Thus, Python first reads the `len()` function, then the `print()` function.
 
+## Exercises:
+
 > ## Choosing a Name
 >
 > Which is a better variable name, `m`, `min`, or `minutes`?

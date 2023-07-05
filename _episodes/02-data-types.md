@@ -431,7 +431,7 @@ Booleans are “truth” values. They report on whether things in your Python un
 True
 ~~~
 {: .output}
-In this example above we state that 13 is less than 17 - which returns True because 13 is less than 17.
+In this example above we state that 13 is less than 17 - which returns `True` because 13 is less than 17.
 ~~~
 "hello" == "hi"
 ~~~
@@ -440,7 +440,7 @@ In this example above we state that 13 is less than 17 - which returns True beca
 False
 ~~~
 {: .output}
-In the example above we state that 'hello' is equal to 'hi', which in the computers understanding it is not. 
+In the example above we state that 'hello' is equal to 'hi', which in the computers understanding it is not. Therefore, we get `False` as the output.
 ~~~
 666 == 777
 ~~~
@@ -449,9 +449,10 @@ In the example above we state that 'hello' is equal to 'hi', which in the comput
 False
 ~~~
 {: .output}
-In this example above we state that 666 is equal to 777, which it is not. Therefore, we get False as the output. 
+In this example above we state that 666 is equal to 777, which it is not. Therefore, we get `False` as the output. 
 
-These are the Boolean operations, ordered by ascending priority:
+### Table of Boolean operations:
+
 <table class="colwidths-auto table" style="border:1px solid black">
 <thead>
 <tr class="row-odd">
@@ -462,21 +463,21 @@ These are the Boolean operations, ordered by ascending priority:
 <tbody>
 <tr class="row-even">
 <td><p><code>x or y</code></p></td>
-<td><p>if <i>x</i> is true, then <i>x</i>, else <i>y</i></p></td>
+<td><p>if either x or y is true, then <code>True</code>, else <code>False</code></p></td>
 </tr>
 <tr class="row-odd">
 <td><p><code>x and y</code></p></td>
-<td><p>if <i>x</i> is false, then <i>x</i>, else <i>y</i></p></td>
+<td><p>if both x and y is true, then <code>True</code>, else <code>False</code></p></td>
 </tr>
 <tr class="row-even">
 <td><p><code>not x</code></p></td>
-<td><p>if <i>x</i> is false, then <code>True</code>, else <code>False</code></p></td>
+<td><p>if x is false, then <code>True</code>, else <code>False</code></p></td>
 </tr>
 </tbody>
 </table>
 
 ## Comparisons
-You can compare values in Python using different comparison operations. Comparisons are used to compare different values and objects in Python. Which we will learn much more about later. For now take a look at the comparisions and their meaning in the table underneath. 
+You can compare values in Python using different comparison operations. Comparisons are used to compare different values and objects in Python, which we will learn much more about later. For now take a look at the comparisions and their meaning in the table underneath. 
 ##### This table summarizes the comparison operations:
 <table class="colwidths-auto table" style="border:1px solid black">
 <thead>

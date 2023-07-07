@@ -198,9 +198,7 @@ In Python, strings are ordered sequences of character data, and thus can be inde
 
 String indexing in Python is zero-based: the first character in the string has index 0, the next has index 1, and so on. The index of the last character will be the length of the string minus one. It can be illustrated like this: 
 
-![Indexcolor](assets\img\Indexone.PNG)
-
-![Index1](../../../../../../../../../C:/Users/nyno/OneDrive%20-%20Det%20Kgl.%20Bibliotek/Dokumenter/Python/Git/python-101/assets/img/Indexone.PNG)
+![Index](../../../../../C:/Users/nyno/python-101/assets/img/Indexone.PNG)
 
 The individual characters can be accessed by index:
 

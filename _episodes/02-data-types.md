@@ -198,7 +198,6 @@ In Python, strings are ordered sequences of character data, and thus can be inde
 
 String indexing in Python is zero-based: the first character in the string has index 0, the next has index 1, and so on. The index of the last character will be the length of the string minus one. It can be illustrated like this: 
 
-![Index](../../../../../C:/Users/nyno/python-101/assets/img/Indexone.PNG)
 
 The individual characters can be accessed by index:
 
@@ -352,6 +351,7 @@ However, it does not work as a percentage although it might look like one. Inste
 {: .output}
 These are just a few of the mathmathical operations in Python - see the table below from Python’s documentation about [Built-in Types](https://docs.python.org/3/library/stdtypes.html).
 
+#### More mathemathical operators
 <details>
 <summary style="display:list-item"><i>Click here to see more mathmathical operators</i><br><br></summary>
 

@@ -198,7 +198,7 @@ In Python, strings are ordered sequences of character data, and thus can be inde
 
 String indexing in Python is zero-based: the first character in the string has index 0, the next has index 1, and so on. The index of the last character will be the length of the string minus one. It can be illustrated like this: 
 
-![Indexcolor](../assets/img/indexcolor1.png)
+![index](../assets/img/index1.png)
 
 The individual characters can be accessed by index:
 
@@ -350,8 +350,9 @@ However, it does not work as a percentage although it might look like one. Inste
 2
 ~~~
 {: .output}
-These are just a few of the mathmathical operations in Python - see the table below from Python’s documentation about [Built-in Types](https://docs.python.org/3/library/stdtypes.html).
 
+#### More mathemathical operators
+These are just a few of the mathmathical operations in Python - see the table below from Python’s documentation about [Built-in Types](https://docs.python.org/3/library/stdtypes.html).
 <details>
 <summary style="display:list-item"><i>Click here to see more mathmathical operators</i><br><br></summary>
 
@@ -419,7 +420,6 @@ These are just a few of the mathmathical operations in Python - see the table be
 </table>
 
 </details>
-
 ## Booleans
 Booleans are “truth” values. They report on whether things in your Python universe are `True` or `False`. There are the only two options for a boolean: `True` or `False`. The boolean operators are **or**, **and**, and **not**. They are used to check if certain conditions are met before the program continues running. This is extremely helpful and even if it seems a bit confusing right now, it will make sense later. Here are a few examples of using boolean logic. 
 

@@ -12,24 +12,24 @@ questions:
 # Running Python
 
 Before you can run, you must first walk (or slither).  
-In order to get Python to run on your machine, you need to either download it directly or run it through an intermediary.  There are many different ways to do this.  We will highlight three possibilities, but for those that prefer another method, RealPython has compiled a broader list.  Be aware that one has a limited number of ‘reads’ before the RealPython website requests you make an account with them.  You can get around this issue by opening a ‘private browsing’ tab and reading it there. The abovementioned guide can be found [here](https://realpython.com/installing-python/). For the purposes of this course any of these options will work just fine.  If you are looking for the simplest solution so that you can get your feet wet in the world of python programing, we would reccomend you check out methods 2 and 3.
+In order to get Python to run on your machine, you need to either download it directly or run it through an intermediary.  There are many different ways to do this.  We will highlight three possibilities, but for those that prefer another method, [RealPython](https://realpython.com/installing-python/) has compiled a broader list.  (Be aware that one has a limited number of ‘reads’ before the RealPython website requests you make an account with them.  You can get around this issue by opening a ‘private browsing’ tab and reading it there.) For the purposes of this course any of these options will work just fine.  If you are looking for the simplest solution so that you can get your feet wet in the world of Python programing, we would recommend you check out methods 2 and 3.
 
-### Method 1: Installing Python and Jupyter Notebooks
+### Method 1: Installing Python and Jupyter Lab / Jupyter Notebook
 
- The first of the three options we would like to highlight is installing Python and Jupyter Notebooks.  This installs the software directly on to your computer.  It is slightly technical, as you will have to initiate the program through your computer's terminal/powershell, but once running it is far less finicky than the other options with respect to uploading or downloading files that you might use in your coding.  A detailed set of instructions for both Mac and PC users can be found further down this page.
+ The first of the three options we would like to highlight is installing Python and Jupyter Lab / Jupyter Notebook.  This installs the software directly on to your computer.  It is slightly technical, as you will have to initiate the program through your computer's terminal/powershell, but once running it is far less finicky than the other options with respect to uploading or downloading files that you might use in your coding. A detailed set of instructions for both Mac and PC users can be found further down this page.
 
 ### Method 2: Google Colab
 
-Google Colab, along with ERDA, is perhaps the easiest of these three options to get up and  running, as all it requires is a Google account (i.e. a Gmail login).    After you login, you simply create a new notebook and start coding. You can connect your Google Drive to upload files that you want to work with them. If you only upload your files directly to Colab, you can work on them, but they will be erased when you close your session or if your session times out, at which point you will need to re-upload your files.  You can read more about Google Colab [here](https://colab.research.google.com/?utm_source=scs-index).  We would also advise that Google is a corporate third party, who mostly want to sell your data so that other people can sell you stuff that Google predicts you will want (hello age of surveillance capitalism).  While this might not mean much for this course (you might get an ad in your inbox for DataCamp or something), we would urge caution if you are uploading datasets with sensitive data into Google Colab.
+Google Colab, along with ERDA, is perhaps the easiest of these three options to get up and  running, as all it requires is a Google account. After you login, you simply create a new notebook and start coding. You can connect your Google Drive to upload files that you want to work with. If you only upload your files directly to Colab, you can work on them, but they will be erased when you close your session or if your session times out, at which point you will need to re-upload your files. You can read more about Google Colab [here](https://colab.research.google.com/?utm_source=scs-index). We would also advise that Google is a corporate third party, who mostly want to sell your data so that other people can sell you stuff that Google predicts you will want (hello age of surveillance capitalism).  While this might not mean much for this course (you might get an ad in your inbox for DataCamp or something), we would urge caution if you are uploading datasets with sensitive data into Google Colab.
 
-### Method 3: KUs ERDA
+### Method 3: KU's ERDA
 
 Copenhagen University provides its students and staff with access to its 
-Electronic Research Data Archive (ERDA).  ERDA includes a built-in copy of Jupyter Notebooks, which runs the newest version of Python.  Simply select the Jupyter Notebooks icon after logging in, then select Start DAG, and continue on to your coding space.  Be aware that ERDA cannot read local files off of your computer so you must, like Google Colab, upload any files you wish to work with.  Unlike Google Colab, however, ERDA will maintain your files over time, saving you the trouble of worrying about different file pathways in your code.  ERDA's self description as well as its terms and conditions can be read [here](https://www.erda.dk/).
+Electronic Research Data Archive (ERDA). ERDA includes a built-in copy of Jupyter Notebook, which runs the newest version of Python. Simply select the Jupyter Notebook icon after logging in, then select Start DAG, and continue on to your coding space. Be aware that ERDA cannot read local files off of your computer so you must, like Google Colab, upload any files you wish to work with.  Unlike Google Colab, however, ERDA will maintain your files over time, saving you the trouble of worrying about different file pathways in your code.  ERDA's self description as well as its terms and conditions can be read [here](https://www.erda.dk/).
 
 ## How to Install Python on macOS
 Python 2 comes preinstalled on older versions of macOS. This is no longer the case for current versions of macOS, [starting with macOS Catalina](https://developer.apple.com/documentation/macos-release-notes/macos-catalina-10_15-release-notes#Scripting-Language-Runtimes).  
-No mattter which version of macOS you have installed, we would still like you to install Python 3.
+No mattter which version of macOS you have installed, we would like you to install Python 3.
 
 ### How to Check Your Python Version on a Mac
 To check which Python version you have on your Mac, first open a command-line application, such as [Terminal](https://support.apple.com/guide/terminal/welcome/mac).
@@ -65,9 +65,9 @@ python3 --version
 {: .python}
 <br>
 <br>
-If you have Python on your system, then one or more of these commands should respond with a version number.
+If you have Python on your system, one or more of these commands should respond with a version number.
 
-For example, if Python 3.11.4 were already set up on your computer, then the python3 command would display that version number:
+For example, if Python 3.11.5 is already set up on your computer, then the python3 command will display that version number:
 
 ~~~
 python3 --version
@@ -75,7 +75,7 @@ python3 --version
 {: .python}
 
 ~~~
-Python 3.11.4
+Python 3.11.5
 ~~~
 {: .output}
 
@@ -85,10 +85,10 @@ Python 3.11.4
 > **We recommend that you skip this installation as it is slow and tedious and should be solved by the Python installation process described below.**
 {: .callout}
 
-You’ll want to get the latest version of Python if any of these conditions is true:
+You’ll want to get the latest version of Python if any of these conditions are true:
 * None of the above commands returns a version number.
 * The only version you see displayed is in the Python 2.X series.
-* You have a version of Python 3 that isn’t the latest available, which was version 3.11.4 as of this writing.
+* You have a version of Python 3 that isn’t the latest available, which was version 3.11.5 as of this writing. (You can find the newest version number [here](https://www.python.org/downloads/).)
 
 ### How to Install From the Official Installer
 Installing Python from the official installer is the most reliable installation method on macOS. It includes all the system dependencies needed for developing applications with Python.
@@ -99,7 +99,7 @@ You can install from the official installer in two steps.
 Follow these steps to download the full installer:
 
 1. Open a browser window and navigate to the Python.org [Downloads page for macOS](https://www.python.org/downloads/mac-osx/).
-2. Under the “Python Releases for Mac OS X” heading, click the link for the ***Latest Python 3 Release - Python 3.x.x***. As of this writing, the latest version was Python 3.11.4.
+2. Under the “Python Releases for Mac OS X” heading, click the link for the ***Latest Python 3 Release - Python 3.x.x***. As of this writing, the latest version was Python 3.11.5.
 3. Scroll to the bottom and click ***macOS 64-bit installer*** to start the download.
 
 When the installer is finished downloading, move on to the next step.
@@ -149,7 +149,7 @@ python --version
 
 If you have Python installed then this command should respond with a version number:
 ~~~
-Python 3.11.4
+Python 3.11.5
 ~~~
 {:  .output}
 
@@ -159,7 +159,7 @@ Python 3.11.4
 
 You’ll want to get the latest version of Python if any of these conditions is true:
 * The command above does not return a version number.
-* You have a version of Python 3 that isn’t the latest available, which was version 3.9.12 as of this writing.
+* You have a version of Python 3 that isn’t the latest available, which was version 3.11.5 as of this writing. (You can find the newest version number [here](https://www.python.org/downloads/).)
 
 ### How to Install From the Official Installer
 Installing Python from the official installer is the most reliable installation method on Windows. It includes all the system dependencies needed for developing applications with Python. However, it can cause some trouble, so read the following guide carefully. 
@@ -170,7 +170,7 @@ You can install from the official installer in two steps.
 Follow these steps to download the full installer:
 
 1. Open a browser window and navigate to [Python.org](https://www.python.org/).
-2. In the drop down menu called "Downloads" click the link for the ***Latest Python 3 Release - Python 3.x.x***. As of this writing, the latest version was Python 3.11.4.
+2. In the drop down menu called "Downloads" click the link for the ***Latest Python 3 Release - Python 3.x.x***. As of this writing, the latest version was Python 3.11.5.
 3. The download should start instantly.
 
 When the installer is finished downloading, move on to the next step.
@@ -210,7 +210,7 @@ python --version
 
 Now this should return the version of Python you have just installed
 ~~~
-Python 3.11.4
+Python 3.11.5
 ~~~
 {:  .output}
 

@@ -82,6 +82,7 @@ python3 --version
 Python 3.11.5
 ~~~
 {: .output}
+<br/>
 
 > ## Notice
 >

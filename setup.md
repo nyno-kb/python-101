@@ -115,15 +115,6 @@ Follow these steps to complete the installation:
 
 Congratulations—you now have the latest version of Python 3 on your macOS computer!
 
-
-
-
-
-## Getting started with Google Colab
-
-Since you will be working in Google Colab, we recommend that you read this introduction before taking this course:  
-[https://colab.research.google.com/](https://colab.research.google.com/)
-
 ## How to Install Python on Windows
 As mentioned above there are several ways of installing Python on your Windows computer. The following guide works by downloading the latest version of Python from [Python.org](https://www.python.org/). But before we you do that it is a good idea to check whether a version on Python is already on your computer.
 

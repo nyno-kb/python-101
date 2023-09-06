@@ -120,42 +120,6 @@ this is not a string
 
 It doesn’t matter whether you use single or double quotation marks with strings, as long as you use the same kind on either side of the string.
 
-<!-- <details>
-<summary style="display:list-item"><font size="+2">Bonus: Escape characters </font><br><br></summary>
-<html>
-<body>
-If you need to include a single or double quotation mark inside of a string, then you need to either:</body>
-</html>
-<ul>
-<li>use the opposite kind of quotation mark inside the string </li>
-<li>or “escape” the quotation mark by using a backslash `\` before it </li>
-</ul>
-<html>
-<body> A backslash character `\` tells Python to treat the next character like a normal character and to ignore any special meaning.
-</body>
-</html>
-
-> ## Bonus
->
-> How can you have quotationmarks inside a string?
->
-> ### Escape characters
-> Escape characters and how to tell Python to igonre special meanings. This can be handy if you need to make quotationmarks inside a string. This can be done in two ways 
-> *   use the opposite kind of quotation mark inside the string
-> *   or “escape” the quotation mark by using a backslash `\` before it
-> ~~~
-> "She exclaimed, 'This is a quotation inside a string!'"
-> ~~~
-> {: .python}
-> 
-> ~~~
-> "She exclaimed, \"This is also a quotation inside a string!\""
-> ~~~
-> {: .python}
-> 
-{: .challenge}
-</details> -->
-
 > ## Bonus
 >
 > How can you have quotation marks inside a string?
@@ -177,32 +141,6 @@ If you need to include a single or double quotation mark inside of a string, the
 > > {: .python}
 > {: .solution}
 {: .challenge}
-
-<!-- >> <details>
-> <summary style="display:list-item"><font size="+2">Bonus: Escape characters </font><br><br></summary>
->
-> If you need to include a single or double quotation mark _inside_ of a string, then you need to either:
->
-> *   use the opposite kind of quotation mark inside the string
-> *   or “escape” the quotation mark by using a backslash `\` before it
->
-> A backslash character `\` tells Python to treat the next character like a normal character and to ignore any special meaning.
-{: .callout}
-
- </details> -->
- 
-
-
-<!--~~~
-"She exclaimed, 'This is a quotation inside a string!''"
-~~~
-{: .python}
-
-~~~
-"She exclaimed, \"This is also a quotation inside a string!\""
-~~~
-{: .python} -->
-
 
 ## String Methods
 

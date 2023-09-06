@@ -171,7 +171,7 @@ Age in three years: 45
 ~~~
 {: .output}
 
-This code works in the following way.  We are reassigning the value of the variable `age`| by taking its previous value (42) and adding 3, thus getting our new value of 45.
+This code works in the following way.  We are reassigning the value of the variable `age` by taking its previous value (42) and adding 3, thus getting our new value of 45.
 
 ## Use an index to get a single character from a string
 
@@ -210,6 +210,7 @@ sod
 
 ## Use the built-in function `len()` to find the length of a string
 
+The built-in function `len()` is used to find the length of a string (and later, of other data types, too).
 ~~~
 element = 'helium'
 print(len(element))
@@ -220,7 +221,7 @@ print(len(element))
 ~~~
 {: .output}
 
-Note that the result is 6 and not 7. This is because it lengt of the value of the variable (i.e. `'helium'`) that is being counted and not the name of the variable (i.e. `element`)
+Note that the result is 6 and not 7. This is because it is the length of the *value* of the variable (i.e. `'helium'`) that is being counted and not the *name* of the variable (i.e. `element`)
 
 Also note that nested functions are evaluated from the inside out, just like in mathematics. Thus, Python first reads the `len()` function, then the `print()` function.
 

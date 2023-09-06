@@ -9,6 +9,8 @@ questions:
 
 [How to Install Python on Windows](#how-to-install-python-on-windows)
 
+
+
 # Running Python
 
 Before you can run, you must first walk (or slither).  
@@ -205,7 +207,7 @@ Python 3.11.5
 ~~~
 {:  .output}
 
-## Jupyter Lab (Jupyter Notebook)
+## Jupyter Lab (Jupyter Notebook) - for both MAC and Windows
 Now you need to install Jupyter Lab, the Integrated development environment (IDE) we will be using in this course. (If you prefer to use Jupyter Notebook instead of Jupyter Lab, that is just fine.)  
 We will install this from the Terminal (Mac) or PowerShell (Windows) using PIP. PIP is a package manager which allows you to easily install and manage Python libraries and packages - don't worry if this doesnt make a lot of sense right now, we will get back to what that means in the course.  
 PIP should have been installed together with Python. (If this did not happen see the Tip box below.)  

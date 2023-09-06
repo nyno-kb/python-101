@@ -5,8 +5,8 @@ exercises: 10
 questions:
 - "How can I store data in programs?"
 objectives:
-- "Write programs that assign values to variables and perform calculations with those values."
-- "Correctly trace value changes in programs that use assignment."
+- "Write scripts that assign values to variables and perform calculations with those values."
+- "Correctly trace value changes in scripts that use assignment."
 keypoints:
 - "Use variables to store values."
 - "Use `print()` to display values."
@@ -23,17 +23,17 @@ keypoints:
 
 Variables are one of the fundamental building blocks of Python. A variable is like a tiny container where you store values and data, such as filenames, words, numbers, collections of words and numbers, and more.
 
-The variable name will point to a value that you “assign” it. You might think about variable assignment like putting a value “into” the variable, as if the variable is a little box 🎁
+The variable *name* will point to a value that you “assign” it. You might think about variable assignment like putting a value “into” the variable, as if the variable is a little box 🎁
 
 (In fact, a variable is not a container as such but more like an adress label that points to a container with a given value. This difference will become relevant once we start talking about *lists* and *mutable* data types.)
 
-You assign variables with an equals = sign. In Python, a single equals sign = is the “assignment operator.” (A double equals sign == is the “real” equals sign.)
+You assign variables with an equals sign (`=`). In Python, a single equals sign = is the “assignment operator.” (A double equals sign `==` is the “real” equals sign.)
 
 *   Variables are names for values.
 *   In Python the `=` symbol assigns the value on the right to the name on the left.
 *   The variable is created when a value is assigned to it.
 *   Here, Python assigns an age to a variable `age`
-    and a name in quotation marks to a variable `first_name`.
+    and a name in quotation marks to a variable `first_name`:
 
 ~~~
 age = 42
@@ -47,15 +47,15 @@ Variable names can be as long or as short as you want, but there are certain rul
 
 Variables:
 
-*   cannot start with a digit
-*   cannot contain spaces, quotation marks, or other punctuation
-*   *may* contain an underscore (typically used to separate words in long variable names)
-*   Underscores at the start like `__alistairs_real_age` have a special meaning
-    so we won't do that until we understand the convention.
+*   Cannot start with a digit.
+*   Cannot contain spaces, quotation marks, or other punctuation.
+*   *May* contain an underscore (typically used to separate words in long variable names).
+*   Having an underscore at the beginning of a variable name like `__alistairs_real_age` has a special meaning.
+    So we won't do that until we understand the convention.
 *   The standard naming convention for variable names in Python is the so-called "snake case", 
     where each word is separated by an underscore.\
     For example `my_first_variable`.\
-    You can read more about naming conventions in Python here: [https://peps.python.org/pep-0008/#naming-conventions](https://peps.python.org/pep-0008/#naming-conventions)
+    You can read more about naming conventions in Python [here](https://peps.python.org/pep-0008/#naming-conventions).
 
 ### Use meaningful variable names
 

@@ -5,7 +5,7 @@ title: Setup
 
 [How to Install Python on macOS](#how-to-install-python-on-macos)
 
-[How to Install Python on Windows](https://pryn-kb.github.io/python-101/setup.html#how-to-install-python-on-windows)
+[How to Install Python on Windows](#how-to-install-python-on-windows)
 
 # Running Python
 

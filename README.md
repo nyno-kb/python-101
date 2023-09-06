@@ -1,6 +1,6 @@
 # FIXME Lesson title
 Siden er her: 
-https://kubdatalab.github.io/python-101/
+https://kubdatalab.github.io/python-for-absolute-beginners/
 This repository generates the corresponding lesson website from [The Carpentries](https://carpentries.org/) repertoire of lessons. 
 
 ## Contributing

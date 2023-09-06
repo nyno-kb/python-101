@@ -235,14 +235,19 @@ Now you are ready to learn how to code in Python!
 <br/><br/>
 
 > ## Tip
->If PIP was not installed together with Python follow these steps
-> 1.    Check if you have PIP installed	
+>If PIP was not installed together with Python follow these steps. In the example we write `pip3` and `python3` - but you may also use `pip` or `python`. If one does not work, try the other.  
+> 1.    Check if you have PIP installed	by typing the following into the Terminal/PowerShell
 >~~~
->pip --version
+>pip3 --version
 >~~~
 >{: .python}
->This returns the version of PIP you have installed if any, if the command does not return a pip version you need to do the following:
->2.     
+>This returns the version of PIP you have installed, if any, in case the command does not return a PIP version you need to do the following:
+> 2.    Use ensurepip to install PIP from Python. Type the following in your Terminal/PowerShell
+>~~~
+>python3 -m ensurepip
+>~~~
+>{: .python}
+>This command will install PIP. Afterwards you can check by runnung the `pip3 --version` command.  
 {: .callout}
 
 

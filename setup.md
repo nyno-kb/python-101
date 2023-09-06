@@ -1,5 +1,7 @@
 ---
 title: Setup
+questions:
+- "How to run Python?"
 ---
 
 

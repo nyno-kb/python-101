@@ -9,7 +9,7 @@ questions:
 
 [How to Install Python on Windows](#how-to-install-python-on-windows)
 
-
+[How to Install Jupyter Lab - for both MAC and Windows](#jupyter-lab-jupyter-notebook---for-both-mac-and-windows)
 
 # Running Python
 

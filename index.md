@@ -11,7 +11,7 @@ permalink: index.html  # Is the only page that doesn't follow the pattern /:path
 
 > ## Prerequisites
 >
-> *Before attending this course, please follow the "Setup" guide below.*
+> **Before attending this course, please follow the "Setup" guide below.**
 {: .prereq}
 
 {% include links.md %}

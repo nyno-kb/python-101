@@ -3,19 +3,20 @@ title: "Data Types"
 teaching: 20
 exercises: 0
 questions:
-- "What kind of data types exists in Python?"
+- "What kind of data types exist in Python?"
 - "What are the key differences between the data types?"
 objectives:
 - "Understand the essential data types in Python"
+- "Explain what a string is, and what you can do with it"
 - "Explain the differences between integers and floats"
-- "Explain what a string is, and what you can do with it"  
+- "Explain what a boolean is, and how to use comparisons"
 keypoints:
 - "There are 4 data types in Python: Integers, floats, strings, and booleans"
 - "You can use the built-in function `type()` to find the type of a value"
 - "Integers are whole numbers. You can use mathemethical operations on them"
 - "Floats are decimal numbers. You can use mathemathical opreations on them" 
 - "Strings are text, they can be added to one another, you can slice them to get a substring, and use the index to acess the individual character"
-- "Booleans are either True or False "
+- "Booleans are either True or False"
 ---
 ## Data Types
 
@@ -90,6 +91,7 @@ str
 ~~~
 {: .output}
 The output `str` is short for string.
+<br/>
 ~~~
 type(42)
 ~~~
@@ -119,6 +121,7 @@ this is not a string
 {: .python}
 
 It doesn’t matter whether you use single or double quotation marks with strings, as long as you use the same kind on either side of the string.
+<br/>
 
 > ## Bonus
 >
@@ -158,6 +161,7 @@ In Python, strings are ordered sequences of character data, and thus can be inde
 String indexing in Python is zero-based: the first character in the string has index 0, the next has index 1, and so on. The index of the last character will be the length of the string minus one. It can be illustrated like this: 
 
 ![index](../assets/img/index1.png)
+<br/>
 
 The individual characters can be accessed by index:
 
@@ -472,6 +476,7 @@ You can compare values in Python using different comparison operations. Comparis
 </tr>
 </tbody>
 </table>
+<br/>
 
 > ## Notice the difference between a single equals sign `=` and a double equals sign `==`
 > 
@@ -479,3 +484,4 @@ You can compare values in Python using different comparison operations. Comparis
 > *   A single equals sign `=` is used for variable assignment (We will learn more about this in the lesson about variables)
 {: .callout}
 
+<br/>

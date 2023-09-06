@@ -214,8 +214,8 @@ Python 3.11.5
 
 ## Jupyter Lab (Jupyter Notebook) - for both MAC and Windows
 Now you need to install Jupyter Lab, the Integrated development environment (IDE) we will be using in this course. (If you prefer to use Jupyter Notebook instead of Jupyter Lab, that is just fine.)  
-We will install this from the Terminal (Mac) or PowerShell (Windows) using PIP. PIP is a package manager which allows you to easily install and manage Python libraries and packages - don't worry if this doesnt make a lot of sense right now, we will get back to what that means in the course.  
-PIP should have been installed together with Python. (If this did not happen see the Tip box below.)  
+We will install this from the Terminal (Mac) or PowerShell (Windows) using pip. Pip is a package manager which allows you to easily install and manage Python libraries and packages - don't worry if this doesnt make a lot of sense right now, we will get back to what that means in the course.  
+Pip should have been installed together with Python. (If this did not happen see the Tip box below.)  
 Type the following in the Terminal/PowerShell: 
 ~~~
 pip install jupyterlab
@@ -235,20 +235,21 @@ Now you are ready to learn how to code in Python!
 <br/><br/>
 
 > ## Tip
->If PIP was not installed together with Python follow these steps. In the example we write `pip3` and `python3` - but you may also use `pip` or `python`. If one does not work, try the other.  
-> 1.    Check if you have PIP installed	by typing the following into the Terminal/PowerShell
+>If pip was not installed together with Python follow these steps. In the example we write `pip3` and `python3` - but you may also use `pip` or `python`. If one does not work, try the other.  
+> 1.    Check if you have pip installed	by typing the following into the Terminal/PowerShell
 >~~~
 >pip3 --version
 >~~~
 >{: .python}
->This returns the version of PIP you have it installed.\ 
->In case the command does not return a PIP version you need to do the following:
-> 2.    Use ensurepip to install PIP from Python. Type the following in your Terminal/PowerShell
+>This returns the version of pip you have it installed.\ 
+>In case the command does not return a pip version you need to do the following:
+> 2.    Use ensurepip to install pip from Python. Type the following in your Terminal/PowerShell
 >~~~
 >python3 -m ensurepip
 >~~~
 >{: .python}
->This command will install PIP. Afterwards you can check by runnung the `pip3 --version` command.  
+>This command will install pip. Afterwards you can check by runnung the `pip3 --version` command. 
+>Now you can return to the installation of Jupyter Lab through pip.  
 {: .callout}
 
 

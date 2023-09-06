@@ -99,7 +99,7 @@ You can install from the official installer in two steps.
 Follow these steps to download the full installer:
 
 1. Open a browser window and navigate to the Python.org [Downloads page for macOS](https://www.python.org/downloads/mac-osx/).
-2. Under the “Python Releases for Mac OS X” heading, click the link for the ***Latest Python 3 Release - Python 3.x.x***. As of this writing, the latest version was Python 3.11.5.
+2. Under the “Python Releases for Mac OS X” heading, click the link for the ***Latest Python 3 Release - Python 3.x.x***.
 3. Scroll to the bottom and click ***macOS 64-bit installer*** to start the download.
 
 When the installer is finished downloading, move on to the next step.
@@ -153,7 +153,7 @@ You’ll want to get the latest version of Python if any of these conditions is 
 * You have a version of Python 3 that isn’t the latest available, which was version 3.11.5 as of this writing. (You can find the newest version number [here](https://www.python.org/downloads/).)
 
 ### How to Install From the Official Installer
-Installing Python from the official installer is the most reliable installation method on Windows. It includes all the system dependencies needed for developing applications with Python. However, it can cause some trouble, so read the following guide <u>carefully</u>. 
+Installing Python from the official installer is the most reliable installation method on Windows. It includes all the system dependencies needed for developing applications with Python. However, it can cause some trouble, so <u><b>read the following guide carefully</b></u>. 
 
 You can install from the official installer in two steps.
 
@@ -161,7 +161,7 @@ You can install from the official installer in two steps.
 Follow these steps to download the full installer:
 
 1. Open a browser window and navigate to [Python.org](https://www.python.org/).
-2. In the drop down menu called "Downloads" click the link for the ***Latest Python 3 Release - Python 3.x.x***. As of this writing, the latest version was Python 3.11.5.
+2. In the drop down menu called "Downloads" click the link for the ***Latest Python 3 Release - Python 3.x.x***.
 3. The download should start instantly.
 
 When the installer is finished downloading, move on to the next step.

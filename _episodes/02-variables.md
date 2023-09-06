@@ -9,15 +9,15 @@ objectives:
 - "Correctly trace value changes in scripts that use assignment."
 keypoints:
 - "Use variables to store values."
+- "Use meaningful variable names."
+- "Python is case-sensitive."
 - "Use `print()` to display values."
-- "Variables persist between cells."
 - "Variables must be created before they are used."
+- "Variables persist between cells."
 - "Variables can be used in calculations."
 - "Use an index to get a single character from a string."
 - "Use a slice to get a substring."
 - "Use the built-in function `len` to find the length of a string."
-- "Python is case-sensitive."
-- "Use meaningful variable names."
 ---
 ## Use variables to store values
 

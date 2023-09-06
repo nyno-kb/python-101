@@ -184,7 +184,7 @@ Follow these steps to complete the installation:
 5. Press close to finish the installation
 
 Congratulations—you now have the latest version of Python 3 on your computer!
-<br/>
+<br/><br/>
 
 > ## Tip
 >If you did not click **"Add Python to PATH"** this can be fixed by following these steps:
@@ -232,7 +232,7 @@ jupyter lab
 ~~~
 {: .python}
 Now you are ready to learn how to code in Python!
-<br/>
+<br/><br/>
 
 > ## Tip
 >If PIP was not installed together with Python follow these steps

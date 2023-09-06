@@ -158,18 +158,19 @@ If you need to include a single or double quotation mark inside of a string, the
 
 > ## Bonus
 >
-> How can you have quotationmarks inside a string?
+> How can you have quotation marks inside a string?
 >
 > > ## Escape characters
 > >
-> > Escape characters and how to tell Python to igonre special meanings. This can be handy if you need to make quotationmarks inside a string. This can be done in two ways
+> > Escape characters and how to tell Python to igonre special meanings. This can be handy if you need to make quotation marks inside a string. This can be done in two ways.
 > > 
-> > *   use the opposite kind of quotation mark inside the string
-> > *   or “escape” the quotation mark by using a backslash `\` before it
+> > Use the opposite kind of quotation mark inside the string:
 > > ~~~
 > > "She exclaimed, 'This is a quotation inside a string!'"
 > > ~~~
 > > {: .python}
+> > 
+> > Or “escape” the quotation mark by using a backslash `\` before it:
 > > ~~~
 > > "She exclaimed, \"This is also a quotation inside a string!\""
 > > ~~~

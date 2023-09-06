@@ -158,8 +158,8 @@ The last line of an error message is usually the most informative. This message 
 
 ## Variables can be used in calculations
 
-*   We can use variables in calculations just as if they were values.
-    *   Remember, we assigned 42 to `age` a few lines ago.
+*   We can use variables in calculations just as if they were values.\
+    Remember, we assigned 42 to `age` a few lines ago.
 
 ~~~
 age = age + 3

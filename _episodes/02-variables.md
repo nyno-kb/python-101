@@ -64,9 +64,9 @@ As you start to code, you will almost certainly be tempted to use extremely shor
 
 So, resist the temptation of bad variable names! Clear and precisely-named variables will:
 
-*   make your code more readable (both to yourself and others)
-*   reinforce your understanding of Python and what’s happening in the code
-*   clarify and strengthen your thinking
+*   Make your code more readable (both to yourself and others).
+*   Reinforce your understanding of Python and what’s happening in the code.
+*   Clarify and strengthen your thinking.
 
 ~~~
 flabadab = 42
@@ -74,20 +74,19 @@ ewr_422_yY = 'Ahmed'
 print(ewr_422_yY, 'is', flabadab, 'years old')
 ~~~
 {: .python}
+<br/>
 
-*   Use meaningful variable names to help other people understand what the program does.
-*   The most important "other person" is your future self.
+Use meaningful variable names to help other people understand what the program does.\
+The most important "other person" is your future self!
 
 ### Python is case-sensitive
 
-*   Python thinks that upper- and lower-case letters are different,
-    so `Name` and `name` are different variables.
-*   There are conventions for using upper-case letters at the start of variable names
-    so we will use lower-case letters for now.
+Python thinks that upper- and lower-case letters are different, so `Name` and `name` are different variables.
+There are conventions for using upper-case letters at the start of variable names so we will use lower-case letters for now.
 
 ### Off-Limits Names
 
-The only variable names that are off-limits are names that are reserved by, or built into, the Python programming language itself — such as `print`, `True`, and `list`.  Some of these you can overwrite into variable names (not ideal!), but Jupyter Labs will catch this by colour coding your variable.  If your would-be variable is colour-coded green, rethink your name choice.  This is not something to worry too much about. You can get the object back by reseting your kernel.
+The only variable names that are off-limits are names that are reserved by, or built into, the Python programming language itself — such as `print`, `True`, and `list`.  Some of these you can overwrite into variable names (not ideal!), but Jupyter Lab (and many other environments and editors) will catch this by colour coding your variable.  If your would-be variable is colour-coded green, rethink your name choice.  This is not something to worry too much about. You can get the object back by resetting your kernel.
 
 ## Use `print()` to display values
 
@@ -124,7 +123,7 @@ Ahmed is 42 years old
 
 ## Variables must be created before they are used
 
-If a variable doesn't exist yet, or if the name has been mis-spelled, Python reports an error (unlike some languages, which "guess" a default value).
+If a variable doesn't exist yet, or if the name has been misspelled, Python reports an error (unlike some languages, which "guess" a default value).
 
 ~~~
 print(eye_color)
@@ -140,8 +139,8 @@ NameError: name 'eye_color' is not defined
 ~~~
 {: .error}
 
-*   The last line of an error message is usually the most informative. This message lets us know that there is no variable called eye_color in the script.
-<!-- *   We will look at error messages in detail [later]({{ page.root }}/05-error-messages/). -->
+The last line of an error message is usually the most informative. This message lets us know that there is no variable called eye_color in the script.
+<br/>
 
 > ## Variables Persist Between Cells
 > Variables defined in one cell exist in all other cells once executed,

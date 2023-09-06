@@ -241,7 +241,8 @@ Now you are ready to learn how to code in Python!
 >pip3 --version
 >~~~
 >{: .python}
->This returns the version of PIP you have it installed.\ In case the command does not return a PIP version you need to do the following:
+>This returns the version of PIP you have it installed.\ 
+>In case the command does not return a PIP version you need to do the following:
 > 2.    Use ensurepip to install PIP from Python. Type the following in your Terminal/PowerShell
 >~~~
 >python3 -m ensurepip

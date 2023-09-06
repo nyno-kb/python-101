@@ -140,7 +140,7 @@ NameError: name 'eye_color' is not defined
 {: .error}
 
 The last line of an error message is usually the most informative. This message lets us know that there is no variable called eye_color in the script.
-<br/>
+<br/><br/>
 
 > ## Variables Persist Between Cells
 > Variables defined in one cell exist in all other cells once executed,

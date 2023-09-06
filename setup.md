@@ -116,10 +116,10 @@ Follow these steps to complete the installation:
 Congratulations—you now have the latest version of Python 3 on your macOS computer!
 
 ## How to Install Python on Windows
-As mentioned above there are several ways of installing Python on your Windows computer. The following guide works by downloading the latest version of Python from [Python.org](https://www.python.org/). But before we you do that it is a good idea to check whether a version on Python is already on your computer.
+As mentioned above there are several ways of installing Python on your Windows computer. The following guide works by downloading the latest version of Python from [Python.org](https://www.python.org/). But before you do that it is a good idea to check whether a version on Python is already installed on your computer.
 
 ### How to Check Your Python Version on Windows
-To check if you have any version of Python and which Python you have on Windows, first open a command-line application, such as [Windows PowerShell](https://realpython.com/courses/using-terminal-windows/).
+To check if you have any version of Python and which version you have on Windows, first open a command-line application, such as [Windows PowerShell](https://realpython.com/courses/using-terminal-windows/).
 
 > ## Tip
 > Here’s how you open Windows PowerShell:
@@ -153,7 +153,7 @@ You’ll want to get the latest version of Python if any of these conditions is 
 * You have a version of Python 3 that isn’t the latest available, which was version 3.11.5 as of this writing. (You can find the newest version number [here](https://www.python.org/downloads/).)
 
 ### How to Install From the Official Installer
-Installing Python from the official installer is the most reliable installation method on Windows. It includes all the system dependencies needed for developing applications with Python. However, it can cause some trouble, so read the following guide carefully. 
+Installing Python from the official installer is the most reliable installation method on Windows. It includes all the system dependencies needed for developing applications with Python. However, it can cause some trouble, so read the following guide <u>carefully</u>. 
 
 You can install from the official installer in two steps.
 

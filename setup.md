@@ -148,6 +148,7 @@ If you have Python installed then this command should respond with a version num
 Python 3.11.5
 ~~~
 {:  .output}
+<br/>
 
 > ## Notice
 >If you don't have a version of Python on your computer the above command will launch Microsoft Store where you can find a Python application. ***Do not download this version of Python!*** Instead follow the steps below.  
@@ -183,6 +184,7 @@ Follow these steps to complete the installation:
 5. Press close to finish the installation
 
 Congratulations—you now have the latest version of Python 3 on your computer!
+<br/>
 
 > ## Tip
 >If you did not click **"Add Python to PATH"** this can be fixed by following these steps:
@@ -214,7 +216,7 @@ Python 3.11.5
 Now you need to install Jupyter Lab, the Integrated development environment (IDE) we will be using in this course. (If you prefer to use Jupyter Notebook instead of Jupyter Lab, that is just fine.)  
 We will install this from the Terminal (Mac) or PowerShell (Windows) using PIP. PIP is a package manager which allows you to easily install and manage Python libraries and packages - don't worry if this doesnt make a lot of sense right now, we will get back to what that means in the course.  
 PIP should have been installed together with Python. (If this did not happen see the Tip box below.)  
-Type the following in the PowerShell: 
+Type the following in the Terminal/PowerShell: 
 ~~~
 pip install jupyterlab
 ~~~
@@ -230,6 +232,7 @@ jupyter lab
 ~~~
 {: .python}
 Now you are ready to learn how to code in Python!
+<br/>
 
 > ## Tip
 >If PIP was not installed together with Python follow these steps

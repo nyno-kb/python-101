@@ -185,15 +185,15 @@ Congratulations—you now have the latest version of Python 3 on your computer!
 > 2.	Double click on the Python install file
 > 3.	Click "Modify"
 > 4.	You will see "Optional features"
-> 5.	Click "next"
+> 5.	Click "Next"
 > 6.	Select "Add python to environment variables"
 > 7.	Click "Install"
 {: .callout}
 
 ### Check your version of Python
-Now that you have installed Python, it is a good idea to check if it was done succesfully before we move on to installing Jupyter Lab. Jupyter Lab is the IDE we will use for writing code during the course. 
+Now that you have installed Python, it is a good idea to check if it was done succesfully.
 
-Open the PowerShell and type in: 
+Open PowerShell and write:
 ~~~
 python --version
 ~~~

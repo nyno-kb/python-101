@@ -1,21 +1,22 @@
 ---
 title: "Data Types"
-teaching: 25
+teaching: 20
 exercises: 0
 questions:
-- "What kind of data types exists in Python?"
+- "What kind of data types exist in Python?"
 - "What are the key differences between the data types?"
 objectives:
 - "Understand the essential data types in Python"
+- "Explain what a string is, and what you can do with it"
 - "Explain the differences between integers and floats"
-- "Explain what a string is, and what you can do with it"  
+- "Explain what a boolean is, and how to use comparisons"
 keypoints:
 - "There are 4 data types in Python: Integers, floats, strings, and booleans"
 - "You can use the built-in function `type()` to find the type of a value"
 - "Integers are whole numbers. You can use mathemethical operations on them"
 - "Floats are decimal numbers. You can use mathemathical opreations on them" 
 - "Strings are text, they can be added to one another, you can slice them to get a substring, and use the index to acess the individual character"
-- "Booleans are either True or False "
+- "Booleans are either True or False"
 ---
 ## Data Types
 
@@ -90,6 +91,7 @@ str
 ~~~
 {: .output}
 The output `str` is short for string.
+<br/>
 ~~~
 type(42)
 ~~~
@@ -119,69 +121,29 @@ this is not a string
 {: .python}
 
 It doesn’t matter whether you use single or double quotation marks with strings, as long as you use the same kind on either side of the string.
-
-<details>
-<summary style="display:list-item"><font size="+2">Bonus: Escape characters </font><br><br></summary>
-<html>
-<body>
-If you need to include a single or double quotation mark inside of a string, then you need to either:</body>
-</html>
-<ul>
-<li>use the opposite kind of quotation mark inside the string </li>
-<li>or “escape” the quotation mark by using a backslash `\` before it </li>
-</ul>
-<html>
-<body> A backslash character `\` tells Python to treat the next character like a normal character and to ignore any special meaning.
-</body>
-</html>
-</details>
+<br/>
 
 > ## Bonus
 >
-> How can you have quotationmarks inside a string?
+> How can you have quotation marks inside a string?
 >
-> > ### Escape characters
-> > Escape characters and how to tell Python to igonre special meanings. This can be handy if you need to make quotationmarks inside a string. This can be done in two ways 
-> > *   use the opposite kind of quotation mark inside the string
-> > *   or “escape” the quotation mark by using a backslash `\` before it
+> > ## Escape characters
+> >
+> > Escape characters and how to tell Python to igonre special meanings. This can be handy if you need to make quotation marks inside a string. This can be done in two ways.
+> > 
+> > Use the opposite kind of quotation mark inside the string:
 > > ~~~
 > > "She exclaimed, 'This is a quotation inside a string!'"
 > > ~~~
 > > {: .python}
 > > 
+> > Or “escape” the quotation mark by using a backslash `\` before it:
 > > ~~~
 > > "She exclaimed, \"This is also a quotation inside a string!\""
 > > ~~~
 > > {: .python}
-> > 
 > {: .solution}
 {: .challenge}
-
-<!-- >> <details>
-> <summary style="display:list-item"><font size="+2">Bonus: Escape characters </font><br><br></summary>
->
-> If you need to include a single or double quotation mark _inside_ of a string, then you need to either:
->
-> *   use the opposite kind of quotation mark inside the string
-> *   or “escape” the quotation mark by using a backslash `\` before it
->
-> A backslash character `\` tells Python to treat the next character like a normal character and to ignore any special meaning.
-{: .callout}
-
- </details> -->
- 
-
-
-<!--~~~
-"She exclaimed, 'This is a quotation inside a string!''"
-~~~
-{: .python}
-
-~~~
-"She exclaimed, \"This is also a quotation inside a string!\""
-~~~
-{: .python} -->
-
 
 ## String Methods
 
@@ -199,6 +161,7 @@ In Python, strings are ordered sequences of character data, and thus can be inde
 String indexing in Python is zero-based: the first character in the string has index 0, the next has index 1, and so on. The index of the last character will be the length of the string minus one. It can be illustrated like this: 
 
 ![index](../assets/img/index1.png)
+<br/>
 
 The individual characters can be accessed by index:
 
@@ -513,6 +476,7 @@ You can compare values in Python using different comparison operations. Comparis
 </tr>
 </tbody>
 </table>
+<br/>
 
 > ## Notice the difference between a single equals sign `=` and a double equals sign `==`
 > 
@@ -520,3 +484,4 @@ You can compare values in Python using different comparison operations. Comparis
 > *   A single equals sign `=` is used for variable assignment (We will learn more about this in the lesson about variables)
 {: .callout}
 
+<br/>

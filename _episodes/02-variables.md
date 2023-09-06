@@ -5,35 +5,35 @@ exercises: 10
 questions:
 - "How can I store data in programs?"
 objectives:
-- "Write programs that assign values to variables and perform calculations with those values."
-- "Correctly trace value changes in programs that use assignment."
+- "Write scripts that assign values to variables and perform calculations with those values."
+- "Correctly trace value changes in scripts that use assignment."
 keypoints:
 - "Use variables to store values."
+- "Use meaningful variable names."
+- "Python is case-sensitive."
 - "Use `print()` to display values."
-- "Variables persist between cells."
 - "Variables must be created before they are used."
+- "Variables persist between cells."
 - "Variables can be used in calculations."
 - "Use an index to get a single character from a string."
 - "Use a slice to get a substring."
 - "Use the built-in function `len` to find the length of a string."
-- "Python is case-sensitive."
-- "Use meaningful variable names."
 ---
 ## Use variables to store values
 
 Variables are one of the fundamental building blocks of Python. A variable is like a tiny container where you store values and data, such as filenames, words, numbers, collections of words and numbers, and more.
 
-The variable name will point to a value that you “assign” it. You might think about variable assignment like putting a value “into” the variable, as if the variable is a little box 🎁
+The variable *name* will point to a value that you “assign” it. You might think about variable assignment like putting a value “into” the variable, as if the variable is a little box 🎁
 
 (In fact, a variable is not a container as such but more like an adress label that points to a container with a given value. This difference will become relevant once we start talking about *lists* and *mutable* data types.)
 
-You assign variables with an equals = sign. In Python, a single equals sign = is the “assignment operator.” (A double equals sign == is the “real” equals sign.)
+You assign variables with an equals sign (`=`). In Python, a single equals sign = is the “assignment operator.” (A double equals sign `==` is the “real” equals sign.)
 
 *   Variables are names for values.
 *   In Python the `=` symbol assigns the value on the right to the name on the left.
 *   The variable is created when a value is assigned to it.
 *   Here, Python assigns an age to a variable `age`
-    and a name in quotation marks to a variable `first_name`.
+    and a name in quotation marks to a variable `first_name`:
 
 ~~~
 age = 42
@@ -47,15 +47,15 @@ Variable names can be as long or as short as you want, but there are certain rul
 
 Variables:
 
-*   cannot start with a digit
-*   cannot contain spaces, quotation marks, or other punctuation
-*   *may* contain an underscore (typically used to separate words in long variable names)
-*   Underscores at the start like `__alistairs_real_age` have a special meaning
-    so we won't do that until we understand the convention.
+*   Cannot start with a digit.
+*   Cannot contain spaces, quotation marks, or other punctuation.
+*   *May* contain an underscore (typically used to separate words in long variable names).
+*   Having an underscore at the beginning of a variable name like `__alistairs_real_age` has a special meaning.
+    So we won't do that until we understand the convention.
 *   The standard naming convention for variable names in Python is the so-called "snake case", 
     where each word is separated by an underscore.\
     For example `my_first_variable`.\
-    You can read more about naming conventions in Python here: [https://peps.python.org/pep-0008/#naming-conventions](https://peps.python.org/pep-0008/#naming-conventions)
+    You can read more about naming conventions in Python [here](https://peps.python.org/pep-0008/#naming-conventions).
 
 ### Use meaningful variable names
 
@@ -64,9 +64,9 @@ As you start to code, you will almost certainly be tempted to use extremely shor
 
 So, resist the temptation of bad variable names! Clear and precisely-named variables will:
 
-*   make your code more readable (both to yourself and others)
-*   reinforce your understanding of Python and what’s happening in the code
-*   clarify and strengthen your thinking
+*   Make your code more readable (both to yourself and others).
+*   Reinforce your understanding of Python and what’s happening in the code.
+*   Clarify and strengthen your thinking.
 
 ~~~
 flabadab = 42
@@ -74,20 +74,19 @@ ewr_422_yY = 'Ahmed'
 print(ewr_422_yY, 'is', flabadab, 'years old')
 ~~~
 {: .python}
+<br/>
 
-*   Use meaningful variable names to help other people understand what the program does.
-*   The most important "other person" is your future self.
+Use meaningful variable names to help other people understand what the program does.\
+The most important "other person" is your future self!
 
 ### Python is case-sensitive
 
-*   Python thinks that upper- and lower-case letters are different,
-    so `Name` and `name` are different variables.
-*   There are conventions for using upper-case letters at the start of variable names
-    so we will use lower-case letters for now.
+Python thinks that upper- and lower-case letters are different, so `Name` and `name` are different variables.
+There are conventions for using upper-case letters at the start of variable names so we will use lower-case letters for now.
 
 ### Off-Limits Names
 
-The only variable names that are off-limits are names that are reserved by, or built into, the Python programming language itself — such as `print`, `True`, and `list`.  Some of these you can overwrite into variable names (not ideal!), but Jupyter Labs will catch this by colour coding your variable.  If your would-be variable is colour-coded green, rethink your name choice.  This is not something to worry too much about. You can get the object back by reseting your kernel.
+The only variable names that are off-limits are names that are reserved by, or built into, the Python programming language itself — such as `print`, `True`, and `list`.  Some of these you can overwrite into variable names (not ideal!), but Jupyter Lab (and many other environments and editors) will catch this by colour coding your variable.  If your would-be variable is colour-coded green, rethink your name choice.  This is not something to worry too much about. You can get the object back by resetting your kernel.
 
 ## Use `print()` to display values
 
@@ -124,7 +123,7 @@ Ahmed is 42 years old
 
 ## Variables must be created before they are used
 
-If a variable doesn't exist yet, or if the name has been mis-spelled, Python reports an error (unlike some languages, which "guess" a default value).
+If a variable doesn't exist yet, or if the name has been misspelled, Python reports an error (unlike some languages, which "guess" a default value).
 
 ~~~
 print(eye_color)
@@ -140,8 +139,8 @@ NameError: name 'eye_color' is not defined
 ~~~
 {: .error}
 
-*   The last line of an error message is usually the most informative. This message lets us know that there is no variable called eye_color in the script.
-<!-- *   We will look at error messages in detail [later]({{ page.root }}/05-error-messages/). -->
+The last line of an error message is usually the most informative. This message lets us know that there is no variable called eye_color in the script.
+<br/><br/>
 
 > ## Variables Persist Between Cells
 > Variables defined in one cell exist in all other cells once executed,
@@ -159,8 +158,8 @@ NameError: name 'eye_color' is not defined
 
 ## Variables can be used in calculations
 
-*   We can use variables in calculations just as if they were values.
-    *   Remember, we assigned 42 to `age` a few lines ago.
+*   We can use variables in calculations just as if they were values.\
+    Remember, we assigned 42 to `age` a few lines ago.
 
 ~~~
 age = age + 3
@@ -172,7 +171,7 @@ Age in three years: 45
 ~~~
 {: .output}
 
-This code works in the following way.  We are reassigning the value of the variable `age`| by taking its previous value (42) and adding 3, thus getting our new value of 45.
+This code works in the following way.  We are reassigning the value of the variable `age` by taking its previous value (42) and adding 3, thus getting our new value of 45.
 
 ## Use an index to get a single character from a string
 
@@ -211,6 +210,7 @@ sod
 
 ## Use the built-in function `len()` to find the length of a string
 
+The built-in function `len()` is used to find the length of a string (and later, of other data types, too).
 ~~~
 element = 'helium'
 print(len(element))
@@ -221,7 +221,7 @@ print(len(element))
 ~~~
 {: .output}
 
-Note that the result is 6 and not 7. This is because it lengt of the value of the variable (i.e. `'helium'`) that is being counted and not the name of the variable (i.e. `element`)
+Note that the result is 6 and not 7. This is because it is the length of the *value* of the variable (i.e. `'helium'`) that is being counted and not the *name* of the variable (i.e. `element`)
 
 Also note that nested functions are evaluated from the inside out, just like in mathematics. Thus, Python first reads the `len()` function, then the `print()` function.
 

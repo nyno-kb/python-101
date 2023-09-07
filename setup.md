@@ -235,21 +235,22 @@ Now you are ready to learn how to code in Python!
 <br/><br/>
 
 > ## Tip
->If pip was not installed together with Python follow these steps. In the example we write `pip3` and `python3` - but you may also use `pip` or `python`. If one does not work, try the other.  
-> 1.    Check if you have pip installed	by typing the following into the Terminal/PowerShell
->~~~
->pip3 --version
->~~~
->{: .python}
->This returns the version of pip you have it installed.
->In case the command does not return a pip version you need to do the following:
-> 2.    Use ensurepip to install pip from Python. Type the following in your Terminal/PowerShell
->~~~
->python3 -m ensurepip
->~~~
->{: .python}
->This command will install pip. Afterwards you can check by runnung the `pip3 --version` command. 
->Now you can return to the installation of Jupyter Lab through pip.  
+> If pip was not installed together with Python, follow these steps.\
+> In the example we write `pip3` and `python3` - but you may also use `pip` or `python`. If one does not work, try the other.  
+> 1.    Check if you have pip installed	by typing the following into the Terminal/PowerShell:
+> ~~~
+> pip3 --version
+> ~~~
+> {: .python}
+> This returns the version of pip you have installed.
+> In case the command does not return a pip version, you need to do the following:
+> 2.    Use ensurepip to install pip from Python. Type the following in your Terminal/PowerShell:
+> ~~~
+> python3 -m ensurepip
+> ~~~
+> {: .python}
+> This command will install pip. Afterwards, you can check by running the `pip3 --version` command.\
+> Now you can return to the installation of Jupyter Lab through pip.  
 {: .callout}
 
 

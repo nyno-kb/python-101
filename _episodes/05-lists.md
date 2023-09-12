@@ -175,6 +175,31 @@ TypeError: 'str' object does not support item assignment
 
 *   Lists and character strings are both *collections*.
 
+> ## Bonus
+>
+> Take a look at this code:
+>
+> ~~~
+> element = 'carbon'
+> element = 'helium'
+> print(element)
+> ~~~
+> {: .python}
+> ~~~
+> helium
+> ~~~
+> {: .output}
+>
+> In Python (and many other programming languages), when you use the assignment operator (=) with a variable (**and not a variable index!**), 
+> it doesn't change the original value of the variable. 
+> Instead, it replaces the current value of the variable with the new value on the right-hand side of the assignment.
+>
+> So, in the code above, element initially holds the value 'carbon', but when you execute the second line, it is overwritten with the new value 'helium'.
+> The old value 'carbon' is effectively discarded, and element now contains 'helium'.
+>
+> {: .solution}
+{: .challenge}
+
 ## Indexing beyond the end of the collection is an error
 
 *   Python reports an `IndexError` if we attempt to access a value that doesn't exist.

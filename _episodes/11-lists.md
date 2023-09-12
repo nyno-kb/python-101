@@ -65,7 +65,7 @@ For example, you can append new items, insert items at specific positions, remov
 
 ## Lists' values can be replaced by assigning to them
 
-Use an index expression on the left of assignment to replace a value:
+Use an index expression on the left of the assignment operator (`=`) to replace a value:
 
 ~~~
 temperatures[0] = 16.5
@@ -79,7 +79,7 @@ temperatures is now: [16.5, 17.5, 17.7, 17.5, 17.6]
 
 ## Appending items to a list lengthens it
 
-*   Use `list_name.append` to add items to the end of a list.
+Use `list_name.append` to add items to the end of a list:
 
 ~~~
 print('temperatures is initially:', temperatures)

@@ -27,7 +27,7 @@ keypoints:
 *   Integer (`int`): whole numbers like 3 or -512.
 *   Floating point number (`float`): fractional numbers like 3.14159 or -2.5.
 *   Whole numbers may also be stored as floats, e.g. `1.0`, but `1.0` would still be stored as a `float`.
-*   Character string (usually called "string", `str`): text.
+*   Character string (usually called "string", `str`): text (but not necessarily only letters).
     *   Written in either single quotes or double quotes (as long as they match).
     *   The quotation marks aren't printed using `print()`, but may appear when viewing a value in the Jupyter Notebook or other Python interpreter.
 
@@ -98,9 +98,8 @@ Ahmed Walsh
 ~~~
 {: .output}
 
-*   Multiplying a character string by an integer _N_ creates a new string that consists of that character string repeated  _N_ times.
-    *   Since multiplication is repeated addition.
-* There are more ways that traditional math operators will work on other data types.  There isn't a perfect formula for figuring out what they do, so experimentation is valuable.
+*   Multiplying a character string by an integer _N_ creates a new string that consists of that character string repeated  _N_ times (since multiplication is repeated addition).
+* There are more ways that traditional math operators will work on other data types. There isn't a perfect formula for figuring out what they do, so experimentation is valuable.
 
 ~~~
 separator = '=' * 10
@@ -111,6 +110,9 @@ print(separator)
 ==========
 ~~~
 {: .output}
+
+Here, the variable "separator" is set to the value "=" (equals sign) ten times in a row.
+
 
 ## Strings have a length (but numbers don't)
 

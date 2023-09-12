@@ -194,8 +194,8 @@ TypeError: 'str' object does not support item assignment
 > ~~~
 > {: .output}
 >
-> So, in the code above, element initially holds the value 'carbon', but when you execute the second line, it is overwritten with the new value 'helium'.
-> The old value 'carbon' is effectively discarded, and element now contains 'helium'.
+> In the code above, the variable `element` initially holds the value 'carbon', but when the second line is executed, it is overwritten with the new value 'helium'.
+> The old value 'carbon' is effectively discarded, and `element` now contains 'helium'.
 >
 > In contrast, when assign to a list index:
 >

@@ -9,7 +9,6 @@ questions:
 objectives:
 - "Explain the purpose of functions."
 - "Correctly call built-in Python functions."
-- "Correctly nest calls to built-in functions."
 - "Use help to display documentation for built-in functions."
 - "Correctly describe situations in which SyntaxError and NameError occur."
 keypoints:
@@ -22,7 +21,6 @@ keypoints:
 - "Every function returns something."
 - "Python reports a syntax error when it can't understand the source of a program."
 - "Python reports a runtime error when something goes wrong while a program is executing."
-- "Fix syntax errors by reading the source code, and runtime errors by tracing the program's execution."
 ---
 ## Use comments to add documentation to programs
 
@@ -271,7 +269,7 @@ but after that nothing is returned. Thus, it has a return value of `None`.
 > >    - The result of the `min()` function ('aaah ') is passed as an argument.
 > >    - The `max()` function then compares 'aaah ' with 'ping' and returns the larger of the two strings, which is 'ping'.
 > > 4. **Assignment**: Finally, the value 'ping' is assigned to the variable `word`.
-> > 5. **Output**: The program prints the value of `word`, which is 'ping'!
+> > 5. **Output**: The program prints the value of `word`, which is 'ping'.
 > >
 > {: .solution}
 {: .challenge}
@@ -306,7 +304,7 @@ but after that nothing is returned. Thus, it has a return value of `None`.
 > Why don't `max` and `min` return `None` when they are given no arguments?
 > > ## Solution
 > >
-> > Both functions require an argument to execute
+> > Both functions require at least one argument to execute.
 > > ~~~
 > > print(max())
 > > ~~~

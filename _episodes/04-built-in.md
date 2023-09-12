@@ -261,20 +261,20 @@ but after that nothing is returned. Thus, it has a return value of `None`.
 > > ping
 > > ~~~
 > > {: .output}
->{: .solution}
-> 
-> 1. **Initialization**: `word` is assigned the initial value `'blah '`.
+> {: .solution}
+>
+> 1. **Initialization**: `word` is assigned the initial value 'blah '.
 > 
 > 2. **Inside `max()` function**:
->    - `word * 2` results in `'blah blah '`. (Repeats the string `'blah '` twice using `*`.)
->    - `'blah blah ' + 'blur '` results in `'blah blah blur '`. (Concatenates the two strings using `+`.)
->    - `'aaah '` is compared with `'blah blah blur '`. The `min()` function returns the smaller of the two strings, which is `'aaah '`.
+>    - `word * 2` results in 'blah blah '. (Repeats the string 'blah ' twice using `*`.)
+>    - `'blah blah ' + 'blur '` results in 'blah blah blur '. (Concatenates the two strings using `+`.)
+>    - 'aaah ' is compared with 'blah blah blur '. The `min()` function returns the smaller of the two strings, which is 'aaah '.
 > 
 > 3. **Outer `max()` function**:
->    - The result of the `min()` function (`'aaah '`) is passed as an argument.
->    - The `max()` function then compares `'aaah '` with `'ping'` and returns the larger of the two strings, which is `'ping'`.
+>    - The result of the `min()` function ('aaah ') is passed as an argument.
+>    - The `max()` function then compares 'aaah ' with 'ping' and returns the larger of the two strings, which is 'ping'.
 > 
-> 4. **Assignment**: Finally, the value `'ping'` is assigned to the variable `word`.
+> 4. **Assignment**: Finally, the value 'ping' is assigned to the variable `word`.
 > 
 > 5. **Output**: The program prints the value of `word`, which is 'ping'.
 > 

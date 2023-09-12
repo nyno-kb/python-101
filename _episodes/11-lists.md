@@ -1,7 +1,7 @@
 ---
 title: "Lists"
-teaching: 10
-exercises: 10
+teaching: 15
+exercises: 15
 questions:
 - "How can I store multiple values?"
 objectives:
@@ -21,13 +21,12 @@ keypoints:
 ---
 ## A list stores many values in a single structure
 
-*   Scenario: You have set up an Arduino to do temperature measurements
-    in a storage room for rare books.
+Scenario: You have set up an thermometer to do temperature measurements in a storage room for rare books.
 *   Doing calculations with a hundred variables called `temperature_001`, `temperature_002`, etc.,
     would be at least as slow as doing them by hand.
 *   Use a *list* to store many values together.
-    *   Contained within square brackets `[...]`.
-    *   Values separated by commas `,`.
+    *   List itmes are contained within square brackets `[...]`.
+    *   List values are separated by commas `,`.
 *   Use `len` to find out how many values are in a list.
 
 ~~~
@@ -44,7 +43,8 @@ length: 5
 
 ## Use an item's index to fetch it from a list
 
-*   Just like strings.
+*   Just like with strings, we can use index to find a given value in a list.
+*   And just like with strings, the elements in a list are 0-indexed. (See lesson about [Data Types](../01-data-types/index.html#index).)
 
 ~~~
 print('zeroth item of temperatures:', temperatures[0])

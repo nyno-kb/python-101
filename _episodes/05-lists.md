@@ -98,7 +98,6 @@ temperatures has become: [16.5, 17.5, 17.7, 17.5, 17.6, 17.9, 18.2]
 *   `append` is a *method* of lists.
     *   Like a function, but tied to a particular object.
 *   Use `object_name.method_name` to call methods.
-    *   Deliberately resembles the way we refer to things in a library.
 *   We will meet other methods of lists as we go along.
     *   Use `help(list)` for a preview.
 
@@ -108,15 +107,15 @@ temperatures has become: [16.5, 17.5, 17.7, 17.5, 17.6, 17.9, 18.2]
 *   Not a function or a method, but a statement in the language.
 
 ~~~
-primes = [2, 3, 5, 7, 11]
-print('primes before removing last item:', primes)
-del primes[4]
-print('primes after removing last item:', primes)
+numbers = [2, 3, 5, 7, 11]
+print('numbers before removing last item:', numbers)
+del numbers[4]
+print('numbers after removing last item:', numbers)
 ~~~
 {: .python}
 ~~~
-primes before removing last item: [2, 3, 5, 7, 11]
-primes after removing last item: [2, 3, 5, 7]
+numbers before removing last item: [2, 3, 5, 7, 11]
+numbers after removing last item: [2, 3, 5, 7]
 ~~~
 {: .output}
 

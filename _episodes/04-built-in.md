@@ -26,9 +26,13 @@ keypoints:
 ---
 ## Use comments to add documentation to programs
 
+When coding, it is always a good idea to write comments explaining what the code does - and why.\
+Comments will help other people understand what the program does.\
+Just like we spoke about in regards to meaningful variable names, the most important “other person” is your future self!
+
 ~~~
 # This sentence isn't executed by Python.
-name = 'Library Carpentry'   # Neither is this comment - anything after '#' is ignored.
+name = 'Python for Absolute Beginners'   # Neither is this comment - anything after '#' is ignored.
 ~~~
 {: .python}
 

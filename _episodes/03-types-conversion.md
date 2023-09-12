@@ -377,13 +377,25 @@ first is 2 and second is 5
 > {: .python}
 >
 > > ## Solution
+> >
 > > What do you expect this program to do? It would not be so unreasonable to
 > > expect the Python `int` command to convert the string "3.4" to 3.4 and an
 > > additional type conversion to 3. After all, Python performs a lot of other
 > > magic - isn't that part of its charm?
 > >
-> > However, Python throws an error. Why? To be consistent, possibly. If you
-> > ask Python to perform two consecutive typecasts, you must convert it
+> > However, Python throws an error. Why? To be consistent, possibly.
+> >
+> > ~~~
+> > ---------------------------------------------------------------------------
+> > ValueError                                Traceback (most recent call last)
+> > Cell In[1], line 1
+> > ----> 1 print("fractional string to int:", int("3.4"))
+> > 
+> > ValueError: invalid literal for int() with base 10: '3.4'
+> > ~~~
+> > {: .error}
+> >
+> > If you ask Python to perform two consecutive typecasts, you must convert it
 > > explicitly in code.
 > >
 > > ~~~

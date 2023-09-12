@@ -212,7 +212,8 @@ TypeError: 'str' object does not support item assignment
 > ~~~
 > {: .output}
 >
-> We don't overwrite the variable `elements` but rather we change the content of the zeroth index.
+> We don't overwrite the variable `elements` but rather we change the content of the zeroth index.\
+> Thus, the difference between *immutable* and *mutable* data types.
 >
 {: .callout}
 

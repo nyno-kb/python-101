@@ -154,8 +154,7 @@ round(...)
 
 ## Python reports a syntax error when grammar rules (that's Python grammar, not English grammar) have been violated
 
-*   You've seen errors when you try to use a function incorrectly.
-    * Can also have errors when you use punctuation incorrectly.
+You've seen errors when you try to use a function incorrectly, but you can also have errors when you use punctuation incorrectly.
 *   Python will run the program up until that point, but if the grammar of that line
     of code has produced an error, then the program will shut down with an error.
 
@@ -165,7 +164,9 @@ name = 'Feng
 ~~~
 {: .python}
 ~~~
-SyntaxError: EOL while scanning string literal
+    name = 'Feng
+           ^
+SyntaxError: unterminated string literal
 ~~~
 {: .error}
 
@@ -186,18 +187,14 @@ print("hello world"
 ~~~
 {: .python}
 ~~~
-  File "<ipython-input-6-d1cc229bf815>", line 1
-    print ("hello world"
-                        ^
-SyntaxError: unexpected EOF while parsing
+  Cell In[1], line 1
+    print("hello world"
+                       ^
+SyntaxError: incomplete input
 ~~~
 {: .error}
 
-*   The message indicates a problem on first line of the input ("line 1").
-    *   In this case the "ipython-input" section of the file name tells us that
-        we are working with input into IPython.
-*   The `-6-` part of the filename indicates that
-    the error occurred in cell 6 of our Notebook.
+*   The message indicates a problem in cell number 1 on first line of the input ("line 1").
 *   Next is the problematic line of code,
     indicating the problem with a `^` pointer.
 

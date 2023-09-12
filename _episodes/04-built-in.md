@@ -281,7 +281,7 @@ but after that nothing is returned. Thus, it has a return value of `None`.
 >
 > 1. Predict what each of the `print` statements in the program below will print.
 > 2. Does `max(len(rich), poor)` run or produce an error message?
->    If it runs, does its result make sense to you?
+>    If it runs, does its result make sense to you? (Remember that we are comparing the _value_ of the variable and not the _name_ of the variable.)
 >
 > ~~~
 > rich = "gold"

@@ -100,7 +100,7 @@ print(max(1, 'a'))
 ~~~
 {: .python}
 ~~~
-TypeError: unorderable types: str() > int()
+TypeError: '>' not supported between instances of 'str' and 'int'
 ~~~
 {: .error}
 
@@ -289,7 +289,7 @@ result of print is None
 > > ~~~
 > > {: .python}
 > > ~~~
-> > TypeError: max expected 1 arguments, got 0
+> > TypeError: max expected at least 1 argument, got 0
 > > ~~~
 > > {: .error}
 >{: .solution}

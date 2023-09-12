@@ -177,17 +177,19 @@ TypeError: 'str' object does not support item assignment
 
 > ## Notice the difference between overwriting and changing values
 >
-> In Python (and many other programming languages), when you use the assignment operator (`=`) with a variable (*and not a variable index!*), 
+> In Python, when you use the assignment operator (`=`) with a variable (*and not a variable index!*), 
 > it doesn't change the original value of the variable. 
 > Instead, it replaces the current value of the variable with the new value on the right-hand side of the assignment.
 >
 > ~~~
 > element = 'carbon'
+> print(element)
 > element = 'helium'
 > print(element)
 > ~~~
 > {: .python}
 > ~~~
+> carbon
 > helium
 > ~~~
 > {: .output}
@@ -199,6 +201,7 @@ TypeError: 'str' object does not support item assignment
 >
 > ~~~
 > elements = ['carbon', 'helium']
+> print(elements)
 > elements[0] = 'hydrogen'
 > print(elements)
 > ~~~

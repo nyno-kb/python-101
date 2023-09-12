@@ -143,9 +143,9 @@ TypeError: object of type 'int' has no len()
 ~~~
 {: .error}
 
-## Must convert numbers to strings or vice versa when operating on them
+## You must convert numbers to strings or vice versa when operating on them
 
-*   Cannot add numbers and strings.
+*   You cannot add numbers and strings.
 
 ~~~
 print(1 + 'A')
@@ -161,7 +161,7 @@ TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ~~~
 {: .error}
 
-*   Not allowed because it's ambiguous: should `1 + '2'` be `3` or `'12'`?
+*   This is not allowed because it's ambiguous: should `1 + '2'` be `3` or `'12'`?
 *   Some types can be converted to other types by using the type name as a function.
 
 ~~~
@@ -175,7 +175,7 @@ print(str(1) + '2')
 ~~~
 {: .output}
 
-## Can mix integers and floats freely in operations
+## You can mix integers and floats freely in operations
 
 *   Integers and floating-point numbers can be mixed in arithmetic.
     *   Python automatically converts integers to floats as needed.
@@ -318,12 +318,12 @@ first is 2 and second is 5
 > > remainder = num_students % num_per_class
 > >
 > > print(num_students, 'students,', num_per_class, 'per class')
-> > print(num_classes, ' full classes, plus an extra class with only ', remainder, 'students')
+> > print(num_classes, 'full classes, plus an extra class with only', remainder, 'students')
 > > ~~~
 > > {: .python}
 > > ~~~
 > > 600 students, 42 per class
-> > 14  full classes, plus an extra class with only  12 students
+> > 14 full classes, plus an extra class with only 12 students
 > > ~~~
 > > {: .output}
 > {: .solution}

@@ -87,6 +87,9 @@ A
 ~~~
 {: .output}
 
+<br/>
+To see more built-in functions, visit the [Python Documentation](https://docs.python.org/3/library/functions.html)
+
 ## Functions may only work for certain (combinations of) arguments
 
 *   `max` and `min` must be given at least one argument.
@@ -101,6 +104,7 @@ TypeError: unorderable types: str() > int()
 ~~~
 {: .error}
 
+<br/>
 The error message tells us, that we cannot compare strings and integers.
 
 ## Functions may have default values for some arguments
@@ -127,8 +131,6 @@ round(3.712, 1)
 3.7
 ~~~
 {: .output}
-
-To see more built-in functions, visit the [Python Documentation](https://docs.python.org/3/library/functions.html)
 
 ## Use the built-in function `help` to get help for a function
 

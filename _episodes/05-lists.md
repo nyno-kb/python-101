@@ -128,16 +128,21 @@ numbers after removing last item: [2, 3, 5, 7]
 
 ## Lists may contain items of different types
 
-*   A single list may contain numbers, strings, and anything else.
+A single list may contain numbers, strings, and anything else.
 
 ~~~
 goals = [1, 'Create lists.', 2, 'Extract items from lists.', 3, 'Modify lists.']
+print(goals)
 ~~~
 {: .python}
+~~~
+[1, 'Create lists.', 2, 'Extract items from lists.', 3, 'Modify lists.']
+~~~
+{: .output}
 
 ## Character strings can be indexed like lists
 
-*   Get single characters from a character string using indexes in square brackets.
+Get single characters from a character string using indexes in square brackets.
 
 ~~~
 element = 'carbon'

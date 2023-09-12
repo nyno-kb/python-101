@@ -15,8 +15,8 @@ keypoints:
 - "Types control what operations can be done on values."
 - "Strings can be added and multiplied."
 - "Strings have a length (but numbers don't)."
-- "Must convert numbers to strings or vice versa when operating on them."
-- "Can mix integers and floats freely in operations."
+- "Preventing Errors: Handling numbers and strings in Python operations."
+- "Integers and floats can be mixed freely in operations."
 - "Variables only change value when something is assigned to them."
 ---
 ## Recap from lesson about Data Types
@@ -143,7 +143,7 @@ TypeError: object of type 'int' has no len()
 ~~~
 {: .error}
 
-## You must convert numbers to strings or vice versa when operating on them
+## Preventing Errors: Handling numbers and strings in Python Operations
 
 *   You cannot add numbers and strings.
 
@@ -175,7 +175,7 @@ print(str(1) + '2')
 ~~~
 {: .output}
 
-## You can mix integers and floats freely in operations
+## Integers and floats can be mixed freely in operations
 
 *   Integers and floating-point numbers can be mixed in arithmetic.
     *   Python automatically converts integers to floats as needed.

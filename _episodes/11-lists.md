@@ -3,31 +3,32 @@ title: "Lists"
 teaching: 15
 exercises: 15
 questions:
-- "How can I store multiple values?"
+- "How can I store multiple items?"
 objectives:
-- "Explain why programs need collections of values."
+- "Explain why programs need collections of items."
 - "Write programs that create flat lists, index them, slice them, and modify them through assignment and method calls."
 keypoints:
-- "A list stores many values in a single structure."
+- "A list stores many items in a single structure."
 - "Use an item's index to fetch it from a list."
-- "Lists' values can be replaced by assigning to them."
+- "Lists' items can be replaced by assigning to them."
 - "Appending items to a list lengthens it."
 - "Use `del` to remove items from a list entirely."
-- "The empty list contains no values."
-- "Lists may contain values of different types."
+- "The empty list contains no items."
+- "Lists may contain items of different types."
 - "Character strings can be indexed like lists."
 - "Character strings are immutable."
 - "Indexing beyond the end of the collection is an error."
 ---
-## A list stores many values in a single structure
+## A list stores many items in a single structure
 
 Scenario: You have set up an thermometer to do temperature measurements in a storage room for rare books.
 *   Doing calculations with a hundred variables called `temperature_001`, `temperature_002`, etc.,
     would be at least as slow as doing them by hand.
-*   Use a *list* to store many values together.
-    *   List itmes are contained within square brackets `[...]`.
-    *   List values are separated by commas `,`.
-*   Use `len` to find out how many values are in a list.
+*   Use a *list* to store many items together.
+    *   List items are contained within square brackets `[...]`.
+    *   List items are separated by commas `,`.
+    *   List items are ordered by their index number.
+*   Use `len` to find out how many items are in a list.
 
 ~~~
 temperatures = [17.3, 17.5, 17.7, 17.5, 17.6]
@@ -43,7 +44,7 @@ length: 5
 
 ## Use an item's index to fetch it from a list
 
-*   Just like with strings, we can use index to find a given value in a list.
+*   Just like with strings, we can use index to find a given item in a list.
 *   And just like with strings, the elements in a list are 0-indexed. (See lesson about [Data Types](../01-data-types/index.html#index).)
 
 ~~~
@@ -63,7 +64,7 @@ In Python, _mutable_ data types, such as lists, are data structures that can be 
 
 For example, you can append new items, insert items at specific positions, remove items, and change the values of existing items in a list. This behavior contrasts with _immutable_ data types, like integers, floats, and strings, where once created, their contents cannot be altered without creating a new object. (This was briefly mentioned in the lesson about [Variables and Assignment](../02-variables/index.html#use-variables-to-store-values).)
 
-## Lists' values can be replaced by assigning to them
+## Lists' items can be replaced by assigning to them
 
 Use an index expression on the left of the assignment operator (`=`) to replace a value:
 
@@ -119,14 +120,14 @@ primes after removing last item: [2, 3, 5, 7]
 ~~~
 {: .output}
 
-## The empty list contains no values
+## The empty list contains no items
 
-*   Use `[]` on its own to represent a list that doesn't contain any values.
+*   Use `[]` on its own to represent a list that doesn't contain any items.
     *   "The zero of lists."
 *   Helpful as a starting point for collecting values
     (which we will see in the [next episode]({{page.root}}/12-for-loops/)).
 
-## Lists may contain values of different types
+## Lists may contain items of different types
 
 *   A single list may contain numbers, strings, and anything else.
 

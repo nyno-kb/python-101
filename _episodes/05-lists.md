@@ -142,7 +142,7 @@ print(goals)
 
 ## Character strings can be indexed like lists
 
-Get single characters from a character string using indexes in square brackets.
+Remember that you can get single characters from a character string using indexes in square brackets:
 
 ~~~
 element = 'carbon'
@@ -158,7 +158,7 @@ third character: b
 
 ## Character strings are immutable
 
-*   Cannot change the characters in a string after it has been created.
+*   Cannot alter the characters in a string after it has been created.
     *   *Immutable*: cannot be changed after creation.
     *   In contrast, lists are *mutable*: they can be modified in place.
 *   Python considers the string to be a single value with parts,

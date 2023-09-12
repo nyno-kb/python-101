@@ -1,34 +1,34 @@
 ---
 title: "Lists"
-teaching: 10
-exercises: 10
+teaching: 15
+exercises: 15
 questions:
-- "How can I store multiple values?"
+- "How can I store multiple items?"
 objectives:
-- "Explain why programs need collections of values."
+- "Explain why programs need collections of items."
 - "Write programs that create flat lists, index them, slice them, and modify them through assignment and method calls."
 keypoints:
-- "A list stores many values in a single structure."
+- "A list stores many items in a single structure."
 - "Use an item's index to fetch it from a list."
-- "Lists' values can be replaced by assigning to them."
+- "Lists' items can be replaced by assigning to them."
 - "Appending items to a list lengthens it."
 - "Use `del` to remove items from a list entirely."
-- "The empty list contains no values."
-- "Lists may contain values of different types."
+- "The empty list contains no items."
+- "Lists may contain items of different types."
 - "Character strings can be indexed like lists."
 - "Character strings are immutable."
 - "Indexing beyond the end of the collection is an error."
 ---
-## A list stores many values in a single structure
+## A list stores many items in a single structure
 
-*   Scenario: You have set up an Arduino to do temperature measurements
-    in a storage room for rare books.
+Scenario: You have set up an thermometer to do temperature measurements in a storage room for rare books.
 *   Doing calculations with a hundred variables called `temperature_001`, `temperature_002`, etc.,
     would be at least as slow as doing them by hand.
-*   Use a *list* to store many values together.
-    *   Contained within square brackets `[...]`.
-    *   Values separated by commas `,`.
-*   Use `len` to find out how many values are in a list.
+*   Use a *list* to store many items together.
+    *   List items are contained within square brackets `[...]`.
+    *   List items are separated by commas `,`.
+    *   List items are ordered by their index number.
+*   Use `len` to find out how many items are in a list.
 
 ~~~
 temperatures = [17.3, 17.5, 17.7, 17.5, 17.6]
@@ -44,7 +44,8 @@ length: 5
 
 ## Use an item's index to fetch it from a list
 
-*   Just like strings.
+*   Just like with strings, we can use index to find a given item in a list.
+*   And just like with strings, the elements in a list are 0-indexed. (See lesson about [Data Types]({{page.root}}/01-data-types/index.html#index).)
 
 ~~~
 print('zeroth item of temperatures:', temperatures[0])
@@ -57,9 +58,15 @@ fourth item of temperatures: 17.6
 ~~~
 {: .output}
 
-## Lists' values can be replaced by assigning to them
+## Lists are mutable
 
-*   Use an index expression on the left of assignment to replace a value.
+In Python, _mutable_ data types, such as lists, are data structures that can be modified or changed after they are created. This means you can add, remove, or modify elements within a list without creating a new list.
+
+For example, you can append new items, insert items at specific positions, remove items, and change the values of existing items in a list. This behavior contrasts with _immutable_ data types, like integers, floats, and strings, where once created, their contents cannot be altered without creating a new object. (This was briefly mentioned in the lesson about [Variables and Assignment]({{page.root}}/02-variables/index.html#use-variables-to-store-values).)
+
+## Lists' items can be replaced by assigning to them
+
+Use an index expression on the left of the assignment operator (`=`) to replace a value:
 
 ~~~
 temperatures[0] = 16.5
@@ -73,7 +80,7 @@ temperatures is now: [16.5, 17.5, 17.7, 17.5, 17.6]
 
 ## Appending items to a list lengthens it
 
-*   Use `list_name.append` to add items to the end of a list.
+Use `list_name.append` to add items to the end of a list:
 
 ~~~
 print('temperatures is initially:', temperatures)
@@ -91,7 +98,6 @@ temperatures has become: [16.5, 17.5, 17.7, 17.5, 17.6, 17.9, 18.2]
 *   `append` is a *method* of lists.
     *   Like a function, but tied to a particular object.
 *   Use `object_name.method_name` to call methods.
-    *   Deliberately resembles the way we refer to things in a library.
 *   We will meet other methods of lists as we go along.
     *   Use `help(list)` for a preview.
 
@@ -101,37 +107,42 @@ temperatures has become: [16.5, 17.5, 17.7, 17.5, 17.6, 17.9, 18.2]
 *   Not a function or a method, but a statement in the language.
 
 ~~~
-primes = [2, 3, 5, 7, 11]
-print('primes before removing last item:', primes)
-del primes[4]
-print('primes after removing last item:', primes)
+numbers = [2, 3, 5, 7, 11]
+print('numbers before removing last item:', numbers)
+del numbers[4]
+print('numbers after removing last item:', numbers)
 ~~~
 {: .python}
 ~~~
-primes before removing last item: [2, 3, 5, 7, 11]
-primes after removing last item: [2, 3, 5, 7]
+numbers before removing last item: [2, 3, 5, 7, 11]
+numbers after removing last item: [2, 3, 5, 7]
 ~~~
 {: .output}
 
-## The empty list contains no values
+## The empty list contains no items
 
-*   Use `[]` on its own to represent a list that doesn't contain any values.
+*   Use `[]` on its own to represent a list that doesn't contain any items.
     *   "The zero of lists."
 *   Helpful as a starting point for collecting values
-    (which we will see in the [next episode]({{page.root}}/12-for-loops/)).
+    (which we will see in the next episode about [For Loops]({{page.root}}/06-for-loops/)).
 
-## Lists may contain values of different types
+## Lists may contain items of different types
 
-*   A single list may contain numbers, strings, and anything else.
+A single list may contain numbers, strings, and anything else.
 
 ~~~
 goals = [1, 'Create lists.', 2, 'Extract items from lists.', 3, 'Modify lists.']
+print(goals)
 ~~~
 {: .python}
+~~~
+[1, 'Create lists.', 2, 'Extract items from lists.', 3, 'Modify lists.']
+~~~
+{: .output}
 
 ## Character strings can be indexed like lists
 
-*   Get single characters from a character string using indexes in square brackets.
+Remember that you can get single characters from a character string using indexes in square brackets:
 
 ~~~
 element = 'carbon'
@@ -147,7 +158,7 @@ third character: b
 
 ## Character strings are immutable
 
-*   Cannot change the characters in a string after it has been created.
+*   Cannot alter the characters in a string after it has been created.
     *   *Immutable*: cannot be changed after creation.
     *   In contrast, lists are *mutable*: they can be modified in place.
 *   Python considers the string to be a single value with parts,
@@ -164,12 +175,52 @@ TypeError: 'str' object does not support item assignment
 
 *   Lists and character strings are both *collections*.
 
+> ## Notice the difference between overwriting and changing values
+>
+> In Python, when you use the assignment operator (`=`) with a variable (*and not a variable index!*), 
+> it doesn't change the original value of the variable. 
+> Instead, it replaces the current value of the variable with the new value on the right-hand side of the assignment.
+>
+> ~~~
+> element = 'carbon'
+> print(element)
+> element = 'helium'
+> print(element)
+> ~~~
+> {: .python}
+> ~~~
+> carbon
+> helium
+> ~~~
+> {: .output}
+>
+> In the code above, the variable `element` initially holds the value 'carbon', but when the second line is executed, it is overwritten with the new value 'helium'.
+> The old value 'carbon' is effectively discarded, and `element` now contains 'helium'.
+>
+> In contrast, when assigning to a list index:
+>
+> ~~~
+> elements = ['carbon', 'helium']
+> print(elements)
+> elements[0] = 'hydrogen'
+> print(elements)
+> ~~~
+> {: .python}
+> ~~~
+> ['carbon', 'helium']
+> ['hydrogen', 'helium']
+> ~~~
+> {: .output}
+>
+> We don't overwrite the variable `elements` but rather we change the content of the zeroth index.\
+> Thus, the difference between *immutable* and *mutable* data types.
+>
+{: .callout}
+
 ## Indexing beyond the end of the collection is an error
 
 *   Python reports an `IndexError` if we attempt to access a value that doesn't exist.
-    *   This is a kind of runtime error.
-    *   Cannot be detected as the code is parsed
-        because the index might be calculated based on data.
+    *   This is a kind of [runtime error]({{page.root}}/04-built-in/index.html#python-reports-a-runtime-error-when-something-goes-wrong-while-a-program-is-executing).
 
 ~~~
 print('99th element of element is:', element[99])

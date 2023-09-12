@@ -13,7 +13,7 @@ keypoints:
 - "Every value has a type."
 - "Use the built-in function `type` to find the type of a value."
 - "Types control what operations can be done on values."
-- "Strings can be added and multiplied."
+- "Strings can be added and multiplied."    
 - "Strings have a length (but numbers don't)."
 - "Preventing Errors: Handling numbers and strings in Python operations."
 - "Integers and floats can be mixed freely in operations."

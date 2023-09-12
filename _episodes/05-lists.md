@@ -124,7 +124,7 @@ numbers after removing last item: [2, 3, 5, 7]
 *   Use `[]` on its own to represent a list that doesn't contain any items.
     *   "The zero of lists."
 *   Helpful as a starting point for collecting values
-    (which we will see in the [next episode]({{page.root}}/06-for-loops/)).
+    (which we will see in the next episode about [For Loops]({{page.root}}/06-for-loops/)).
 
 ## Lists may contain items of different types
 

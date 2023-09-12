@@ -44,9 +44,9 @@ We have seen some functions already (like `print()` and `type()`) --- now let's 
     * `print("I am an argument and must go here.")`
 *   You must always use parentheses, because this is how Python knows you are calling a function.
     * You leave them empty if you don't want or need to pass any arguments in.
-*   `len` takes exactly one.
+*   `len` takes exactly one argument.
 *   `int`, `str`, and `float` create a new value from an existing one.
-*   `print` takes zero or more.
+*   `print` takes zero or more arguments.
     *   `print()` prints a blank line.
 
 ~~~
@@ -65,7 +65,7 @@ after
 ## Commonly-used built-in functions include `max`, `min`, and `round`
 
 *   Use `max` to find the largest value of one or more values.
-*   Use `min` to find the smallest.
+*   Use `min` to find the smallest value of one or more values.
 *   Both work on character strings as well as numbers.
     *   "Larger" and "smaller" use (0-9, A-Z, a-z) to compare letters.
     *   This means that:
@@ -125,6 +125,8 @@ round(3.712, 1)
 3.7
 ~~~
 {: .output}
+
+To see more built-in functions, visit the [Python Documentation](https://docs.python.org/3/library/functions.html)
 
 ## Use the built-in function `help` to get help for a function
 

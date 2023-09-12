@@ -101,6 +101,8 @@ TypeError: unorderable types: str() > int()
 ~~~
 {: .error}
 
+The error message tells us, that we cannot compare strings and integers.
+
 ## Functions may have default values for some arguments
 
 *   `round` will round off a floating-point number.

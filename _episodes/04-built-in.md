@@ -157,6 +157,8 @@ round(...)
 You've seen errors when you try to use a function incorrectly, but you can also have errors when you use punctuation incorrectly.
 *   Python will run the program up until that point, but if the grammar of that line
     of code has produced an error, then the program will shut down with an error.
+*   Error messages will try and guide you to the point, where the error happened.
+*   Python error messages may vary slightly depending on your Python environment.
 
 ~~~
 # Forgot to close the quotation marks around the string.

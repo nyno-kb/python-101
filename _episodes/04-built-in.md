@@ -266,7 +266,7 @@ but after that nothing is returned. Thus, it has a return value of `None`.
 >
 > 2. **Inside `max()` function**:
 >    - `word * 2` results in 'blah blah '. (Repeats the string 'blah ' twice using `*`.)
->    - `'blah blah ' + 'blur '` results in 'blah blah blur '. (Concatenates the two strings using `+`.)
+>    - 'blah blah ' + 'blur ' results in 'blah blah blur '. (Concatenates the two strings using `+`.)
 >    - 'aaah ' is compared with 'blah blah blur '. The `min()` function returns the smaller of the two strings, which is 'aaah '.
 >
 > 3. **Outer `max()` function**:

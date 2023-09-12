@@ -260,6 +260,7 @@ but after that nothing is returned. Thus, it has a return value of `None`.
 > > ~~~
 > > ping
 > > ~~~
+> > {: .output}
 >{: .solution}
 {: .challenge}
 
@@ -283,6 +284,7 @@ but after that nothing is returned. Thus, it has a return value of `None`.
 > > tin
 > > 4
 > > ~~~
+> > {: .output}
 >{: .solution}
 {: .challenge}
 

@@ -218,7 +218,8 @@ NameError: name 'aege' is not defined
 ~~~
 {: .error}
 
-*   Fix syntax errors by reading the source and runtime errors by tracing execution.
+*   Fix syntax errors by reading the source.
+*   Fix runtime errors by tracing execution.
 
 ## Every function returns something
 
@@ -236,6 +237,9 @@ example
 result of print is None
 ~~~
 {: .output}
+
+Contrary to what we might expect, `print` does not return any value as such. I carries out the execution (i.e., it prints),
+but after that nothing is returned. Thus, it has a return value of `None`.
 
 > ## What Happens When
 >

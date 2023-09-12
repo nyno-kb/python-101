@@ -190,7 +190,7 @@ TypeError: 'str' object does not support item assignment
 > ~~~
 > {: .output}
 >
-> In Python (and many other programming languages), when you use the assignment operator (=) with a variable (**and not a variable index!**), 
+> In Python (and many other programming languages), when you use the assignment operator (`=`) with a variable (*and not a variable index!*), 
 > it doesn't change the original value of the variable. 
 > Instead, it replaces the current value of the variable with the new value on the right-hand side of the assignment.
 >

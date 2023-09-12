@@ -175,7 +175,7 @@ TypeError: 'str' object does not support item assignment
 
 *   Lists and character strings are both *collections*.
 
-> ## Bonus
+> ## Notice the difference between overwriting and changing values
 >
 > In Python (and many other programming languages), when you use the assignment operator (`=`) with a variable (*and not a variable index!*), 
 > it doesn't change the original value of the variable. 
@@ -211,8 +211,7 @@ TypeError: 'str' object does not support item assignment
 >
 > We don't overwrite the variable `elements` but rather we change the content of the zeroth index.
 >
-> {: .solution}
-{: .challenge}
+{: .callout}
 
 ## Indexing beyond the end of the collection is an error
 

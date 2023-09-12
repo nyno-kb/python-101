@@ -204,6 +204,10 @@ SyntaxError: incomplete input
 
 ## Python reports a runtime error when something goes wrong while a program is executing
 
+In Python, a runtime error is an error that occurs while a Python program is running. These errors are also known as exceptions. 
+Runtime errors in Python are typically caused by unexpected conditions or events that disrupt the normal flow of the program.\
+They can happen for various reasons, for example:
+
 ~~~
 age = 53
 remaining = 100 - aege # mis-spelled 'age'

@@ -177,7 +177,9 @@ TypeError: 'str' object does not support item assignment
 
 > ## Bonus
 >
-> Take a look at this code:
+> In Python (and many other programming languages), when you use the assignment operator (`=`) with a variable (*and not a variable index!*), 
+> it doesn't change the original value of the variable. 
+> Instead, it replaces the current value of the variable with the new value on the right-hand side of the assignment.
 >
 > ~~~
 > element = 'carbon'
@@ -190,12 +192,24 @@ TypeError: 'str' object does not support item assignment
 > ~~~
 > {: .output}
 >
-> In Python (and many other programming languages), when you use the assignment operator (`=`) with a variable (*and not a variable index!*), 
-> it doesn't change the original value of the variable. 
-> Instead, it replaces the current value of the variable with the new value on the right-hand side of the assignment.
->
 > So, in the code above, element initially holds the value 'carbon', but when you execute the second line, it is overwritten with the new value 'helium'.
 > The old value 'carbon' is effectively discarded, and element now contains 'helium'.
+>
+> In contrast, when assign to a list index:
+>
+> ~~~
+> elements = ['carbon', 'helium']
+> elements[0] = 'hydrogen'
+> print(elements)
+> ~~~
+> {: .python}
+> ~~~
+> ['carbon', 'helium']
+> ['hydrogen', 'helium']
+> ~~~
+> {: .output}
+>
+> We don't overwrite the variable `elements` but rather we change the content of the zeroth index.
 >
 > {: .solution}
 {: .challenge}

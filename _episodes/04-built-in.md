@@ -38,7 +38,7 @@ name = 'Python for Absolute Beginners'   # Neither is this comment - anything af
 
 ## A function may take zero or more arguments
 
-We have seen some functions already (like `print` and `type`) --- now let's take a closer look.
+We have seen some functions already (like `print()` and `type()`) --- now let's take a closer look.
 *   An *argument* is a value passed into a function.
 *   Any arguments you want to pass into a function must go into the `()`
     * `print("I am an argument and must go here.")`

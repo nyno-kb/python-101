@@ -178,6 +178,8 @@ age = = 52
 ~~~
 {: .python}
 ~~~
+    age = = 52
+          ^
 SyntaxError: invalid syntax
 ~~~
 {: .error}

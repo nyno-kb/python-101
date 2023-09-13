@@ -151,6 +151,14 @@ temperatures has become: [16.5, 17.5, 17.7, 17.5, 17.6, 17.9, 18.2]
         <td>Adds an element at the specified position</td>
     </tr>
     <tr>
+        <td><code>max()</code></td>
+        <td>Calculates the maximum of all the elements of the list</td>
+    </tr>
+    <tr>
+        <td><code>min()</code></td>
+        <td>Calculates the minimum of all the elements of the list</td>
+    </tr>
+    <tr>
         <td><code>pop()</code></td>
         <td>Removes the element at the specified position</td>
     </tr>

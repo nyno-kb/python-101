@@ -121,10 +121,12 @@ temperatures has become: [16.5, 17.5, 17.7, 17.5, 17.6, 17.9, 18.2]
 For more in-depth information, see the [Python Documentation](https://docs.python.org/3/tutorial/datastructures.html).
 
 <table class="colwidths-auto table" style="border:1px solid black">
-    <tr>
-        <th>Method</th>
-        <th>Description</th>
-    </tr>
+    <thead>
+        <tr>
+            <th>Method</th>
+            <th>Description</th>
+        </tr>
+    <thead>
     <tr>
         <td><code>append()</code></td>
         <td>Adds an element at the end of the list</td>

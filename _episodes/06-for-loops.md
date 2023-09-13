@@ -362,6 +362,16 @@ print(total)
 > ~~~
 > {: .python}
 >
+> > ~~~
+> > # Total length of the strings in the list: ["red", "green", "blue"] => 12
+> > total = 0
+> > for word in ["red", "green", "blue"]:
+> >     total = total + len(word)
+> > print(total)
+> > ~~~
+> > {: .python}
+> {: .solution}
+>
 > ~~~
 > # List of word lengths: ["red", "green", "blue"] => [3, 5, 4]
 > lengths = ____

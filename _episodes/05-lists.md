@@ -156,6 +156,7 @@ third character: b
 ~~~
 {: .output}
 
+<br/>
 ***But!***
 
 *   You cannot alter the characters in a string after it has been created.

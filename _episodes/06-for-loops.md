@@ -183,7 +183,7 @@ Again!
     2.  Update the variable with values from a collection.
 
 ~~~
-# Sum the first 10 integers.
+# Sum all of the integers from 1 to 10.
 total = 0
 for number in range(10):
    total = total + (number + 1)
@@ -197,9 +197,9 @@ print(total)
 
 *   Read `total = total + (number + 1)` as:
     *   Add 1 to the current value of the loop variable `number`.
+        *   We have to add `number + 1` because `range` produces the numbers 0...9, not 1...10.
     *   Add that to the current value of the accumulator variable `total`.
     *   Assign that to `total`, replacing the current value.
-*   We have to add `number + 1` because `range` produces the numbers 0...9, not 1...10.
 
 ## Exercises
 

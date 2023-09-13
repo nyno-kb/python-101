@@ -214,6 +214,8 @@ first is 2 and second is 5
     creates a new value, and assigns it to `second`.
 *   After that, `second` does not remember where it came from.
 
+## Exercises
+
 > ## Fractions
 >
 > What type of value is 3.4?

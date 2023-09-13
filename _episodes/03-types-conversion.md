@@ -3,7 +3,7 @@ title: "Data Types and Type Conversion"
 teaching: 10
 exercises: 10
 questions:
-- "What kinds of data do programs store?"
+- "What kinds of data do variables store?"
 - "How can I convert one type to another?"
 objectives:
 - "Explain key differences between integers and floating point numbers."
@@ -13,10 +13,10 @@ keypoints:
 - "Every value has a type."
 - "Use the built-in function `type` to find the type of a value."
 - "Types control what operations can be done on values."
-- "Strings can be added and multiplied."
+- "Strings can be added and multiplied."    
 - "Strings have a length (but numbers don't)."
-- "Must convert numbers to strings or vice versa when operating on them."
-- "Can mix integers and floats freely in operations."
+- "Preventing Errors: Handling numbers and strings in Python operations."
+- "Integers and floats can be mixed freely in operations."
 - "Variables only change value when something is assigned to them."
 ---
 ## Recap from lesson about Data Types
@@ -27,7 +27,7 @@ keypoints:
 *   Integer (`int`): whole numbers like 3 or -512.
 *   Floating point number (`float`): fractional numbers like 3.14159 or -2.5.
 *   Whole numbers may also be stored as floats, e.g. `1.0`, but `1.0` would still be stored as a `float`.
-*   Character string (usually called "string", `str`): text.
+*   Character string (usually called "string", `str`): text (but not necessarily only letters).
     *   Written in either single quotes or double quotes (as long as they match).
     *   The quotation marks aren't printed using `print()`, but may appear when viewing a value in the Jupyter Notebook or other Python interpreter.
 
@@ -98,9 +98,8 @@ Ahmed Walsh
 ~~~
 {: .output}
 
-*   Multiplying a character string by an integer _N_ creates a new string that consists of that character string repeated  _N_ times.
-    *   Since multiplication is repeated addition.
-* There are more ways that traditional math operators will work on other data types.  There isn't a perfect formula for figuring out what they do, so experimentation is valuable.
+*   Multiplying a character string by an integer _N_ creates a new string that consists of that character string repeated  _N_ times (since multiplication is repeated addition).
+* There are more ways that traditional math operators will work on other data types. There isn't a perfect formula for figuring out what they do, so experimentation is valuable.
 
 ~~~
 separator = '=' * 10
@@ -111,6 +110,9 @@ print(separator)
 ==========
 ~~~
 {: .output}
+
+Here, the variable "separator" is set to the value "=" (equals sign) ten times in a row.
+
 
 ## Strings have a length (but numbers don't)
 
@@ -141,9 +143,9 @@ TypeError: object of type 'int' has no len()
 ~~~
 {: .error}
 
-## Must convert numbers to strings or vice versa when operating on them
+## Preventing Errors: Handling numbers and strings in Python Operations
 
-*   Cannot add numbers and strings.
+*   You cannot add numbers and strings.
 
 ~~~
 print(1 + 'A')
@@ -159,7 +161,7 @@ TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ~~~
 {: .error}
 
-*   Not allowed because it's ambiguous: should `1 + '2'` be `3` or `'12'`?
+*   This is not allowed because it's ambiguous: should `1 + '2'` be `3` or `'12'`?
 *   Some types can be converted to other types by using the type name as a function.
 
 ~~~
@@ -173,7 +175,7 @@ print(str(1) + '2')
 ~~~
 {: .output}
 
-## Can mix integers and floats freely in operations
+## Integers and floats can be mixed freely in operations
 
 *   Integers and floating-point numbers can be mixed in arithmetic.
     *   Python automatically converts integers to floats as needed.
@@ -316,12 +318,12 @@ first is 2 and second is 5
 > > remainder = num_students % num_per_class
 > >
 > > print(num_students, 'students,', num_per_class, 'per class')
-> > print(num_classes, ' full classes, plus an extra class with only ', remainder, 'students')
+> > print(num_classes, 'full classes, plus an extra class with only', remainder, 'students')
 > > ~~~
 > > {: .python}
 > > ~~~
 > > 600 students, 42 per class
-> > 14  full classes, plus an extra class with only  12 students
+> > 14 full classes, plus an extra class with only 12 students
 > > ~~~
 > > {: .output}
 > {: .solution}
@@ -375,13 +377,25 @@ first is 2 and second is 5
 > {: .python}
 >
 > > ## Solution
+> >
 > > What do you expect this program to do? It would not be so unreasonable to
 > > expect the Python `int` command to convert the string "3.4" to 3.4 and an
 > > additional type conversion to 3. After all, Python performs a lot of other
 > > magic - isn't that part of its charm?
 > >
-> > However, Python throws an error. Why? To be consistent, possibly. If you
-> > ask Python to perform two consecutive typecasts, you must convert it
+> > However, Python throws an error. Why? To be consistent, possibly.
+> >
+> > ~~~
+> > ---------------------------------------------------------------------------
+> > ValueError                                Traceback (most recent call last)
+> > Cell In[1], line 1
+> > ----> 1 print("fractional string to int:", int("3.4"))
+> > 
+> > ValueError: invalid literal for int() with base 10: '3.4'
+> > ~~~
+> > {: .error}
+> >
+> > If you ask Python to perform two consecutive typecasts, you must convert it
 > > explicitly in code.
 > >
 > > ~~~

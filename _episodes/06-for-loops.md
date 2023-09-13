@@ -381,7 +381,17 @@ print(total)
 > ~~~
 > {: .python}
 >
+> > ~~~
+> > # List of word lengths: ["red", "green", "blue"] => [3, 5, 4]
+> > lengths = []
+> > for word in ["red", "green", "blue"]:
+> >     lengths.append(len(word))
+> > print(lengths)
+> > ~~~
+> > {: .python}
+> {: .solution}
 > ~~~
+>
 > # Concatenate all words: ["red", "green", "blue"] => "redgreenblue"
 > words = ["red", "green", "blue"]
 > result = ____
@@ -396,6 +406,18 @@ print(total)
 > # write the whole thing
 > ~~~
 > {: .python}
+>
+> > ~~~
+> > acronym = ''
+> > colours = ["red, "green", "blue"]
+> > for colour in colours:
+> >     acronym = acronym + colour[0]
+> > print(acronym)
+> > ~~~
+> > {: .python}
+> {: .solution}
+> ~~~
+>
 {: .challenge}
 
 > ## Cumulative Sum

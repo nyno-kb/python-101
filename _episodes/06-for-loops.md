@@ -428,7 +428,7 @@ print(total)
 > >
 > > ~~~
 > > acronym = ''
-> > colours = ["red, "green", "blue"]
+> > colours = ["red", "green", "blue"]
 > > for colour in colours:
 > >     acronym = acronym + colour[0]
 > > print(acronym)

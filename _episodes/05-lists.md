@@ -117,53 +117,53 @@ temperatures has become: [16.5, 17.5, 17.7, 17.5, 17.6, 17.9, 18.2]
 *   We will meet other methods of lists as we go along.
     *   Use `help(list)` for a preview.
 
-<table style="border: 1px solid black;">
+<table class="colwidths-auto table" style="border:1px solid black">
     <tr>
         <th>Method</th>
         <th>Description</th>
     </tr>
     <tr>
-        <td>`append()`</td>
+        <td><code>append()</code></td>
         <td>Adds an element at the end of the list</td>
     </tr>
     <tr>
-        <td>`clear()`</td>
+        <td><code>clear()</code></td>
         <td>Removes all the elements from the list</td>
     </tr>
     <tr>
-        <td>`copy()`</td>
+        <td><code>copy()</code></td>
         <td>Returns a copy of the list</td>
     </tr>
     <tr>
-        <td>`count()`</td>
+        <td><code>count()</code></td>
         <td>Returns the number of elements with the specified value</td>
     </tr>
     <tr>
-        <td>`extend()`</td>
+        <td><code>extend()</code></td>
         <td>Add the elements of a list (or any iterable), to the end of the current list</td>
     </tr>
     <tr>
-        <td>`index()`</td>
+        <td><code>index()</code></td>
         <td>Returns the index of the first element with the specified value</td>
     </tr>
     <tr>
-        <td>`insert()`</td>
+        <td><code>insert()</code></td>
         <td>Adds an element at the specified position</td>
     </tr>
     <tr>
-        <td>`pop()`</td>
+        <td><code>pop()</code></td>
         <td>Removes the element at the specified position</td>
     </tr>
     <tr>
-        <td>`remove()`</td>
+        <td><code>remove()</code></td>
         <td>Removes the first item with the specified value</td>
     </tr>
     <tr>
-        <td>`reverse()`</td>
+        <td><code>reverse()</code></td>
         <td>Reverses the order of the list</td>
     </tr>
     <tr>
-        <td>`sort()`</td>
+        <td><code>sort()</code></td>
         <td>Sorts the list</td>
     </tr>
 </table>

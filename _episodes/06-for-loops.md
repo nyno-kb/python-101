@@ -60,8 +60,9 @@ print(5)
 ## The first line of the `for` loop must end with a colon, and the body must be indented
 
 *   The colon at the end of the first line signals the start of a *block* of statements.
-*   Python uses indentation rather than `{}` or `begin`/`end` to show *nesting*.
-    *   Any consistent indentation is legal, but almost everyone uses four spaces.
+*   Python uses indentation to show *nesting* (rather than `{}` or `begin`/`end`, which are used in some other programming languages).
+    *   Any consistent indentation is legal, but almost everyone uses four spaces or tab.
+    *   IDEs like Jupyter Lab will automatically create an indentation after the colon.
 
 ~~~
 for number in [2, 3, 5]:
@@ -69,7 +70,9 @@ print(number)
 ~~~
 {: .python}
 ~~~
-IndentationError: expected an indented block
+    print(number)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 1
 ~~~
 {: .error}
 
@@ -81,14 +84,13 @@ firstName = "Jon"
 ~~~
 {: .python}
 ~~~
-  File "<ipython-input-7-f65f2962bf9c>", line 2
-    lastName="Smith"
+    lastName = "Smith"
     ^
 IndentationError: unexpected indent
 ~~~
 {: .error}
 
-*   This error can be fixed by removing the extra spaces
+*   This error can be fixed by removing the indentation
     at the beginning of the second line.
 
 ## A `for` loop is made up of a collection, a loop variable, and a body

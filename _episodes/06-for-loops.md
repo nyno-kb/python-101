@@ -135,7 +135,7 @@ The number 5 squared is: 25 , and the number 5 cubed is: 125
 ~~~
 {: .output}
 
-## Use `range` to repeat an action a set number of times
+## Use `range` to go through a sequence of numbers
 
 *   The built-in function `range` produces a sequence of numbers.
     *   *Not* a list: the numbers are produced on demand

@@ -435,7 +435,6 @@ print(total)
 > > ~~~
 > > {: .python}
 > {: .solution}
-> ~~~
 >
 {: .challenge}
 

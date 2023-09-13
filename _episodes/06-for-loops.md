@@ -140,12 +140,11 @@ The number 5 squared is: 25 , and the number 5 cubed is: 125
 *   The built-in function `range` produces a sequence of numbers.
     *   *Not* a list: the numbers are produced on demand
         to make looping over large ranges more efficient.
-*   `range(N)` is the numbers 0..N-1
-    *   Exactly the legal indices of a list or character string of length N
+*   `range(N)` is the numbers 0, 1, 2, ... N-1
 
 ~~~
 print('a range is not a list: range(0, 3)')
-for number in range(0,3):
+for number in range(0, 3):
     print(number)
 ~~~
 {: .python}
@@ -157,7 +156,7 @@ a range is not a list: range(0, 3)
 ~~~
 {: .output}
 
-## Or use `range` to repeat an action an arbitrary number of times
+## Or use `range` to repeat an action a set number of times
 
 *   You don't actually have to use the iterable variable's value.
 *   Use this structure to simply repeat an action some number of times.

@@ -361,7 +361,9 @@ print(total)
 > print(total)
 > ~~~
 > {: .python}
->
+> >
+> > ## Solution
+> >
 > > ~~~
 > > # Total length of the strings in the list: ["red", "green", "blue"] => 12
 > > total = 0
@@ -380,7 +382,9 @@ print(total)
 > print(lengths)
 > ~~~
 > {: .python}
->
+> >
+> > ## Solution
+> >
 > > ~~~
 > > # List of word lengths: ["red", "green", "blue"] => [3, 5, 4]
 > > lengths = []
@@ -400,7 +404,9 @@ print(total)
 > print(result)
 > ~~~
 > {: .python}
->
+> >
+> > ## Solution
+> >
 > > ~~~
 > > # Concatenate all words: ["red", "green", "blue"] => "redgreenblue"
 > > words = ["red", "green", "blue"]
@@ -417,7 +423,9 @@ print(total)
 > # write the whole thing
 > ~~~
 > {: .python}
->
+> >
+> > ## Solution
+> >
 > > ~~~
 > > acronym = ''
 > > colours = ["red, "green", "blue"]

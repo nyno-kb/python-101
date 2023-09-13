@@ -231,46 +231,46 @@ print(total)
 > >
 > > <table border="1" style="border-collapse: collapse;">
 > >     <tr>
-> >         <th>> > Line #</th>
-> >         <th>> > Executed</th>
-> >         <th>> > total</th>
-> >         <th>> > animal</th>
+> >         <th>Line #</th>
+> >         <th>Executed</th>
+> >         <th>total</th>
+> >         <th>animal</th>
 > >     </tr>
 > >     <tr>
-> >         <td>> > 1</td>
-> >         <td>> > Yes</td>
-> >         <td>> > 0</td>
-> >         <td>> > N/A</td>
+> >         <td>1</td>
+> >         <td>Yes</td>
+> >         <td>0</td>
+> >         <td>N/A</td>
 > >     </tr>
 > >     <tr>
-> >         <td>> > 2</td>
-> >         <td>> > Yes</td>
-> >         <td>> > 0</td>
-> >         <td>> > N/A</td>
+> >         <td>2</td>
+> >         <td>Yes</td>
+> >         <td>0</td>
+> >         <td>N/A</td>
 > >     </tr>
 > >     <tr>
-> >         <td>> > 3</td>
-> >         <td>> > Yes</td>
-> >         <td>> > 0</td>
-> >         <td>> > 'cat'</td>
+> >         <td>3</td>
+> >         <td>Yes</td>
+> >         <td>0</td>
+> >         <td>'cat'</td>
 > >     </tr>
 > >     <tr>
-> >         <td>> > 4</td>
-> >         <td>> > Yes</td>
-> >         <td>> > 1</td>
-> >         <td>> > 'dog'</td>
+> >         <td>4</td>
+> >         <td>Yes</td>
+> >         <td>1</td>
+> >         <td>'dog'</td>
 > >     </tr>
 > >     <tr>
-> >         <td>> > 3</td>
-> >         <td>> > Yes</td>
-> >         <td>> > 2</td>
-> >         <td>> > 'elephant'</td>
+> >         <td>3</td>
+> >         <td>Yes</td>
+> >         <td>2</td>
+> >         <td>'elephant'</td>
 > >     </tr>
 > >     <tr>
-> >         <td>> > 4</td>
-> >         <td>> > Yes</td>
-> >         <td>> > 3</td>
-> >         <td>> > 'fish'</td>
+> >         <td>4</td>
+> >         <td>Yes</td>
+> >         <td>3</td>
+> >         <td>'fish'</td>
 > >     </tr>
 > > </table>
 > >

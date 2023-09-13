@@ -110,16 +110,10 @@ for number in [2, 3, 5]:
 *   Loop variables will:
     *   Be created on demand during the course of each loop.
     *   Persist after the loop finishes.
-        * Use a new variable name to avoid overwriting a data collection you need to keep for later
-    *   Often be used in the course of the loop
+    *   Often be used in the course of the loop.
         * So give them a meaningful name you'll understand as the body code in your loop grows.
         * Example: `for single_letter in ['A', 'B', 'C', 'D']:` instead of `for asdf in ['A', 'B', 'C', 'D']:`
-
-~~~
-for kitten in [2, 3, 5]:
-    print(kitten)
-~~~
-{: .python}
+*   Use a new variable name to avoid overwriting a data collection you need to keep for later
 
 ## The body of a loop can contain many statements
 

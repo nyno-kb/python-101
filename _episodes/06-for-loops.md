@@ -222,10 +222,11 @@ print(total)
 >
 > ~~~
 > total = 0
-> for element in ['hydrogen', 'helium', 'lithium', 'berylium']:
+> for animal in ['cat', 'dog', 'elephant', 'fish']:
 >     total = total + 1
 > ~~~
 > {: .python}
+>
 > > ## Solution
 > >
 > > <table border="1" style="border-collapse: collapse;">

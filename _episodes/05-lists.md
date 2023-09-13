@@ -117,6 +117,21 @@ temperatures has become: [16.5, 17.5, 17.7, 17.5, 17.6, 17.9, 18.2]
 *   We will meet other methods of lists as we go along.
     *   Use `help(list)` for a preview.
 
+| Method     | Description                                             |
+|------------|---------------------------------------------------------|
+| `append()` | Adds an element at the end of the list                 |
+| `clear()`  | Removes all the elements from the list                |
+| `copy()`   | Returns a copy of the list                             |
+| `count()`  | Returns the number of elements with the specified value|
+| `extend()` | Adds the elements of a list (or any iterable) to the end of the current list |
+| `index()`  | Returns the index of the first element with the specified value |
+| `insert()` | Adds an element at the specified position              |
+| `pop()`    | Removes the element at the specified position          |
+| `remove()` | Removes the first item with the specified value        |
+| `reverse()`| Reverses the order of the list                         |
+| `sort()`   | Sorts the list                                         |
+
+
 ## Use `del` to remove items from a list entirely
 
 *   `del list_name[index]` removes an item from a list and shortens the list.
@@ -306,12 +321,14 @@ IndexError: string index out of range
 > ~~~
 > print('string to list:', list('tin'))
 > print('list to string:', ''.join(['g', 'o', 'l', 'd']))
+> print('list to string:', '-'.join(['g', 'o', 'l', 'd']))
 > ~~~
 > {: .python}
 > 
 > ~~~
-> ['t', 'i', 'n']
-> 'gold'
+> string to list: ['t', 'i', 'n']
+> list to string: gold
+> list to string: g-o-l-d
 > ~~~
 > {: .output}
 > 

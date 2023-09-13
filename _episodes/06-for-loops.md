@@ -3,7 +3,7 @@ title: "For Loops"
 teaching: 10
 exercises: 15
 questions:
-- "How can I make a program do many things?"
+- "How can I make a program repeat a task?"
 objectives:
 - "Explain what for loops are normally used for."
 - "Trace the execution of a simple (unnested) loop and correctly state the values of variables in each iteration."
@@ -70,8 +70,8 @@ IndentationError: expected an indented block
 *   Indentation is always meaningful in Python.
 
 ~~~
-firstName="Jon"
-  lastName="Smith"
+firstName = "Jon"
+  lastName = "Smith"
 ~~~
 {: .python}
 ~~~
@@ -133,7 +133,7 @@ for p in primes:
 ~~~
 {: .output}
 
-## Use `range` to iterate over a sequence of numbers
+## Use `range` to repeat an action a set number of times
 
 *   The built-in function `range` produces a sequence of numbers.
     *   *Not* a list: the numbers are produced on demand
@@ -200,6 +200,8 @@ print(total)
     *   Assign that to `total`, replacing the current value.
 *   We have to add `number + 1` because `range` produces 0..9, not 1..10.
 
+## Exercises
+
 > ## Classifying Errors
 >
 > Is an indentation error a syntax error or a runtime error?
@@ -219,7 +221,7 @@ print(total)
 >
 > ~~~
 > total = 0
-> for char in "tin":
+> for element in ['hydrogen', 'helium', 'lithium', 'berylium']:
 >     total = total + 1
 > ~~~
 > {: .python}

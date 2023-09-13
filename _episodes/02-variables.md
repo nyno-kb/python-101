@@ -132,7 +132,7 @@ print(eye_color)
 ~~~
 ---------------------------------------------------------------------------
 NameError                                 Traceback (most recent call last)
-<ipython-input-1-c1fbb4e96102> in <module>()
+Cell In[1], line 1
 ----> 1 print(eye_color)
 
 NameError: name 'eye_color' is not defined

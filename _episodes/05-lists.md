@@ -192,6 +192,7 @@ TypeError: 'str' object does not support item assignment
 
 *   Lists and character strings are both *collections*.
 
+<br/>
 > ## Notice the difference between overwriting and changing values
 >
 > In Python, when you use the assignment operator (`=`) with a variable (*and not a variable index!*), 

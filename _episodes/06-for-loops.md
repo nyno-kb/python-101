@@ -286,14 +286,14 @@ print(total)
 > > 
 > > *   Line 1 initializes the variable `total` with a value of 0.
 > > *   Line 2 begins a for loop that iterates over the list `['cat', 'dog', 'elephant', 'fish']`.
-> >     *   Line 2 is the first iteration, where `animal` takes the value 'cat', and `total` remains 0.
-> >     *   Line 3 increments `total` by 1, making it 1, and `animal` remains the value 'cat'.
-> >     *   Line 2 is the second iteration, where `animal` takes the value 'dog', and `total` remains 1.
-> >     *   Line 3 increments `total` by 1, making it 2, and `animal` remains the value 'dog'.
-> >     *   Line 2 is the third iteration, where `animal` takes the value 'elephant', and `total` remains 2.
-> >     *   Line 3 increments `total` by 1, making it 3, and `animal` remains the value 'elephant'.
-> >     *   Line 2 is the fourth iteration, where `animal` takes the value 'fish', and `total` remains 3.
-> >     *   Line 3 increments `total` by 1, making it 4, and `animal` remains the value 'fish'.
+> >     *   Line 2 is the first iteration, where `animal` takes the value 'cat', and `total` retains 0.
+> >     *   Line 3 increments `total` by 1, making it 1, and `animal` retains the value 'cat'.
+> >     *   Line 2 is the second iteration, where `animal` takes the value 'dog', and `total` retains 1.
+> >     *   Line 3 increments `total` by 1, making it 2, and `animal` retains the value 'dog'.
+> >     *   Line 2 is the third iteration, where `animal` takes the value 'elephant', and `total` retains 2.
+> >     *   Line 3 increments `total` by 1, making it 3, and `animal` retains the value 'elephant'.
+> >     *   Line 2 is the fourth iteration, where `animal` takes the value 'fish', and `total` retains 3.
+> >     *   Line 3 increments `total` by 1, making it 4, and `animal` retains the value 'fish'.
 > > 
 > > After the program finishes, `total` is 4, and `animal` retains its value from the last iteration, which is 'fish'.
 > {: .solution}
@@ -320,6 +320,7 @@ print(total)
 > > *   For each iteration of the loop, `char` takes on one value (character) from `original`.
 > > *   Add `char` to the beginning of `result` to change the order of the string.
 > > *   Our loop code should look like this:
+> >
 > > ~~~
 > > original = "tin"
 > > result = ""

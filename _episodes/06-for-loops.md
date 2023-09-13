@@ -276,12 +276,12 @@ print(total)
 > >
 > > **Explanation:**
 > > 
-> > Line 1 initializes the variable `total` with a value of 0.
-> > Line 2 begins a for loop that iterates over the list `['cat', 'dog', 'elephant', 'fish']`.
-> > Line 3 is the first iteration, where `animal` takes the value 'cat', and `total` remains 0.
-> > Line 4 increments `total` by 1, making it 1, and `animal` takes the value 'dog'.
-> > Line 3 is the third iteration, where `animal` takes the value 'elephant', and `total` remains 1.
-> > Line 4 increments `total` by 1 again, making it 2, and `animal` takes the value 'fish'.
+> > *   Line 1 initializes the variable `total` with a value of 0.
+> > *   Line 2 begins a for loop that iterates over the list `['cat', 'dog', 'elephant', 'fish']`.
+> > *   Line 3 is the first iteration, where `animal` takes the value 'cat', and `total` remains 0.
+> > *   Line 4 increments `total` by 1, making it 1, and `animal` takes the value 'dog'.
+> > *   Line 3 is the third iteration, where `animal` takes the value 'elephant', and `total` remains 1.
+> > *   Line 4 increments `total` by 1 again, making it 2, and `animal` takes the value 'fish'.
 > > 
 > > After the program finishes, `total` is 2, and `animal` retains its value from the last iteration, which is 'fish'.
 > {: .solution}

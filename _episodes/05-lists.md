@@ -127,7 +127,7 @@ For more in-depth information, see the [Python Documentation](https://docs.pytho
             <th>Method</th>
             <th>Description</th>
         </tr>
-    <thead>
+    </thead>
     <tr>
         <td><code>append()</code></td>
         <td>Adds an element at the end of the list</td>

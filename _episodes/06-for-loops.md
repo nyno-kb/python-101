@@ -390,19 +390,30 @@ print(total)
 > > ~~~
 > > {: .python}
 > {: .solution}
-> ~~~
 >
+> ~~~
 > # Concatenate all words: ["red", "green", "blue"] => "redgreenblue"
 > words = ["red", "green", "blue"]
 > result = ____
 > for ____ in ____:
 >     ____
 > print(result)
-> ~~~~
+> ~~~
 > {: .python}
 >
+> > ~~~
+> > # Concatenate all words: ["red", "green", "blue"] => "redgreenblue"
+> > words = ["red", "green", "blue"]
+> > result = ""
+> > for word in words:
+> >     result = result + word
+> > print(result)
+> > ~~~
+> > {: .python}
+> {: .solution}
+>
 > ~~~
-> # Create acronym: ["red", "green", "blue"] => "RGB"
+> # Create acronym: ["red", "green", "blue"] => "rgb"
 > # write the whole thing
 > ~~~
 > {: .python}

@@ -51,6 +51,12 @@ print(5)
 ~~~
 {: .output}
 
+*   The variable name 'number' is a name that you choose, when you create the for loop.
+*   You can choose any variable name you want.
+*   But don't use an already existing variable name, as this will then be overwritten.
+*   The variable persists after the loop is done and will contain the last used value.
+*   In the case above, 'number' will contain the integer 5 after the for loop is finished.
+
 ## The first line of the `for` loop must end with a colon, and the body must be indented
 
 *   The colon at the end of the first line signals the start of a *block* of statements.

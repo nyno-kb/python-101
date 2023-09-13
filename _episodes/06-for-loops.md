@@ -199,7 +199,7 @@ print(total)
     *   Add 1 to the current value of the loop variable `number`.
     *   Add that to the current value of the accumulator variable `total`.
     *   Assign that to `total`, replacing the current value.
-*   We have to add `number + 1` because `range` produces 0...9, not 1...10.
+*   We have to add `number + 1` because `range` produces the numbers 0...9, not 1...10.
 
 ## Exercises
 

@@ -6,16 +6,16 @@ questions:
 - "How can I store multiple items?"
 objectives:
 - "Explain why programs need collections of items."
-- "Write programs that create flat lists, index them, slice them, and modify them through assignment and method calls."
+- "Write programs that create lists, index them, slice them, and modify them through assignment and method calls."
 keypoints:
 - "A list stores many items in a single structure."
 - "Use an item's index to fetch it from a list."
+- "Lists are mutable."
 - "Lists' items can be replaced by assigning to them."
 - "Appending items to a list lengthens it."
 - "Use `del` to remove items from a list entirely."
 - "The empty list contains no items."
 - "Lists may contain items of different types."
-- "Character strings are immutable."
 - "Indexing beyond the end of the collection is an error."
 ---
 ## A list stores many items in a single structure

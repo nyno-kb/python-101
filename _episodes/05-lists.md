@@ -140,7 +140,7 @@ print(goals)
 ~~~
 {: .output}
 
-## Character strings can be indexed like lists
+## Character strings are immutable
 
 Remember that you can get single characters from a character string using indexes in square brackets:
 
@@ -156,10 +156,10 @@ third character: b
 ~~~
 {: .output}
 
-## Character strings are immutable
+***But!***
 
-*   Cannot alter the characters in a string after it has been created.
-    *   *Immutable*: cannot be changed after creation.
+*   You cannot alter the characters in a string after it has been created.
+    *   *Immutable*: cannot be changed after creation. E.g., strings.
     *   In contrast, lists are *mutable*: they can be modified in place.
 *   Python considers the string to be a single value with parts,
     not a collection of values.
@@ -265,8 +265,8 @@ IndexError: string index out of range
 > > ~~~
 > > {: .python}
 > > ~~~
-> > first time [1, 3, 5]
-> > second time [3, 5]
+> > first time: [1, 3, 5]
+> > second time: [3, 5]
 > > ~~~
 > > {: .output}
 > {: .solution}

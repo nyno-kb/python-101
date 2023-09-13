@@ -15,7 +15,6 @@ keypoints:
 - "Use `del` to remove items from a list entirely."
 - "The empty list contains no items."
 - "Lists may contain items of different types."
-- "Character strings can be indexed like lists."
 - "Character strings are immutable."
 - "Indexing beyond the end of the collection is an error."
 ---
@@ -58,11 +57,26 @@ fourth item of temperatures: 17.6
 ~~~
 {: .output}
 
+## Slice
+
+*   Just like with [strings]({{page.root}}/01-data-types/index.html#slice), we can use indexing syntax to slice lists.
+*   If `l` is a list, an expression of the form `l[start:stop]` returns the portion of `l` starting with position `start`, and up to ***but not including*** position `stop`.
+*   Take a look at the example with the list of temperatures:
+
+~~~
+temperatures[1:4]
+~~~
+{: .python}
+~~~
+[17.5, 17.7, 17.5]
+~~~
+{: .output}
+
 ## Lists are mutable
 
 In Python, _mutable_ data types, such as lists, are data structures that can be modified or changed after they are created. This means you can add, remove, or modify elements within a list without creating a new list.
 
-For example, you can append new items, insert items at specific positions, remove items, and change the values of existing items in a list. This behavior contrasts with _immutable_ data types, like integers, floats, and strings, where once created, their contents cannot be altered without creating a new object. (This was briefly mentioned in the lesson about [Variables and Assignment]({{page.root}}/02-variables/index.html#use-variables-to-store-values).)
+For example, you can append new items, insert items at specific positions, remove items, and change the values of existing items in a list. This behavior contrasts with _immutable_ data types, like integers, floats, and strings, where once created, their contents cannot be altered without creating a new object. (This was briefly mentioned in the lesson about [Variables and Assignment]({{page.root}}/02-variables-and-assignment/index.html#use-variables-to-store-values).)
 
 ## Lists' items can be replaced by assigning to them
 
@@ -140,7 +154,7 @@ print(goals)
 ~~~
 {: .output}
 
-## Character strings can be indexed like lists
+## Character strings are immutable
 
 Remember that you can get single characters from a character string using indexes in square brackets:
 
@@ -156,10 +170,11 @@ third character: b
 ~~~
 {: .output}
 
-## Character strings are immutable
+<br/>
+***But!***
 
-*   Cannot alter the characters in a string after it has been created.
-    *   *Immutable*: cannot be changed after creation.
+*   You cannot alter the characters in a string after it has been created.
+    *   *Immutable*: cannot be changed after creation. E.g., strings.
     *   In contrast, lists are *mutable*: they can be modified in place.
 *   Python considers the string to be a single value with parts,
     not a collection of values.
@@ -220,7 +235,7 @@ TypeError: 'str' object does not support item assignment
 ## Indexing beyond the end of the collection is an error
 
 *   Python reports an `IndexError` if we attempt to access a value that doesn't exist.
-    *   This is a kind of [runtime error]({{page.root}}/04-built-in/index.html#python-reports-a-runtime-error-when-something-goes-wrong-while-a-program-is-executing).
+    *   This is a kind of [runtime error]({{page.root}}/04-built-in-functions-and-help/index.html#python-reports-a-runtime-error-when-something-goes-wrong-while-a-program-is-executing).
 
 ~~~
 print('99th element of element is:', element[99])
@@ -230,6 +245,8 @@ print('99th element of element is:', element[99])
 IndexError: string index out of range
 ~~~
 {: .output}
+
+## Exercises
 
 > ## Fill in the Blanks
 >
@@ -263,8 +280,8 @@ IndexError: string index out of range
 > > ~~~
 > > {: .python}
 > > ~~~
-> > first time [1, 3, 5]
-> > second time [3, 5]
+> > first time: [1, 3, 5]
+> > second time: [3, 5]
 > > ~~~
 > > {: .output}
 > {: .solution}

@@ -143,13 +143,13 @@ The number 5 squared is: 25 , and the number 5 cubed is: 125
 *   `range(N)` is the numbers 0, 1, 2, ... N-1
 
 ~~~
-print('a range is not a list: range(0, 3)')
+print('A range is not a list: range(0, 3)')
 for number in range(0, 3):
     print(number)
 ~~~
 {: .python}
 ~~~
-a range is not a list: range(0, 3)
+A range is not a list: range(0, 3)
 0
 1
 2
@@ -176,7 +176,7 @@ Again!
 ~~~
 {: .output}
 
-## The Accumulator pattern turns many values into one
+## Using accumulator variables
 
 *   A common pattern in programs is to:
     1.  Initialize an *accumulator* variable to zero, the empty string, or the empty list.
@@ -199,7 +199,7 @@ print(total)
     *   Add 1 to the current value of the loop variable `number`.
     *   Add that to the current value of the accumulator variable `total`.
     *   Assign that to `total`, replacing the current value.
-*   We have to add `number + 1` because `range` produces 0..9, not 1..10.
+*   We have to add `number + 1` because `range` produces 0...9, not 1...10.
 
 ## Exercises
 

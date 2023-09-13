@@ -64,10 +64,12 @@ fourth item of temperatures: 17.6
 *   Take a look at the example with the list of temperatures:
 
 ~~~
-temperatures[1:4]
+print(temperatures)
+print(temperatures[1:4])
 ~~~
 {: .python}
 ~~~
+[17.3, 17.5, 17.7, 17.5, 17.6]
 [17.5, 17.7, 17.5]
 ~~~
 {: .output}

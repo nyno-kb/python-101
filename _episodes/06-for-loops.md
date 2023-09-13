@@ -112,26 +112,26 @@ for number in [2, 3, 5]:
     *   Persist after the loop finishes.
     *   Often be used in the course of the loop.
         * So give them a meaningful name you'll understand as the body code in your loop grows.
-        * Example: `for single_letter in ['A', 'B', 'C', 'D']:` instead of `for asdf in ['A', 'B', 'C', 'D']:`
+        * Example: `for single_letter in ['A', 'B', 'C', 'D']:` instead of `for asdf in ['A', 'B', 'C', 'D']:`.
 *   Use a new variable name to avoid overwriting a data collection you need to keep for later
 
 ## The body of a loop can contain many statements
 
-*   But no loop should be more than a few lines long.
-*   Hard for human beings to keep larger chunks of code in mind.
+*   You can have as much code as you like inside of a loop.
+*   But keep in mind, the more code you have, the more difficult it can be to keep track of.
 
 ~~~
-primes = [2, 3, 5]
-for p in primes:
-    squared = p ** 2
-    cubed = p ** 3
-    print(p, squared, cubed)
+numbers = [2, 3, 5]
+for n in numbers:
+    squared = n ** 2
+    cubed = n ** 3
+    print("The number", n, "squared is:", squared, ", and the number", n, "cubed is:", cubed)
 ~~~
 {: .python}
 ~~~
-2 4 8
-3 9 27
-5 25 125
+The number 2 squared is: 4 , and the number 2 cubed is: 8
+The number 3 squared is: 9 , and the number 3 cubed is: 27
+The number 5 squared is: 25 , and the number 5 cubed is: 125
 ~~~
 {: .output}
 

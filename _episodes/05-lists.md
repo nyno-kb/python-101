@@ -231,6 +231,8 @@ IndexError: string index out of range
 ~~~
 {: .output}
 
+## Exercises
+
 > ## Fill in the Blanks
 >
 > Fill in the blanks so that the program below produces the output shown.

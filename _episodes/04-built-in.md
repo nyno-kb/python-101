@@ -239,6 +239,8 @@ result of print is None
 Contrary to what we might expect, `print` does not return any value as such. I carries out the execution (i.e., it prints),
 but after that nothing is returned. Thus, it has a return value of `None`.
 
+## Exercises
+
 > ## What Happens When
 >
 > 1. Explain in simple terms the order of operations in the following program:

@@ -15,7 +15,6 @@ keypoints:
 - "Use `del` to remove items from a list entirely."
 - "The empty list contains no items."
 - "Lists may contain items of different types."
-- "Character strings can be indexed like lists."
 - "Character strings are immutable."
 - "Indexing beyond the end of the collection is an error."
 ---
@@ -55,6 +54,21 @@ print('fourth item of temperatures:', temperatures[4])
 ~~~
 zeroth item of temperatures: 17.3
 fourth item of temperatures: 17.6
+~~~
+{: .output}
+
+## Slice
+
+*   Just like with [strings]({{page.root}}/01-data-types/index.html#slice), we can use indexing syntax to slice lists.
+*   If `l` is a list, an expression of the form `l[start:stop]` returns the portion of `l` starting with position `start`, and up to ***but not including*** position `stop`.
+*   Take a look at the example with the list of temperatures:
+
+~~~
+temperatures[1:4]
+~~~
+{: .python}
+~~~
+[17.5, 17.7, 17.5]
 ~~~
 {: .output}
 

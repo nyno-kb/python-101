@@ -114,8 +114,11 @@ temperatures has become: [16.5, 17.5, 17.7, 17.5, 17.6, 17.9, 18.2]
 *   `append` is a *method* of lists.
     *   Like a function, but tied to a particular object.
 *   Use `object_name.method_name` to call methods.
-*   We will meet other methods of lists as we go along.
-    *   Use `help(list)` for a preview.
+*   Use `help(list)` for a preview.
+
+## Table of list methods
+
+For more in-depth information, see the [Python Documentation](https://docs.python.org/3/tutorial/datastructures.html).
 
 <table class="colwidths-auto table" style="border:1px solid black">
     <tr>
@@ -175,24 +178,6 @@ temperatures has become: [16.5, 17.5, 17.7, 17.5, 17.6, 17.9, 18.2]
         <td>Sorts the list</td>
     </tr>
 </table>
-
-
-| Method     | Description                                             |
-|------------|---------------------------------------------------------|
-| `append()` | Adds an element at the end of the list                 |
-| `clear()`  | Removes all the elements from the list                |
-| `copy()`   | Returns a copy of the list                             |
-| `count()`  | Returns the number of elements with the specified value|
-| `extend()` | Adds the elements of a list (or any iterable) to the end of the current list |
-| `index()`  | Returns the index of the first element with the specified value |
-| `insert()` | Adds an element at the specified position              |
-| `max()` | Calculates the maximum of all the elements of the List              |
-| `min()` | Calculates the minimum of all the elements of the List              |
-| `pop()`    | Removes the element at the specified position          |
-| `remove()` | Removes the first item with the specified value        |
-| `reverse()`| Reverses the order of the list                         |
-| `sort()`   | Sorts the list                                         |
-
 
 ## Use `del` to remove items from a list entirely
 
@@ -551,6 +536,7 @@ IndexError: string index out of range
 > > ~~~
 > > {: .output}
 > > 
-> > `new = old` is assigning `old` to `new`, whereas `new = old[:]` is a **slice assignment**, which will only return a copy of `old`.
+> > `new = old` is assigning `old` to `new`. This means that the two variables both point to the same value. Thus, changing the contents of either variable will affect the other.
+> > In contrast, `new = old[:]` is a **slice assignment**, which will only return a copy of `old`.
 > {: .solution}
 {: .challenge}

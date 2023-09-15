@@ -370,7 +370,26 @@ while i <= 100:
 > {: .solution}
 {: .challenge}
 
-
+> ## Using the `input()` function
+>
+> * Try out the code below.
+> * What does the script do?
+> * What does the function `input()` do?
+>
+> ~~~
+> user_input = ""
+> while user_input != "quit":
+>   user_input = input("Enter 'quit' to exit: ")
+> ~~~
+> {: .python}
+>
+> > ## Solution
+> > 
+> > *   This loop continuously asks the user for input until they type "quit."
+> > *   It checks the value of user_input in each iteration.
+> >
+> {: .solution}
+{: .challenge}
 
 <!-- > ## Initializing
 >

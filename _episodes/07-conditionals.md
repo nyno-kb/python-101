@@ -282,6 +282,9 @@ while count <= 5:
 
 *   In this example, the loop prints numbers from 1 to 5. 
 *   The `count` variable is incremented in each iteration until it becomes greater than 5, at which point the condition becomes `False`, and the loop stops.
+*   Remember always to set a counter or similiar to make sure the `while` loop stops at some point. Otherwhise, you create an infinite loop!
+    * If you accidentally create an infinite loop, you can stop it by pressing the "stop" button ("Interrupt the kernel") at the top of Jupyter Lab (and similar).
+    * If you don't have a stop button, use CTRL-C to stop the script.
 
 
 ## Exercises:

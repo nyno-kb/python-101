@@ -237,11 +237,11 @@ final speed: 30.0
 > {: .python}
 >
 > * ***Notice*** that the two statements above test for something different!
-> * The first statement requires `mass` to be outside the range of 2 to 5 **AND** the `speed` to be greater than 20.
-> * The second statement requires **EITHER** of these two to be true:
+> * The first statement requires `mass` to be outside the range of 2 to 5 ***AND*** the `speed` to be greater than 20.
+> * The second statement requires ***EITHER*** of these two to be true:
 >       * `mass` must be smaller than 2.
-> **OR**:
->       * `mass` must be greater than 5 **AND** `speed` must be greater than 20.
+> * ***OR***:
+>       * `mass` must be greater than 5 ***AND*** `speed` must be greater than 20.
 >
 {: .callout}
 

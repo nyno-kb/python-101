@@ -192,7 +192,7 @@ moving too fast
 moving too fast
 4 : 20.0
 moving too slow
-final velocity: 30.0
+final speed: 30.0
 ~~~
 {: .output}
 

@@ -397,6 +397,9 @@ while i <= 100:
 >
 > In this final exercise, we will write a Python program for a number guessing game!
 > <br/>
+> This exercise builds on the knowledge you have gathered in this course up till now.\
+> Take it easy, don't sweat it, and have fun writing your first real Python script!
+> <br/>
 > <br/>
 > **The program should do the following:**
 > 1. Generate a random secret number between 1 and 20.

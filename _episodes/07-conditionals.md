@@ -453,9 +453,9 @@ while i <= 100:
 > >
 > > Are you really sure, you want to see the solution yet?\
 > > Only look if you have solved it yourself.\
+> > Remember:
 > > <br/>
-> > <br/>
-> > **Remember:** ***(Python) Pain is temporary, pride is forever!***\
+> > ***(Python) Pain is temporary, pride is forever!***\
 > > <br/>
 > > >
 > > > ## "Yes, I am weak and I want to see the answer!"

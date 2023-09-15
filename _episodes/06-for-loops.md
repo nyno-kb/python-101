@@ -7,7 +7,7 @@ questions:
 objectives:
 - "Explain what for loops are normally used for."
 - "Trace the execution of a simple (unnested) loop and correctly state the values of variables in each iteration."
-- "Write for loops that use the Accumulator pattern to aggregate values."
+- "Write for loops that use accumulator values."
 keypoints:
 - "A *for loop* executes commands once for each value in a collection."
 - "The first line of the `for` loop must end with a colon, and the body must be indented."

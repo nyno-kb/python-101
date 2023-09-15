@@ -404,6 +404,76 @@ while i <= 100:
 >   * If the guess is too high, print "Too high. Try again."
 > 4. Allow the user to keep guessing until they correctly guess the number.
 > 5. Count and display the number of attempts it took for the user to guess correctly.
+>
+> **Requirements:**
+>
+> * Use a `while` loop to repeatedly ask the user for their guess until they guess correctly.
+> * Use `if`, `elif`, and `else` statements to provide appropriate hints based on the user's guess.
+>
+> **Hints:**
+>
+> You can use the `random` module to generate the secret number. Here's an example of how to import and use it:
+>
+> ~~~~
+> import random
+>
+> # Generate a random secret number between 1 and 20
+> secret_number = random.randint(1, 20)
+> ~~~~
+> {: .python}
+>
+> **Sample Output (simplified):**
+>
+> You will need your output to look something like this:
+>
+> ~~~~
+> Welcome to the Number Guessing Game!
+>
+> Guess the secret number (1-20): 10
+> Too low. Try again.
+>
+> Guess the secret number (1-20): 15
+> Too high. Try again.
+>
+> Guess the secret number (1-20): 12
+> Congratulations! You guessed the correct number in 3 attempts.
+> ~~~~
+> {: .output}
+>
+> > ## Solution
+> >
+> > ~~~
+> > import random
+> > 
+> > # Generate a random secret number between 1 and 20
+> > secret_number = random.randint(1, 20)
+> > 
+> > # Initialize variables
+> > attempts = 0
+> > guessed_correctly = False
+> > 
+> > print("Welcome to the Number Guessing Game!")
+> > 
+> > while not guessed_correctly:
+> >     # Ask the user to guess the secret number
+> >     user_guess = int(input("Guess the secret number (1-20): "))
+> >     
+> >     # Increment the attempts counter
+> >     attempts += 1
+> > 
+> >     # Check if the guess is correct, too low, or too high
+> >     if user_guess == secret_number:
+> >         guessed_correctly = True
+> >         print(f"Congratulations! You guessed the correct number in {attempts} attempts.")
+> >     elif user_guess < secret_number:
+> >         print("Too low. Try again.")
+> >     else:
+> >         print("Too high. Try again.")
+> > ~~~~
+> > {: .python}
+> {: .solution}
+{: .challenge}
+
 
 <!-- > ## Initializing
 >

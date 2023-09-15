@@ -4,6 +4,8 @@ teaching: 0
 exercises: 0
 questions:
 - "Please complete the evaluation!"
+objectives:
+- "Help us make the course better."
 ---
 
 ## Evaluation

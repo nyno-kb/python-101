@@ -16,4 +16,5 @@ We would greatly appreciate if you, after the course, would kindly spend 2-5 min
 <br/>
 We appreciate your honest opinions!\
 <br/>
-Thank you!
+Thank you!\
+<br/>

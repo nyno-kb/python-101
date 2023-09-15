@@ -8,7 +8,7 @@ objectives:
 - "Help us make the course better."
 ---
 
-## Evaluation
+## Please complete the evaluation
 
 We would greatly appreciate if you, after the course, would kindly spend 2-5 minutes filling out this questionnaire:\
 <br/>

@@ -206,7 +206,7 @@ final speed: 30.0
 >
 > ~~~
 > mass     = [ 3.54,  2.07,  9.22,  1.86,  1.71]
-> speed = [10.00, 20.00, 30.00, 25.00, 20.00]
+> speed    = [10.00, 20.00, 30.00, 25.00, 20.00]
 >
 > for i in range(5):
 >     if mass[i] > 5 and speed[i] > 20:
@@ -228,15 +228,21 @@ final speed: 30.0
 > ~~~
 > {: .python}
 >
-> write one of these:
+> You should write it like one of these two so it is perfectly clear to a reader (and to Python) what you really mean:
 >
 > ~~~
-> if (mass[i] <= 2 or mass[i] >= 5) and speed[i] > 20:
-> if mass[i] <= 2 or (mass[i] >= 5 and speed[i] > 20):
+> if (mass[i] < 2 or mass[i] > 5) and speed[i] > 20:
+> if mass[i] < 2 or (mass[i] > 5 and speed[i] > 20):
 > ~~~
 > {: .python}
 >
-> so it is perfectly clear to a reader (and to Python) what you really mean.
+> * ***Notice*** that the two statements above test for something different!
+> * The first statement requires `mass` to be outside the range of 2 to 5 **AND** the `speed` to be greater than 20.
+> * The second statement requires **EITHER** of these two to be true:
+>       * `mass` must be smaller than 2.
+> **OR**:
+>       * `mass` must be greater than 5 **AND** `speed` must be greater than 20.
+>
 {: .callout}
 
 > ## Tracing Execution

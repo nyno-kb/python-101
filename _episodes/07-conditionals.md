@@ -220,8 +220,10 @@ final speed: 30.0
 > ~~~
 > {: .python}
 >
-> Just like with arithmetic, you can and should use parentheses whenever there is possible ambiguity.\
-> A good general rule is to *always* use parentheses when mixing `and` and `or` in the same condition.  That is, instead of:
+> * Just like with arithmetic, you can and should use parentheses whenever there is possible ambiguity.
+> * If no parentheses are used, Python will read code based on ["operator precedence"](https://docs.python.org/3/reference/expressions.html#operator-precedence).
+> * However, a good general rule is to *always* use parentheses when mixing `and` and `or` in the same condition.
+> * That is, instead of:
 >
 > ~~~
 > if mass[i] <= 2 or mass[i] >= 5 and speed[i] > 20:

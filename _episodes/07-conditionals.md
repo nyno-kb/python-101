@@ -148,7 +148,8 @@ grade is B
 ~~~
 {: .output}
 
-*   Does *not* automatically go back and re-evaluate if values change.
+*   Remember that Python scripts are run "chronologically", i.e., from the top down.
+*   This means, that a script will *not* automatically go back and re-evaluate if values change.
 
 ~~~
 velocity = 10.0
@@ -164,7 +165,7 @@ adjusting velocity
 ~~~
 {: .output}
 
-*   Often use conditionals in a loop to "evolve" the values of variables.
+*   Often conditionals are used in a loop to "evolve" the values of variables.
 
 ~~~
 velocity = 10.0

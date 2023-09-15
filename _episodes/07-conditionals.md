@@ -153,32 +153,32 @@ grade is B
 *   This means, that a script will *not* automatically go back and re-evaluate if values change.
 
 ~~~
-velocity = 10.0
-if velocity > 20.0:
+speed = 10.0
+if speed > 20.0:
     print('moving too fast')
 else:
-    print('adjusting velocity')
-    velocity = 50.0
+    print('adjusting speed')
+    speed = 50.0
 ~~~
 {: .python}
 ~~~
-adjusting velocity
+adjusting speed
 ~~~
 {: .output}
 
 *   Often conditionals are used in a loop to "evolve" the values of variables.
 
 ~~~
-velocity = 10.0
+speed = 10.0
 for i in range(5): # execute the loop 5 times
-    print(i, ':', velocity)
-    if velocity > 20.0:
+    print(i, ':', speed)
+    if speed > 20.0:
         print('moving too fast')
-        velocity = velocity - 5.0
+        speed = speed - 5.0
     else:
         print('moving too slow')
-        velocity = velocity + 10.0
-print('final velocity:', velocity)
+        speed = speed + 10.0
+print('final speed:', speed)
 ~~~
 {: .python}
 ~~~

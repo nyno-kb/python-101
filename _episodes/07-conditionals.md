@@ -370,7 +370,9 @@ while i <= 100:
 > {: .solution}
 {: .challenge}
 
-> ## Initializing
+
+
+<!-- > ## Initializing
 >
 > Modify this program so that it finds the largest and smallest values in the list
 > no matter what the range of values originally is.
@@ -404,7 +406,7 @@ while i <= 100:
 > > ~~~
 > > {: .python}
 > {: .solution}
-{: .challenge}
+{: .challenge} -->
 
 <!-- > ## Using Functions With Conditionals in Pandas
 >

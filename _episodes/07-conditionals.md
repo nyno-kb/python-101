@@ -148,6 +148,7 @@ grade is B
 ~~~
 {: .output}
 
+<br/>
 *   Remember that Python scripts are run "chronologically", i.e., from the top down.
 *   This means, that a script will *not* automatically go back and re-evaluate if values change.
 

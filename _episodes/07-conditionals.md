@@ -392,7 +392,7 @@ while i <= 100:
 > {: .solution}
 {: .challenge}
 
-> ## Number guessing game with hints
+> ## The Number Guessing Game with hints
 >
 > In this final exercise, we will write a Python program for a number guessing game!\
 > The program should do the following:

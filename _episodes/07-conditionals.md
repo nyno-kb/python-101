@@ -195,6 +195,7 @@ moving too slow
 final speed: 30.0
 ~~~
 {: .output}
+<br/>
 
 > ## Compound statements; using `and`, `or`, and parentheses
 >

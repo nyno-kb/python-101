@@ -3,9 +3,10 @@ title: "Conditionals"
 teaching: 15
 exercises: 15
 questions:
-- "How can programs do different things for different data?"
+- "How can you use conditional statements to control program flow and make decisions in your code?"
 objectives:
-- "Correctly write programs that use if and else statements and simple Boolean expressions (without logical operators)."
+- "Explain the use of if and else statements and simple Boolean expressions."
+- "Explain the use of while statements."
 - "Trace the execution of unnested conditionals and conditionals inside loops."
 keypoints:
 - "Use `if` statements to control whether or not a block of code is executed."
@@ -13,7 +14,7 @@ keypoints:
 - "Use `else` to execute a block of code when an `if` condition is *not* true."
 - "Use `elif` to specify additional tests."
 - "Conditions are tested once, in order."
-- "Create a table showing variables' values to trace a program's execution."
+- "A `while` loop allows you to repeatedly execute a block of code as long as a certain condition is true."
 ---
 ## Use `if` statements to control whether or not a block of code is executed
 

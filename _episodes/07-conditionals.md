@@ -477,7 +477,7 @@ while i <= 100:
 > > >     user_guess = int(input("Guess the secret number (1-20): "))
 > > >     
 > > >     # Increment the attempts counter
-> > >     attempts += 1
+> > >     attempts = attempts + 1
 > > > 
 > > >     # Check if the guess is correct, too low, or too high
 > > >     if user_guess == secret_number:

@@ -394,7 +394,8 @@ while i <= 100:
 
 > ## The Number Guessing Game with hints
 >
-> In this final exercise, we will write a Python program for a number guessing game!\
+> In this final exercise, we will write a Python program for a number guessing game!
+> <br/>
 > The program should do the following:
 > 1. Generate a random secret number between 1 and 20.
 > 2. Ask the user to guess the secret number.

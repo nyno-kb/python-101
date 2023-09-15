@@ -260,7 +260,8 @@ while condition:
 ~~~~
 {: .python}
 
-The loop will continue to execute as long as the condition remains `True`. Once the condition becomes `False`, the loop will exit.
+*   The loop will continue to execute as long as the condition remains `True`.
+*   Once the condition becomes `False`, the loop will exit.
 
 ~~~~
 count = 1
@@ -278,6 +279,9 @@ while count <= 5:
 5
 ~~~~
 {: .output}
+
+*   In this example, the loop prints numbers from 1 to 5. 
+*   The `count` variable is incremented in each iteration until it becomes greater than 5, at which point the condition becomes `False`, and the loop stops.
 
 
 ## Exercises:

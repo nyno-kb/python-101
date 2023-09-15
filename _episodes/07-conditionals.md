@@ -246,6 +246,40 @@ final speed: 30.0
 >
 {: .callout}
 
+## While loops
+
+In Python, a while loop allows you to repeatedly execute a block of code as long as a certain condition is true. This can be useful when you want to perform an action multiple times until a specific condition is met.
+
+### The `while` syntax
+
+The basic structure of a while loop in Python is as follows:
+
+~~~~
+while condition:
+    # Code to be executed as long as the condition is true
+~~~~
+{: .python}
+
+The loop will continue to execute as long as the condition remains `True`. Once the condition becomes `False`, the loop will exit.
+
+~~~~
+count = 1
+while count <= 5:
+    print(count)
+    count += 1
+~~~~
+{: .python}
+
+~~~~
+1
+2
+3
+4
+5
+~~~~
+{: .output}
+
+
 ## Exercises:
 
 > ## Tracing Execution

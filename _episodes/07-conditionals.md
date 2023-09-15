@@ -453,7 +453,7 @@ while i <= 100:
 > >
 > > Are you really sure, you want to see the solution yet?\
 > > Only look if you have solved it yourself.\
-> > Remember:
+> > Remember:\
 > > <br/>
 > > ***(Python) Pain is temporary, pride is forever!***\
 > > <br/>

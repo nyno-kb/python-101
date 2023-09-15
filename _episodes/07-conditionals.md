@@ -81,10 +81,11 @@ for mass in masses:
 
 ## Use `elif` to specify additional tests
 
-*   May want to provide several alternative choices, each with its own test.
+*   You may want to provide several alternative choices, each with its own test.
 *   Use `elif` (short for "else if") and a condition to specify these.
-*   Always associated with an `if`.
+*   Must always be associated with an `if`.
 *   Must come before the `else` (which is the "catch all").
+*   `elif` - like `else` - is **only** executed if the `if`-statement is not.
 
 ~~~
 masses = [3.54, 2.07, 9.22, 1.86, 1.71]
@@ -109,20 +110,41 @@ for mass in masses:
 ## Conditions are tested once, in order
 
 *   Python steps through the branches of the conditional in order, testing each in turn.
-*   So ordering matters.
+*   ***But!*** if one conditional is fulfilled, Python will "step out of" the statement and *not* test the following conditionals.
+*   So ordering matters!
+*   Take a look at this script:
 
 ~~~
-grade = 85
-if grade >= 70:
+points = 85
+if points >= 70:
     print('grade is C')
-elif grade >= 80:
+elif points >= 80:
     print('grade is B')
-elif grade >= 90:
+elif points >= 90:
     print('grade is A')
 ~~~
 {: .python}
 ~~~
 grade is C
+~~~
+{: .output}
+
+*   What is the problem with the script above?
+*   The problem is that a grade can never be higher than 'C', since any `points` above 70 will be "caught" by the if-condition. Thus, the elif-conditions will never be tested.
+*   A better way to write the above script, would be:
+
+~~~
+points = 85
+if points >= 90:
+    print('grade is A')
+elif points >= 80:
+    print('grade is B')
+elif points >= 70:
+    print('grade is C')
+~~~
+{: .python}
+~~~
+grade is B
 ~~~
 {: .output}
 

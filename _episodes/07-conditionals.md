@@ -458,7 +458,7 @@ while i <= 100:
 > > **Remember:** ***(Python) Pain is temporary, pride is forever!***\
 > > > <br/>
 > > >
-> > > ## "I am weak!"
+> > > ## "Yes, I am weak and I want to see the answer!"
 > > >
 > > > ~~~
 > > > import random

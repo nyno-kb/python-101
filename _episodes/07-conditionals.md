@@ -242,7 +242,7 @@ final speed: 30.0
 > * The first statement requires `mass` to be outside the range of 2 to 5 ***and*** the `speed` to be greater than 20.
 > * The second statement requires ***either*** of these two to be true:
 >   * `mass` must be smaller than 2.
-> * ***Or***:
+> * Or:
 >   * `mass` must be greater than 5 ***and*** `speed` must be greater than 20.
 >
 {: .callout}

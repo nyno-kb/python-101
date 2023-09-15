@@ -241,8 +241,7 @@ final speed: 30.0
 > * ***Notice*** that the two statements above test for something different!
 > * The first statement requires `mass` to be outside the range of 2 to 5 ***and*** the `speed` to be greater than 20.
 > * The second statement requires ***either*** of these two to be true:
->   1. `mass` must be smaller than 2.
-> * Or:
+>   1. `mass` must be smaller than 2, or
 >   2. `mass` must be greater than 5 ***and*** `speed` must be greater than 20.
 >
 {: .callout}
@@ -274,8 +273,8 @@ final speed: 30.0
 > ## Trimming Values
 >
 > Fill in the blanks so that this program creates a new list
-> containing zeroes where the original list's values were negative
-> and ones where the original list's values were positive.
+> containing zeroes (0) where the original list's values were negative
+> and ones (1) where the original list's values were positive.
 >
 > ~~~
 > original = [-1.5, 0.2, 0.4, 0.0, -1.3, 0.4]

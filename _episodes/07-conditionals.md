@@ -355,6 +355,7 @@ while i <= 100:
 > [0, 1, 1, 1, 0, 1]
 > ~~~
 > {: .output}
+> >
 > > ## Solution
 > > ~~~
 > > original = [-1.5, 0.2, 0.4, 0.0, -1.3, 0.4]
@@ -390,6 +391,19 @@ while i <= 100:
 > >
 > {: .solution}
 {: .challenge}
+
+> ## Number guessing game with hints
+>
+> In this final exercise, we will write a Python program for a number guessing game!\
+> The program should do the following:
+> 1. Generate a random secret number between 1 and 20.
+> 2. Ask the user to guess the secret number.
+> 3. Provide hints to the user based on their guess:
+>   * If the guess is correct, print "Congratulations! You guessed the correct number."
+>   * If the guess is too low, print "Too low. Try again."
+>   * If the guess is too high, print "Too high. Try again."
+> 4. Allow the user to keep guessing until they correctly guess the number.
+> 5. Count and display the number of attempts it took for the user to guess correctly.
 
 <!-- > ## Initializing
 >

@@ -196,11 +196,12 @@ final speed: 30.0
 ~~~
 {: .output}
 
-> ## Compound Relations Using `and`, `or`, and Parentheses
+> ## Compound statements; using `and`, `or`, and parentheses
 >
-> Often, you want some combination of things to be true.  You can combine
-> relations within a conditional using `and` and `or`.  Continuing the example
-> above, suppose you have
+> * Often, you want some combination of things to be true.
+> * You can combine relations within a conditional using `and` and/or `or`. 
+> * This is called [compound statements](https://docs.python.org/3/reference/compound_stmts.html).
+> * Continuing the example above, suppose you have:
 >
 > ~~~
 > mass     = [ 3.54,  2.07,  9.22,  1.86,  1.71]

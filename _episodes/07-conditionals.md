@@ -247,6 +247,8 @@ final speed: 30.0
 >
 {: .callout}
 
+## Exercises:
+
 > ## Tracing Execution
 >
 > What does this program print?

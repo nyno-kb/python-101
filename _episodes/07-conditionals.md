@@ -451,35 +451,42 @@ while i <= 100:
 >
 > > ## Solution
 > >
-> > ~~~
-> > import random
-> > 
-> > # Generate a random secret number between 1 and 20
-> > secret_number = random.randint(1, 20)
-> > 
-> > # Initialize variables
-> > attempts = 0
-> > guessed_correctly = False
-> > 
-> > print("Welcome to the Number Guessing Game!")
-> > 
-> > while not guessed_correctly:
-> >     # Ask the user to guess the secret number
-> >     user_guess = int(input("Guess the secret number (1-20): "))
-> >     
-> >     # Increment the attempts counter
-> >     attempts += 1
-> > 
-> >     # Check if the guess is correct, too low, or too high
-> >     if user_guess == secret_number:
-> >         guessed_correctly = True
-> >         print(f"Congratulations! You guessed the correct number in {attempts} attempts.")
-> >     elif user_guess < secret_number:
-> >         print("Too low. Try again.")
-> >     else:
-> >         print("Too high. Try again.")
-> > ~~~~
-> > {: .python}
+> > Are you really sure, you want to see the solution yet?\
+> > Only look if you have solved it yourself.\
+> > <br/>
+> > <br/>
+> > **Remember:** ***(Python) Pain is temporary, pride is forever!***
+> > >
+> > > ~~~
+> > > import random
+> > > 
+> > > # Generate a random secret number between 1 and 20
+> > > secret_number = random.randint(1, 20)
+> > > 
+> > > # Initialize variables
+> > > attempts = 0
+> > > guessed_correctly = False
+> > > 
+> > > print("Welcome to the Number Guessing Game!")
+> > > 
+> > > while not guessed_correctly:
+> > >     # Ask the user to guess the secret number
+> > >     user_guess = int(input("Guess the secret number (1-20): "))
+> > >     
+> > >     # Increment the attempts counter
+> > >     attempts += 1
+> > > 
+> > >     # Check if the guess is correct, too low, or too high
+> > >     if user_guess == secret_number:
+> > >         guessed_correctly = True
+> > >         print(f"Congratulations! You guessed the correct number in {attempts} attempts.")
+> > >     elif user_guess < secret_number:
+> > >         print("Too low. Try again.")
+> > >     else:
+> > >         print("Too high. Try again.")
+> > > ~~~~
+> > > {: .python}
+> > {: .solution}
 > {: .solution}
 {: .challenge}
 

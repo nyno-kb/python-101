@@ -282,10 +282,32 @@ while count <= 5:
 
 *   In this example, the loop prints numbers from 1 to 5. 
 *   The `count` variable is incremented in each iteration until it becomes greater than 5, at which point the condition becomes `False`, and the loop stops.
+
+### Infinite loops
+
 *   Remember always to set a counter or similiar to make sure the `while` loop stops at some point. Otherwhise, you create an infinite loop!
     * If you accidentally create an infinite loop, you can stop it by pressing the "stop" button ("Interrupt the kernel") at the top of Jupyter Lab (and similar).
     * If you don't have a stop button, use CTRL-C to stop the script.
+*   Take a look at the code below. What is wrong with it?
 
+~~~~
+i = 0
+while True:
+    print(i)
+    i += 1
+~~~~
+{: .python}
+
+*   The problem is that the `while` condition never turns `False`. Thus, the loop will carry on infinitely.
+*   A way to stop the loop could be:
+
+~~~~
+i = 0
+while i <= 100:
+    print(i)
+    i += 1
+~~~~
+{: .python}
 
 ## Exercises:
 

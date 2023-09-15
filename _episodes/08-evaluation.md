@@ -6,7 +6,7 @@ questions:
 - "Please complete the evaluation!"
 ---
 
-##Evaluation
+## Evaluation
 
 We would greatly appreciate if you, after the course, would kindly spend 2-5 minutes filling out this questionnaire:\
 <br/>

@@ -286,7 +286,7 @@ while count <= 5:
 
 ### Infinite loops
 
-*   Remember always to set a counter or similiar to make sure the `while` loop stops at some point. Otherwhise, you create an infinite loop!
+*   Remember always to set a counter or similiar to make sure the `while` loop stops at some point. Otherwise, you create an infinite loop!
     * If you accidentally create an infinite loop, you can stop it by pressing the "stop" button ("Interrupt the kernel") at the top of Jupyter Lab (and similar).
     * If you don't have a stop button, use CTRL-C to stop the script.
 *   Take a look at the code below. What is wrong with it?

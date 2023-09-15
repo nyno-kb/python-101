@@ -214,9 +214,9 @@ final speed: 30.0
 >     elif mass[i] > 2 and mass[i] <= 5 and speed[i] <= 20:
 >         print("Normal traffic")
 >     elif mass[i] <= 2 and speed[i] <= 20:
->         print("Slow light object. Ignore it")
+>         print("Slow light object. Ignore it.")
 >     else:
->         print("Whoa! Something is up with the data. Check it")
+>         print("Whoa! Something is up with the data. Check it.")
 > ~~~
 > {: .python}
 >

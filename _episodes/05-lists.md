@@ -1,21 +1,21 @@
 ---
 title: "Lists"
-teaching: 15
-exercises: 15
+teaching: 20
+exercises: 20
 questions:
 - "How can I store multiple items?"
 objectives:
 - "Explain why programs need collections of items."
-- "Write programs that create flat lists, index them, slice them, and modify them through assignment and method calls."
+- "Write programs that create lists, index them, slice them, and modify them through assignment and method calls."
 keypoints:
 - "A list stores many items in a single structure."
 - "Use an item's index to fetch it from a list."
+- "Lists are mutable."
 - "Lists' items can be replaced by assigning to them."
 - "Appending items to a list lengthens it."
 - "Use `del` to remove items from a list entirely."
 - "The empty list contains no items."
 - "Lists may contain items of different types."
-- "Character strings are immutable."
 - "Indexing beyond the end of the collection is an error."
 ---
 ## A list stores many items in a single structure
@@ -64,10 +64,12 @@ fourth item of temperatures: 17.6
 *   Take a look at the example with the list of temperatures:
 
 ~~~
-temperatures[1:4]
+print(temperatures)
+print(temperatures[1:4])
 ~~~
 {: .python}
 ~~~
+[17.3, 17.5, 17.7, 17.5, 17.6]
 [17.5, 17.7, 17.5]
 ~~~
 {: .output}
@@ -112,8 +114,73 @@ temperatures has become: [16.5, 17.5, 17.7, 17.5, 17.6, 17.9, 18.2]
 *   `append` is a *method* of lists.
     *   Like a function, but tied to a particular object.
 *   Use `object_name.method_name` to call methods.
-*   We will meet other methods of lists as we go along.
-    *   Use `help(list)` for a preview.
+*   Use `help(list)` for a preview.
+
+## Table of list methods
+
+For more in-depth information, see the [Python Documentation](https://docs.python.org/3/tutorial/datastructures.html).
+<br/>
+
+<table class="colwidths-auto table" style="border:1px solid black">
+    <thead>
+        <tr>
+            <th>Method</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tr>
+        <td><code>append()</code></td>
+        <td>Adds an element at the end of the list</td>
+    </tr>
+    <tr>
+        <td><code>clear()</code></td>
+        <td>Removes all the elements from the list</td>
+    </tr>
+    <tr>
+        <td><code>copy()</code></td>
+        <td>Returns a copy of the list</td>
+    </tr>
+    <tr>
+        <td><code>count()</code></td>
+        <td>Returns the number of elements with the specified value</td>
+    </tr>
+    <tr>
+        <td><code>extend()</code></td>
+        <td>Add the elements of a list (or any iterable), to the end of the current list</td>
+    </tr>
+    <tr>
+        <td><code>index()</code></td>
+        <td>Returns the index of the first element with the specified value</td>
+    </tr>
+    <tr>
+        <td><code>insert()</code></td>
+        <td>Adds an element at the specified position</td>
+    </tr>
+    <tr>
+        <td><code>max()</code></td>
+        <td>Calculates the maximum of all the elements of the list</td>
+    </tr>
+    <tr>
+        <td><code>min()</code></td>
+        <td>Calculates the minimum of all the elements of the list</td>
+    </tr>
+    <tr>
+        <td><code>pop()</code></td>
+        <td>Removes the element at the specified position</td>
+    </tr>
+    <tr>
+        <td><code>remove()</code></td>
+        <td>Removes the first item with the specified value</td>
+    </tr>
+    <tr>
+        <td><code>reverse()</code></td>
+        <td>Reverses the order of the list</td>
+    </tr>
+    <tr>
+        <td><code>sort()</code></td>
+        <td>Sorts the list</td>
+    </tr>
+</table>
 
 ## Use `del` to remove items from a list entirely
 
@@ -190,6 +257,7 @@ TypeError: 'str' object does not support item assignment
 
 *   Lists and character strings are both *collections*.
 
+<br/>
 > ## Notice the difference between overwriting and changing values
 >
 > In Python, when you use the assignment operator (`=`) with a variable (*and not a variable index!*), 
@@ -303,12 +371,14 @@ IndexError: string index out of range
 > ~~~
 > print('string to list:', list('tin'))
 > print('list to string:', ''.join(['g', 'o', 'l', 'd']))
+> print('list to string:', '-'.join(['g', 'o', 'l', 'd']))
 > ~~~
 > {: .python}
 > 
 > ~~~
-> ['t', 'i', 'n']
-> 'gold'
+> string to list: ['t', 'i', 'n']
+> list to string: gold
+> list to string: g-o-l-d
 > ~~~
 > {: .output}
 > 
@@ -430,7 +500,7 @@ IndexError: string index out of range
 > > letters is ['d', 'g', 'l', 'o'] and result is None
 > > ~~~
 > > {: .output}
-> > `sorted(letters)` returns a sorted copy of the list, while `letters.sort()` sorted the list _in place_. Thus, it was already sorted, and calling a further sort returns `None`.  
+> > `sorted(letters)` returns a sorted copy of the list without changing the original list, while `letters.sort()` sorts the original list but does not return anything, i.e. returns `None`.
 > {: .solution}
 {: .challenge}
 
@@ -469,6 +539,7 @@ IndexError: string index out of range
 > > ~~~
 > > {: .output}
 > > 
-> > `new = old` is assigning `old` to `new`, whereas `new = old[:]` is a **slice assignment**, which will only return a copy of `old`.
+> > `new = old` is assigning `old` to `new`. This means that the two variables both point to the same value. Thus, changing the contents of either variable will affect the other.
+> > In contrast, `new = old[:]` is a **slice assignment**, which will only return a copy of `old`.
 > {: .solution}
 {: .challenge}

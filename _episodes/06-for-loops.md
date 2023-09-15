@@ -1,13 +1,13 @@
 ---
 title: "For Loops"
-teaching: 10
+teaching: 15
 exercises: 15
 questions:
-- "How can I make a program do many things?"
+- "How can I make a program repeat a task?"
 objectives:
 - "Explain what for loops are normally used for."
 - "Trace the execution of a simple (unnested) loop and correctly state the values of variables in each iteration."
-- "Write for loops that use the Accumulator pattern to aggregate values."
+- "Write for loops that use accumulator values."
 keypoints:
 - "A *for loop* executes commands once for each value in a collection."
 - "The first line of the `for` loop must end with a colon, and the body must be indented."
@@ -16,7 +16,6 @@ keypoints:
 - "Loop variables can be called anything (but it is strongly advised to have a meaningful name to the looping variable)."
 - "The body of a loop can contain many statements."
 - "Use `range` to iterate over a sequence of numbers."
-- "The Accumulator pattern turns many values into one."
 ---
 ## A *for loop* executes commands once for each value in a collection
 
@@ -51,11 +50,18 @@ print(5)
 ~~~
 {: .output}
 
+*   The variable name 'number' is a name that you choose, when you create the for loop.
+*   You can choose any variable name you want.
+*   But don't use an already existing variable name, as this will then be overwritten.
+*   The variable persists after the loop is done and will contain the last used value.
+*   In the case above, 'number' will contain the integer 5 after the for loop is finished.
+
 ## The first line of the `for` loop must end with a colon, and the body must be indented
 
 *   The colon at the end of the first line signals the start of a *block* of statements.
-*   Python uses indentation rather than `{}` or `begin`/`end` to show *nesting*.
-    *   Any consistent indentation is legal, but almost everyone uses four spaces.
+*   Python uses indentation to show *nesting* (rather than `{}` or `begin`/`end`, which are used in some other programming languages).
+    *   Any consistent indentation is legal, but almost everyone uses four spaces or tab.
+    *   IDEs like Jupyter Lab will automatically create an indentation after the colon.
 
 ~~~
 for number in [2, 3, 5]:
@@ -63,26 +69,27 @@ print(number)
 ~~~
 {: .python}
 ~~~
-IndentationError: expected an indented block
+    print(number)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 1
 ~~~
 {: .error}
 
 *   Indentation is always meaningful in Python.
 
 ~~~
-firstName="Jon"
-  lastName="Smith"
+firstName = "Jon"
+  lastName = "Smith"
 ~~~
 {: .python}
 ~~~
-  File "<ipython-input-7-f65f2962bf9c>", line 2
-    lastName="Smith"
+    lastName = "Smith"
     ^
 IndentationError: unexpected indent
 ~~~
 {: .error}
 
-*   This error can be fixed by removing the extra spaces
+*   This error can be fixed by removing the indentation
     at the beginning of the second line.
 
 ## A `for` loop is made up of a collection, a loop variable, and a body
@@ -96,66 +103,59 @@ for number in [2, 3, 5]:
 *   The collection, `[2, 3, 5]`, is what the loop is being run on.
 *   The body, `print(number)`, specifies what to do for each value in the collection.
 *   The loop variable, `number`, is what changes for each *iteration* of the loop.
-    *   The "current thing".
 
 ## Loop variable names follow the normal variable name conventions
 
 *   Loop variables will:
     *   Be created on demand during the course of each loop.
     *   Persist after the loop finishes.
-        * Use a new variable name to avoid overwriting a data collection you need to keep for later
-    *   Often be used in the course of the loop
+    *   Often be used in the course of the loop.
         * So give them a meaningful name you'll understand as the body code in your loop grows.
-        * Example: `for single_letter in ['A', 'B', 'C', 'D']:` instead of `for asdf in ['A', 'B', 'C', 'D']:`
-~~~
-for kitten in [2, 3, 5]:
-    print(kitten)
-~~~
-{: .python}
+        * Example: `for single_letter in ['A', 'B', 'C', 'D']:` instead of `for asdf in ['A', 'B', 'C', 'D']:`.
+*   Use a new variable name to avoid overwriting a data collection you need to keep for later
 
 ## The body of a loop can contain many statements
 
-*   But no loop should be more than a few lines long.
-*   Hard for human beings to keep larger chunks of code in mind.
+*   You can have as much code as you like inside of a loop.
+*   But keep in mind, the more code you have, the more difficult it can be to keep track of.
 
 ~~~
-primes = [2, 3, 5]
-for p in primes:
-    squared = p ** 2
-    cubed = p ** 3
-    print(p, squared, cubed)
+numbers = [2, 3, 5]
+for n in numbers:
+    squared = n ** 2
+    cubed = n ** 3
+    print("The number", n, "squared is:", squared, ", and the number", n, "cubed is:", cubed)
 ~~~
 {: .python}
 ~~~
-2 4 8
-3 9 27
-5 25 125
+The number 2 squared is: 4 , and the number 2 cubed is: 8
+The number 3 squared is: 9 , and the number 3 cubed is: 27
+The number 5 squared is: 25 , and the number 5 cubed is: 125
 ~~~
 {: .output}
 
-## Use `range` to iterate over a sequence of numbers
+## Use `range` to go through a sequence of numbers
 
 *   The built-in function `range` produces a sequence of numbers.
     *   *Not* a list: the numbers are produced on demand
         to make looping over large ranges more efficient.
-*   `range(N)` is the numbers 0..N-1
-    *   Exactly the legal indices of a list or character string of length N
+*   `range(N)` is the numbers 0, 1, 2, ... N-1
 
 ~~~
-print('a range is not a list: range(0, 3)')
-for number in range(0,3):
+print('A range is not a list: range(0, 3)')
+for number in range(0, 3):
     print(number)
 ~~~
 {: .python}
 ~~~
-a range is not a list: range(0, 3)
+A range is not a list: range(0, 3)
 0
 1
 2
 ~~~
 {: .output}
 
-## Or use `range` to repeat an action an arbitrary number of times
+## Or use `range` to repeat an action a set number of times
 
 *   You don't actually have to use the iterable variable's value.
 *   Use this structure to simply repeat an action some number of times.
@@ -175,14 +175,14 @@ Again!
 ~~~
 {: .output}
 
-## The Accumulator pattern turns many values into one
+## Using accumulator variables
 
 *   A common pattern in programs is to:
     1.  Initialize an *accumulator* variable to zero, the empty string, or the empty list.
     2.  Update the variable with values from a collection.
 
 ~~~
-# Sum the first 10 integers.
+# Sum all of the integers from 1 to 10.
 total = 0
 for number in range(10):
    total = total + (number + 1)
@@ -196,9 +196,11 @@ print(total)
 
 *   Read `total = total + (number + 1)` as:
     *   Add 1 to the current value of the loop variable `number`.
+        *   We have to add `number + 1` because `range` produces the numbers 0...9, not 1...10.
     *   Add that to the current value of the accumulator variable `total`.
     *   Assign that to `total`, replacing the current value.
-*   We have to add `number + 1` because `range` produces 0..9, not 1..10.
+
+## Exercises
 
 > ## Classifying Errors
 >
@@ -219,10 +221,81 @@ print(total)
 >
 > ~~~
 > total = 0
-> for char in "tin":
+> for animal in ['cat', 'dog', 'elephant', 'fish']:
 >     total = total + 1
 > ~~~
 > {: .python}
+>
+> > ## Solution
+> >
+> > <table border="1" style="border-collapse: collapse;">
+> >     <tr>
+> >         <th>Code line #</th>
+> >         <th><code>total</code></th>
+> >         <th><code>animal</code></th>
+> >     </tr>
+> >     <tr>
+> >         <td>1</td>
+> >         <td>0</td>
+> >         <td>N/A</td>
+> >     </tr>
+> >     <tr>
+> >         <td>2</td>
+> >         <td>0</td>
+> >         <td>'cat'</td>
+> >     </tr>
+> >     <tr>
+> >         <td>3</td>
+> >         <td>1</td>
+> >         <td>'cat'</td>
+> >     </tr>
+> >     <tr>
+> >         <td>2</td>
+> >         <td>1</td>
+> >         <td>'dog'</td>
+> >     </tr>
+> >     <tr>
+> >         <td>3</td>
+> >         <td>2</td>
+> >         <td>'dog'</td>
+> >     </tr>
+> >     <tr>
+> >         <td>2</td>
+> >         <td>2</td>
+> >         <td>'elephant'</td>
+> >     </tr>
+> >     <tr>
+> >         <td>3</td>
+> >         <td>3</td>
+> >         <td>'elephant'</td>
+> >     </tr>
+> >     <tr>
+> >         <td>2</td>
+> >         <td>3</td>
+> >         <td>'fish'</td>
+> >     </tr>
+> >     <tr>
+> >         <td>3</td>
+> >         <td>4</td>
+> >         <td>'fish'</td>
+> >     </tr>
+> > </table>
+> >
+> > **Explanation:**
+> > 
+> > *   Line 1 initializes the variable `total` with a value of 0.
+> > *   Line 2 begins a for loop that iterates over the list `['cat', 'dog', 'elephant', 'fish']`.
+> >     *   Line 2 is the first iteration, where `animal` takes the value 'cat', and `total` retains 0.
+> >     *   Line 3 increments `total` by 1, making it 1, and `animal` retains the value 'cat'.
+> >     *   Line 2 is the second iteration, where `animal` takes the value 'dog', and `total` retains 1.
+> >     *   Line 3 increments `total` by 1, making it 2, and `animal` retains the value 'dog'.
+> >     *   Line 2 is the third iteration, where `animal` takes the value 'elephant', and `total` retains 2.
+> >     *   Line 3 increments `total` by 1, making it 3, and `animal` retains the value 'elephant'.
+> >     *   Line 2 is the fourth iteration, where `animal` takes the value 'fish', and `total` retains 3.
+> >     *   Line 3 increments `total` by 1, making it 4, and `animal` retains the value 'fish'.
+> > 
+> > After the program finishes, `total` is 4, and `animal` retains its value from the last iteration, which is 'fish'.
+> {: .solution}
 {: .challenge}
 
 > ## Reversing a String
@@ -241,23 +314,28 @@ print(total)
 > >
 > > ## Solution
 > >
-> > `result` is an empty string because we use it to build or accumulate on our reverse string. `char` is the loop variable for `original`. Each time through the loop `char` takes on one value from `original`. Use `char` with `result` to control the order of the string. Our loop code should look like this:
+> > *   `result` is an empty string because we use it to build or accumulate on our reverse string.
+> > *   `char` is the loop variable for `original`.
+> > *   For each iteration of the loop, `char` takes on one value (character) from `original`.
+> > *   Add `char` to the beginning of `result` to change the order of the string.
+> > *   Our loop code should look like this:
+> >
 > > ~~~
 > > original = "tin"
 > > result = ""
 > > for char in original:
 > >    result = char + result
 > > print(result)
-> > nit
 > > ~~~
-> > If you were to expand out the loop the iterations would look something like this:
+> >
+> > If you were to explain the loop step by step, the iterations would look something like this:
 > > ~~~
 > > #First loop
 > > char = "t"
 > > result = ""
 > > char + result = "t"
 > > #Second loop
-> > char = 'i"
+> > char = "i"
 > > result = "t"
 > > char + result = "it"
 > > #Third loop
@@ -282,6 +360,18 @@ print(total)
 > print(total)
 > ~~~
 > {: .python}
+> >
+> > ## Solution
+> >
+> > ~~~
+> > # Total length of the strings in the list: ["red", "green", "blue"] => 12
+> > total = 0
+> > for word in ["red", "green", "blue"]:
+> >     total = total + len(word)
+> > print(total)
+> > ~~~
+> > {: .python}
+> {: .solution}
 >
 > ~~~
 > # List of word lengths: ["red", "green", "blue"] => [3, 5, 4]
@@ -291,6 +381,18 @@ print(total)
 > print(lengths)
 > ~~~
 > {: .python}
+> >
+> > ## Solution
+> >
+> > ~~~
+> > # List of word lengths: ["red", "green", "blue"] => [3, 5, 4]
+> > lengths = []
+> > for word in ["red", "green", "blue"]:
+> >     lengths.append(len(word))
+> > print(lengths)
+> > ~~~
+> > {: .python}
+> {: .solution}
 >
 > ~~~
 > # Concatenate all words: ["red", "green", "blue"] => "redgreenblue"
@@ -299,14 +401,40 @@ print(total)
 > for ____ in ____:
 >     ____
 > print(result)
-> ~~~~
+> ~~~
 > {: .python}
+> >
+> > ## Solution
+> >
+> > ~~~
+> > # Concatenate all words: ["red", "green", "blue"] => "redgreenblue"
+> > words = ["red", "green", "blue"]
+> > result = ""
+> > for word in words:
+> >     result = result + word
+> > print(result)
+> > ~~~
+> > {: .python}
+> {: .solution}
 >
 > ~~~
-> # Create acronym: ["red", "green", "blue"] => "RGB"
+> # Create acronym: ["red", "green", "blue"] => "rgb"
 > # write the whole thing
 > ~~~
 > {: .python}
+> >
+> > ## Solution
+> >
+> > ~~~
+> > acronym = ''
+> > colours = ["red", "green", "blue"]
+> > for colour in colours:
+> >     acronym = acronym + colour[0]
+> > print(acronym)
+> > ~~~
+> > {: .python}
+> {: .solution}
+>
 {: .challenge}
 
 > ## Cumulative Sum

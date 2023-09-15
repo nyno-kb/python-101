@@ -3,7 +3,7 @@ title: "Conditionals"
 teaching: 15
 exercises: 15
 questions:
-- "How can you use conditional statements to control program flow and make decisions in your code?"
+- "How can you use conditional statements to control program flow?"
 objectives:
 - "Explain the use of if and else statements and simple Boolean expressions."
 - "Explain the use of while statements."

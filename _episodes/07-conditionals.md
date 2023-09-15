@@ -307,32 +307,6 @@ final speed: 30.0
 > {: .solution}
 {: .challenge}
 
-> ## Processing Small Files
->
-> Modify this program so that it only processes files with fewer than 50 records.
->
-> ~~~
-> import glob
-> import pandas
-> for filename in glob.glob('data/*.csv'):
->     contents = pandas.read_csv(filename)
->     ____:
->         print(filename, len(contents))
-> ~~~
-> {: .python}
-> > ## Solution
-> > ~~~
-> > import glob
-> > import pandas
-> > for filename in glob.glob('data/*.csv'):
-> >    contents = pandas.read_csv(filename)
-> >    if len(contents) < 50:
-> >        print(filename, len(contents))
-> > ~~~
-> > {: .python}
-> {: .solution}
-{: .challenge}
-
 > ## Initializing
 >
 > Modify this program so that it finds the largest and smallest values in the list
@@ -369,7 +343,7 @@ final speed: 30.0
 > {: .solution}
 {: .challenge}
 
-> ## Using Functions With Conditionals in Pandas
+<!-- > ## Using Functions With Conditionals in Pandas
 >
 > Functions will often contain conditionals.  Here is a short example that
 > will indicate which quartile the argument is in based on hand-coded values
@@ -418,4 +392,4 @@ final speed: 30.0
 > column in the dataframe called `data` labeled `lifExp`.  We use the
 > `apply()` to do what it says, apply the `calculate_life_quartile` to the
 > value of this column for every row in the dataframe.
-{: .callout}
+{: .callout} -->

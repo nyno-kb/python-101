@@ -395,10 +395,10 @@ while i <= 100:
 
 > ## The Number Guessing Game with hints
 >
-> In this final exercise, we will write a Python program for a number guessing game!
+> In this final exercise, we will write a Python program for a number guessing game!\
 > <br/>
 > This exercise builds on the knowledge you have gathered in this course up till now.\
-> ***Try to solve it without looking at the solution.***
+> ***Try to solve it without looking at the solution.***\
 > <br/>
 > Take it easy, don't sweat it, and have fun writing your first real Python script!
 > <br/>

@@ -1,7 +1,7 @@
 ---
 title: "Conditionals"
 teaching: 15
-exercises: 15
+exercises: 20
 questions:
 - "How can you use conditional statements to control program flow?"
 objectives:

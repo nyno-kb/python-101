@@ -1,5 +1,6 @@
 ---
 title: "Evaluation"
+teaching: 0
 exercises: 2
 questions:
 - "Please take the time to complete the evaluation in the link below!"

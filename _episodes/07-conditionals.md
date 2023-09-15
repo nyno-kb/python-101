@@ -1,6 +1,6 @@
 ---
 title: "Conditionals"
-teaching: 10
+teaching: 15
 exercises: 15
 questions:
 - "How can programs do different things for different data?"
@@ -19,63 +19,63 @@ keypoints:
 
 *   An `if` statement (more properly called a *conditional* statement)
     controls whether some block of code is executed or not.
-*   Structure is similar to a `for` statement:
-    *   First line opens with `if` and ends with a colon
-    *   Body containing one or more statements is indented (usually by 4 spaces)
+*   The structure is similar to a `for` statement:
+    *   First line opens with `if` and ends with a colon.
+    *   Body containing one or more statements is indented (usually by 4 spaces or tab).
 
 ~~~
 mass = 3.54
 if mass > 3.0:
-    print(mass, 'is larger')
+    print(mass, 'is larger than 3.0')
 
 mass = 2.07
 if mass > 3.0:
-    print (mass, 'is larger')
+    print (mass, 'is larger than 3.0')
 ~~~
 {: .python}
 ~~~
-3.54 is larger
+3.54 is larger than 3.0
 ~~~
 {: .output}
 
 ## Conditionals are often used inside loops
 
-*   Not much point using a conditional when we know the value (as above).
-*   But useful when we have a collection to process.
+*   There is not much point in using a conditional when we know the value (as above).
+*   But it is useful when we have a collection to process.
 
 ~~~
 masses = [3.54, 2.07, 9.22, 1.86, 1.71]
 for m in masses:
     if m > 3.0:
-        print(m, 'is larger')
+        print(m, 'is larger than 3.0')
 ~~~
 {: .python}
 ~~~
-3.54 is larger
-9.22 is larger
+3.54 is larger than 3.0
+9.22 is larger than 3.0
 ~~~
 {: .output}
 
 ## Use `else` to execute a block of code when an `if` condition is *not* true
 
 *   `else` can be used following an `if`.
-*   Allows us to specify an alternative to execute when the `if` *branch* isn't taken.
+*   It allows us to specify an alternative to execute when the `if` *branch* isn't taken.
 
 ~~~
 masses = [3.54, 2.07, 9.22, 1.86, 1.71]
 for mass in masses:
     if mass > 3.0:
-        print(mass, 'is larger')
+        print(mass, 'is larger than 3.0')
     else:
-        print(mass, 'is smaller')
+        print(mass, 'is smaller than 3.0')
 ~~~
 {: .python}
 ~~~
-3.54 is larger
-2.07 is smaller
-9.22 is larger
-1.86 is smaller
-1.71 is smaller
+3.54 is larger than 3.0
+2.07 is smaller than 3.0
+9.22 is larger than 3.0
+1.86 is smaller than 3.0
+1.71 is smaller than 3.0
 ~~~
 {: .output}
 

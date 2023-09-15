@@ -396,7 +396,7 @@ while i <= 100:
 >
 > In this final exercise, we will write a Python program for a number guessing game!
 > <br/>
-> The program should do the following:
+> **The program should do the following:**
 > 1. Generate a random secret number between 1 and 20.
 > 2. Ask the user to guess the secret number.
 > 3. Provide hints to the user based on their guess:

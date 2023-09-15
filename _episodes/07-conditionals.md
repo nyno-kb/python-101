@@ -85,7 +85,7 @@ for mass in masses:
 *   Use `elif` (short for "else if") and a condition to specify these.
 *   Must always be associated with an `if`.
 *   Must come before the `else` (which is the "catch all").
-*   `elif` - like `else` - is **only** executed if the `if`-statement is not.
+*   `elif` - like `else` - is **only** executed if the `if` condition is not.
 
 ~~~
 masses = [3.54, 2.07, 9.22, 1.86, 1.71]
@@ -110,7 +110,7 @@ for mass in masses:
 ## Conditions are tested once, in order
 
 *   Python steps through the branches of the conditional in order, testing each in turn.
-*   ***But!*** if one conditional is fulfilled, Python will "step out of" the statement and *not* test the following conditionals.
+*   ***But*** if one conditional is fulfilled, Python will "step out of" the statement and *not* test the following conditionals.
 *   So ordering matters!
 *   Take a look at this script:
 
@@ -130,7 +130,7 @@ grade is C
 {: .output}
 
 *   What is the problem with the script above?
-*   The problem is that a grade can never be higher than 'C', since any `points` above 70 will be "caught" by the if-condition. Thus, the elif-conditions will never be tested.
+*   The problem is that a grade can never be higher than 'C', since any `points` above 70 will be "caught" by the `if` condition. Thus, the `elif` conditions will never be tested.
 *   A better way to write the above script, would be:
 
 ~~~

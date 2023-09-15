@@ -482,7 +482,7 @@ while i <= 100:
 > > >     # Check if the guess is correct, too low, or too high
 > > >     if user_guess == secret_number:
 > > >         guessed_correctly = True
-> > >         print(f"Congratulations! You guessed the correct number in {attempts} attempts.")
+> > >         print("Congratulations! You guessed the correct number in", attempts, "attempts.")
 > > >     elif user_guess < secret_number:
 > > >         print("Too low. Try again.")
 > > >     else:

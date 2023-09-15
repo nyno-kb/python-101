@@ -456,7 +456,7 @@ while i <= 100:
 > > <br/>
 > > <br/>
 > > **Remember:** ***(Python) Pain is temporary, pride is forever!***\
-> > > <br/>
+> > <br/>
 > > >
 > > > ## "Yes, I am weak and I want to see the answer!"
 > > >

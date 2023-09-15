@@ -206,15 +206,15 @@ final speed: 30.0
 >
 > ~~~
 > mass     = [ 3.54,  2.07,  9.22,  1.86,  1.71]
-> velocity = [10.00, 20.00, 30.00, 25.00, 20.00]
+> speed = [10.00, 20.00, 30.00, 25.00, 20.00]
 >
 > i = 0
 > for i in range(5):
->     if mass[i] > 5 and velocity[i] > 20:
+>     if mass[i] > 5 and speed[i] > 20:
 >         print("Fast heavy object.  Duck!")
->     elif mass[i] > 2 and mass[i] <= 5 and velocity[i] <= 20:
+>     elif mass[i] > 2 and mass[i] <= 5 and speed[i] <= 20:
 >         print("Normal traffic")
->     elif mass[i] <= 2 and velocity <= 20:
+>     elif mass[i] <= 2 and speed <= 20:
 >         print("Slow light object.  Ignore it")
 >     else:
 >         print("Whoa!  Something is up with the data.  Check it")
@@ -226,15 +226,15 @@ final speed: 30.0
 > when mixing `and` and `or` in the same condition.  That is, instead of:
 >
 > ~~~
-> if mass[i] <= 2 or mass[i] >= 5 and velocity[i] > 20:
+> if mass[i] <= 2 or mass[i] >= 5 and speed[i] > 20:
 > ~~~
 > {: .python}
 >
 > write one of these:
 >
 > ~~~
-> if (mass[i] <= 2 or mass[i] >= 5) and velocity[i] > 20:
-> if mass[i] <= 2 or (mass[i] >= 5 and velocity[i] > 20):
+> if (mass[i] <= 2 or mass[i] >= 5) and speed[i] > 20:
+> if mass[i] <= 2 or (mass[i] >= 5 and speed[i] > 20):
 > ~~~
 > {: .python}
 >

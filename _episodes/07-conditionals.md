@@ -412,7 +412,8 @@ while i <= 100:
 >
 > **Hints:**
 >
-> You can use the `random` module to generate the secret number. Here's an example of how to import and use it:
+> * You will need to use the `input()` function introduced in the exercise above.
+> * You can use the `random` module to generate the secret number. Here's an example of how to import and use it:
 >
 > ~~~~
 > import random

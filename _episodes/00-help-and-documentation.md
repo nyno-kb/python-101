@@ -8,7 +8,8 @@ questions:
 ## Help and documentation
 
 ### Official Python Documentation
-<a href="https://www.python.org/" target="_blank">https://www.python.org/</a>\
+*   Python's official website (python.org) is the primary resource for all things related to the Python programming language.
+*   <a href="https://www.python.org/" target="_blank">https://www.python.org/</a>\
 <br/>
 
 ### W3Schools

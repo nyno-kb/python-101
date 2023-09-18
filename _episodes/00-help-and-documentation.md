@@ -11,11 +11,11 @@ objectives:
 
 ### Official Python Documentation
 *   Python's official website is the primary resource for all things related to the Python programming language.
-*   <a href="https://www.python.org/" target="_blank"><b>https://www.python.org/</b></a>\
+*   <a href="https://www.python.org/" target="_blank"><b>https://www.python.org/</b></a>
 
 ### W3Schools
 *   W3Schools is a popular online platform for learning web development technologies.
-*   <a href="https://www.w3schools.com/python/" target="_blank"><b>https://www.w3schools.com/python/</b></a>\
+*   <a href="https://www.w3schools.com/python/" target="_blank"><b>https://www.w3schools.com/python/</b></a>
 
 ### GeeksforGeeks
 *   GeeksforGeeks is a comprehensive platform for computer science and programming resources.

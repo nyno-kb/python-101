@@ -19,6 +19,6 @@ questions:
 
 ### GeeksforGeeks
 *   GeeksforGeeks (geeksforgeeks.org) is a comprehensive platform for computer science and programming resources.
-*   <a href="https://www.geeksforgeeks.org/python-programming-language/" target="_blank"><b>https://www.geeksforgeeks.org/python-programming-language/</b></a>\
+*   <a href="https://www.geeksforgeeks.org/python-programming-language/" target="_blank"><b>https://www.geeksforgeeks.org/python-programming-language/</b></a>
 
 <br/>

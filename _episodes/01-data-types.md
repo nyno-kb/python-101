@@ -317,7 +317,7 @@ However, it does not work as a percentage although it might look like one. Inste
 #### More mathemathical operators
 These are just a few of the mathmathical operations in Python - see the table below from Python’s documentation about [Built-in Types](https://docs.python.org/3/library/stdtypes.html).
 <details>
-<summary style="display:list-item"><i>Click here to see more mathmathical operators</i><br><br></summary>
+<summary style="display:list-item"><i><b>Click here to see more mathmathical operators</b></i><br><br></summary>
 
 <table class="colwidths-auto table" style="border:1px solid black">
 <thead>

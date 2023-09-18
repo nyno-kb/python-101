@@ -50,7 +50,7 @@ Variables:
 *   Cannot start with a digit.
 *   Cannot contain spaces, quotation marks, or other punctuation.
 *   *May* contain an underscore (typically used to separate words in long variable names).
-*   Having an underscore at the beginning of a variable name like `__alistairs_real_age` has a special meaning.
+*   Having an underscore at the beginning of a variable name like `_alistairs_real_age` has a special meaning.
     So we won't do that until we understand the convention.
 *   The standard naming convention for variable names in Python is the so-called "snake case", 
     where each word is separated by an underscore.\

@@ -1,5 +1,5 @@
 ---
-title: "Help and documentation"
+title: "Help and Documentation"
 teaching: 0
 exercises: 0
 questions:

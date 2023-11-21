@@ -10,12 +10,12 @@ objectives:
 keypoints:
 - "A list stores many items in a single structure."
 - "Use an item's index to fetch it from a list."
-- "Lists are mutable."
 - "Lists' items can be replaced by assigning to them."
 - "Appending items to a list lengthens it."
 - "Use `del` to remove items from a list entirely."
 - "The empty list contains no items."
 - "Lists may contain items of different types."
+- "Lists are mutable."
 - "Indexing beyond the end of the collection is an error."
 ---
 ## A list stores many items in a single structure
@@ -73,12 +73,6 @@ print(temperatures[1:4])
 [17.5, 17.7, 17.5]
 ~~~
 {: .output}
-
-## Lists are mutable
-
-In Python, _mutable_ data types, such as lists, are data structures that can be modified or changed after they are created. This means you can add, remove, or modify elements within a list without creating a new list.
-
-For example, you can append new items, insert items at specific positions, remove items, and change the values of existing items in a list. This behavior contrasts with _immutable_ data types, like integers, floats, and strings, where once created, their contents cannot be altered without creating a new object. (This was briefly mentioned in the lesson about [Variables and Assignment]({{page.root}}/02-variables-and-assignment/index.html#use-variables-to-store-values).)
 
 ## Lists' items can be replaced by assigning to them
 
@@ -220,6 +214,12 @@ print(goals)
 [1, 'Create lists.', 2, 'Extract items from lists.', 3, 'Modify lists.']
 ~~~
 {: .output}
+
+## Lists are mutable
+
+In Python, _mutable_ data types, such as lists, are data structures that can be modified or changed after they are created. This means you can add, remove, or modify elements within a list without creating a new list.
+
+For example, you can append new items, insert items at specific positions, remove items, and change the values of existing items in a list. This behavior contrasts with _immutable_ data types, like integers, floats, and strings, where once created, their contents cannot be altered without creating a new object. (This was briefly mentioned in the lesson about [Variables and Assignment]({{page.root}}/02-variables-and-assignment/index.html#use-variables-to-store-values).)
 
 ## Character strings are immutable
 

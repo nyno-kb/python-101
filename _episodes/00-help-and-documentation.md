@@ -1,6 +1,6 @@
 ---
 title: "Help and Documentation"
-teaching: 0
+teaching: 5
 exercises: 0
 questions:
 - "Where can you find more help and documentation?"

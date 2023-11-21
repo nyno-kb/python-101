@@ -1,7 +1,7 @@
 ---
 title: "Evaluation"
 teaching: 0
-exercises: 0
+exercises: 5
 questions:
 - "Please complete the evaluation!"
 objectives:

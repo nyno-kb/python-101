@@ -28,8 +28,7 @@ Google Colab, along with ERDA, is perhaps the easiest of these three options to 
 
 ### Method 3: KU's ERDA
 
-Copenhagen University provides its students and staff with access to its 
-Electronic Research Data Archive (ERDA). ERDA includes a built-in copy of Jupyter Notebook, which runs the newest version of Python. Simply select the Jupyter Notebook icon after logging in, then select Start DAG, and continue on to your coding space. Be aware that ERDA cannot read local files off of your computer so you must, like Google Colab, upload any files you wish to work with.  Unlike Google Colab, however, ERDA will maintain your files over time, saving you the trouble of worrying about different file pathways in your code.  ERDA's self description as well as its terms and conditions can be read [here](https://www.erda.dk/).
+Copenhagen University provides its students and staff with access to its [Electronic Research Data Archive (ERDA)](https://www.erda.dk/). ERDA includes a built-in copy of Jupyter Notebook, which runs the newest version of Python. Simply select the Jupyter Notebook icon after logging in, then select Start DAG, and continue on to your coding space. Be aware that ERDA cannot read local files off of your computer so you must, like Google Colab, upload any files you wish to work with.  Unlike Google Colab, however, ERDA will maintain your files over time, saving you the trouble of worrying about different file pathways in your code.  ERDA's self description as well as its terms and conditions can be read [here](https://www.erda.dk/).
 
 ## How to Install Python on macOS
 Python 2 comes preinstalled on older versions of macOS. This is no longer the case for current versions of macOS, [starting with macOS Catalina](https://developer.apple.com/documentation/macos-release-notes/macos-catalina-10_15-release-notes#Scripting-Language-Runtimes).  

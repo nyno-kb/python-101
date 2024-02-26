@@ -69,7 +69,7 @@ after
     *   This means that:
         *   `'a'` is smaller than `'b'`
         *   `'A'` is smaller than `'a'`
-        *   `'0'` is smaller than `'a'`
+        *   `'0'` is smaller than `'A'`
     *   This is useful for ordering alphabetically.
 
 ~~~

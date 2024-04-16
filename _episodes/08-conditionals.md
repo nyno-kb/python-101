@@ -338,7 +338,7 @@ while i <= 100:
 >
 > Fill in the blanks so that this program creates a new list
 > containing zeroes (0) where the original list's values were negative
-> and ones (1) where the original list's values were positive.
+> and ones (1) where the original list's values were zero or positive.
 >
 > ~~~
 > original = [-1.5, 0.2, 0.4, 0.0, -1.3, 0.4]

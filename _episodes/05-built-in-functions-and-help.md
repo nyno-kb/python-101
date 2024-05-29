@@ -14,11 +14,11 @@ objectives:
 keypoints:
 - "Use comments to add documentation to programs."
 - "A function may take zero or more arguments."
-- "Commonly-used built-in functions include `max`, `min`, and `round`."
+- "Commonly-used built-in functions include `min`, `max`, and `round`."
 - "Functions may only work for certain (combinations of) arguments."
 - "Functions may have default values for some arguments."
-- "Use the built-in function `help` to get help for a function."
 - "Every function returns something."
+- "Use the built-in function `help` to get help for a function."
 - "Python reports a syntax error when it can't understand the source of a program."
 - "Python reports a runtime error when something goes wrong while a program is executing."
 ---
@@ -130,6 +130,26 @@ round(3.712, 1)
 ~~~
 {: .output}
 
+## Every function returns something
+
+*   Every function call produces some result.
+*   If the function doesn't have a useful result to return,
+    it usually returns the special value `None`.
+
+~~~
+result = print('example')
+print('result of print is', result)
+~~~
+{: .python}
+~~~
+example
+result of print is None
+~~~
+{: .output}
+
+Contrary to what we might expect, `print` does not return any value as such. I carries out the execution (i.e., it prints),
+but after that nothing is returned. Thus, it has a return value of `None`.
+
 ## Use the built-in function `help` to get help for a function
 
 *   Every built-in function has online documentation.
@@ -219,63 +239,7 @@ NameError: name 'aege' is not defined
 *   Fix syntax errors by reading the source.
 *   Fix runtime errors by tracing execution.
 
-## Every function returns something
-
-*   Every function call produces some result.
-*   If the function doesn't have a useful result to return,
-    it usually returns the special value `None`.
-
-~~~
-result = print('example')
-print('result of print is', result)
-~~~
-{: .python}
-~~~
-example
-result of print is None
-~~~
-{: .output}
-
-Contrary to what we might expect, `print` does not return any value as such. I carries out the execution (i.e., it prints),
-but after that nothing is returned. Thus, it has a return value of `None`.
-
 ## Exercises
-
-> ## What Happens When
->
-> 1. Explain in simple terms the order of operations in the following program:
->    when does the addition happen, when does the subtraction happen,
->    when is each function called, etc.
-> 2. What is the final value of `word`?
->
-> ~~~
-> word = 'blah '
-> word = max(min(word * 2 + 'blur ', 'aaah '), 'ping')
-> print(word)
-> ~~~
-> {: .python}
->
-> > ## Solution
-> >
-> > ~~~
-> > ping
-> > ~~~
-> > {: .output}
-> >
-> > 1. **Initialization**: `word` is assigned the initial value 'blah '.
-> > 2. **Inside `max()` function**:
-> >    - `word * 2` results in 'blah blah '. (Repeats the string 'blah ' twice using `*`.)
-> >    - 'blah blah ' + 'blur ' results in 'blah blah blur '. (Concatenates the two strings using `+`.)
-> >    - 'aaah ' is compared with 'blah blah blur '. The `min()` function returns the smaller of the two strings, which is 'aaah '.
-> > 3. **Outer `max()` function**:
-> >    - The result of the `min()` function ('aaah ') is passed as an argument.
-> >    - The `max()` function then compares 'aaah ' with 'ping' and returns the larger of the two strings, which is 'ping'.
-> > 4. **Assignment**: Finally, the value 'ping' is assigned to the variable `word`.
-> > 5. **Output**: The program prints the value of `word`, which is 'ping'.
-> >
-> {: .solution}
-{: .challenge}
-
 
 > ## Spot the Difference
 >
@@ -299,6 +263,41 @@ but after that nothing is returned. Thus, it has a return value of `None`.
 > > ~~~
 > > {: .output}
 >{: .solution}
+{: .challenge}
+
+> ## What Happens When
+>
+> 1. Explain in simple terms the order of operations in the following program:
+>    when does the addition happen, when does the subtraction happen,
+>    when is each function called, etc.
+> 2. What is the final value of `word`?
+>
+> ~~~
+> word = 'blah '
+> word = max(min(word * 2 + 'blur ', 'aaah '), 'Ping')
+> print(word)
+> ~~~
+> {: .python}
+>
+> > ## Solution
+> >
+> > ~~~
+> > aaah
+> > ~~~
+> > {: .output}
+> >
+> > 1. **Initialization**: `word` is assigned the initial value 'blah '.
+> > 2. **Inside `max()` function**:
+> >    - `word * 2` results in 'blah blah '. (Repeats the string 'blah ' twice using `*`.)
+> >    - 'blah blah ' + 'blur ' results in 'blah blah blur '. (Concatenates the two strings using `+`.)
+> >    - 'aaah ' is compared with 'blah blah blur '. The `min()` function returns the smaller of the two strings, which is 'aaah '.
+> > 3. **Outer `max()` function**:
+> >    - The result of the `min()` function ('aaah ') is passed as an argument.
+> >    - The `max()` function then compares 'aaah ' with 'Ping' and returns the larger of the two strings, which is 'aaah', since lower case letters are indexed higher than upper case letters in Python.
+> > 4. **Assignment**: Finally, the value 'aaah' is assigned to the variable `word`.
+> > 5. **Output**: The program prints the value of `word`, which is 'aaah'.
+> >
+> {: .solution}
 {: .challenge}
 
 > ## Why Not?

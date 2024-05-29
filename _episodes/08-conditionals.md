@@ -394,8 +394,9 @@ while i <= 100:
 {: .challenge}
 
 > ## A note on the `input()` function
-> Please note, the ouput of the `input()` is always a string even if the input value looks like another data type. 
-> I.e., if the user inputs `3`, the output will be the string `'3'`.
+> Please note, the return value of the `input()` is always a string even if the input value looks like another data type.\
+> I.e., if the user inputs `3`, the output will be the string `'3'`.\
+> To convert the return value to an integer, you can use the `int()` function.
 {: .callout}
 
 > ## The Number Guessing Game with hints

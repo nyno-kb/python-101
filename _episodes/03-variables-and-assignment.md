@@ -332,6 +332,8 @@ Also note that nested functions are evaluated from the inside out, just like in 
 > ~~~
 > {: .python}
 >
+> If `thing` is a variable name, `low` is a low number, and `high` is a high number:
+> 
 > 1.  What does `thing[low:high]` do?
 > 2.  What does `thing[low:]` (without a value after the colon) do?
 > 3.  What does `thing[:high]` (without a value before the colon) do?

@@ -12,7 +12,7 @@ objectives:
 
 We would greatly appreciate if you, after the course, would kindly spend 2-5 minutes filling out this questionnaire:\
 <br/>
-<a href="http://bit.ly/KUB2023" target="_blank"><b>http://bit.ly/KUB2023</b></a>\
+<a href="http://bit.ly/KUB2024" target="_blank"><b>http://bit.ly/KUB2024</b></a>\
 <br/>
 We appreciate your honest opinions!\
 <br/>

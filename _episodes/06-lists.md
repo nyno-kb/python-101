@@ -10,6 +10,7 @@ objectives:
 keypoints:
 - "A list stores many items in a single structure."
 - "Use an item's index to fetch it from a list."
+- "Use slicing to extract part of a list."
 - "Lists' items can be replaced by assigning to them."
 - "Appending items to a list lengthens it."
 - "Use `del` to remove items from a list entirely."
@@ -364,33 +365,6 @@ IndexError: string index out of range
 > {: .solution}
 {: .challenge}
 
-> ## From Strings to Lists and Back
->
-> Given this:
->
-> ~~~
-> print('string to list:', list('tin'))
-> print('list to string:', ''.join(['g', 'o', 'l', 'd']))
-> print('list to string:', '-'.join(['g', 'o', 'l', 'd']))
-> ~~~
-> {: .python}
-> 
-> ~~~
-> string to list: ['t', 'i', 'n']
-> list to string: gold
-> list to string: g-o-l-d
-> ~~~
-> {: .output}
-> 
-> 1.  Explain in simple terms what `list('some string')` does.
-> 2.  What does `'-'.join(['x', 'y'])` generate?  
-> 
-> > ## Solution
-> >  1.  It creates a list of the `some string`s characters as elements. 
-> >  2.  It creates a string composed of `x` and `y`, separated by a hyphen character(`-`).  
-> {: .solution}
-{: .challenge}
-
 > ## Working With the End
 >
 > What does the following program print?
@@ -541,5 +515,32 @@ IndexError: string index out of range
 > > 
 > > `new = old` is assigning `old` to `new`. This means that the two variables both point to the same value. Thus, changing the contents of either variable will affect the other.
 > > In contrast, `new = old[:]` is a **slice assignment**, which will only return a copy of `old`.
+> {: .solution}
+{: .challenge}
+
+> ## From Strings to Lists and Back
+>
+> Given this:
+>
+> ~~~
+> print('string to list:', list('tin'))
+> print('list to string:', ''.join(['g', 'o', 'l', 'd']))
+> print('list to string:', '-'.join(['g', 'o', 'l', 'd']))
+> ~~~
+> {: .python}
+> 
+> ~~~
+> string to list: ['t', 'i', 'n']
+> list to string: gold
+> list to string: g-o-l-d
+> ~~~
+> {: .output}
+> 
+> 1.  Explain in simple terms what `list('some string')` does.
+> 2.  What does `'-'.join(['x', 'y'])` generate?  
+> 
+> > ## Solution
+> >  1.  It creates a list of the `some string`s characters as elements. 
+> >  2.  It creates a string composed of `x` and `y`, separated by a hyphen character(`-`).  
 > {: .solution}
 {: .challenge}

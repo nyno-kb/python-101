@@ -393,6 +393,11 @@ while i <= 100:
 > {: .solution}
 {: .challenge}
 
+> ## A note on the `input()` function
+> Please note, the ouput of the `input()` is always a string even if the input value looks like another data type. 
+> I.e., if the user inputs `3`, the output will be the string `'3'`.
+{: .callout}
+
 > ## The Number Guessing Game with hints
 >
 > In this final exercise, we will write a Python program for a number guessing game!\
@@ -421,6 +426,7 @@ while i <= 100:
 > **Hints:**
 >
 > * You will need to use the `input()` function introduced in the exercise above.
+> * We expect the users to only type in integers.
 > * You can use the `random` module to generate the secret number. Here's an example of how to import and use it:
 >
 > ~~~~

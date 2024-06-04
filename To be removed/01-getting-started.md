@@ -18,6 +18,7 @@ keypoints:
 ---
 
 ## Use the Spyder IDE for editing and running Python.
+...
 
 *   The [Anaconda package manager][anaconda] is an automated way to install the [Spyder IDE][spyder].
     *   See [the setup instructions]({{ page.root }}/setup.html) for Anaconda installation instructions.
